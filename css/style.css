@@ -23,3 +23,20 @@ p {
 }
 
 .intro { font-size: 1.2rem; color: #555555; }
+
+.chart_desc {
+  font-size: 1.05rem;
+  color: #444444;
+  max-width: 65ch;
+  margin: 0 auto;
+}
+
+.chart_takeaway {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222222;
+  max-width: 65ch;
+  margin: 0 auto;
+  padding-left: 12px;
+  border-left: 4px solid #b5b478;
+}
