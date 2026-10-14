@@ -1,0 +1,4194 @@
+﻿Year_Month,Mode,Card_type,Trip,Card_group
+2016-07,Bus,Adult,13146432,Adult
+2016-07,Bus,Child/Youth,1079640,Child/Student
+2016-07,Bus,Concession,1845322,Concession
+2016-07,Bus,Employee,64989,Other
+2016-07,Bus,Free Travel,25228,Other
+2016-07,Bus,School Student,1297240,Child/Student
+2016-07,Bus,Senior/Pensioner,3739658,Senior
+2016-08,Bus,Adult,14080864,Adult
+2016-08,Bus,Adult Single Bus Trip 1,213548,Adult
+2016-08,Bus,Adult Single Bus Trip 2,149890,Adult
+2016-08,Bus,Adult Single Bus Trip 3,60625,Adult
+2016-08,Bus,Child/Youth,1034488,Child/Student
+2016-08,Bus,Child/Youth Single Bus Trip 1,85540,Child/Student
+2016-08,Bus,Child/Youth Single Bus Trip 2,52781,Child/Student
+2016-08,Bus,Child/Youth Single Bus Trip 3,15864,Child/Student
+2016-08,Bus,Concession,2168046,Concession
+2016-08,Bus,Employee,73112,Other
+2016-08,Bus,Free Travel,32202,Other
+2016-08,Bus,School Student,3135595,Child/Student
+2016-08,Bus,Senior/Pensioner,4108217,Senior
+2016-09,Bus,Adult,13283356,Adult
+2016-09,Bus,Adult Single Bus Trip 1,185031,Adult
+2016-09,Bus,Adult Single Bus Trip 2,122355,Adult
+2016-09,Bus,Adult Single Bus Trip 3,50083,Adult
+2016-09,Bus,Child/Youth,1130778,Child/Student
+2016-09,Bus,Child/Youth Single Bus Trip 1,71536,Child/Student
+2016-09,Bus,Child/Youth Single Bus Trip 2,47969,Child/Student
+2016-09,Bus,Child/Youth Single Bus Trip 3,14739,Child/Student
+2016-09,Bus,Concession,1736089,Concession
+2016-09,Bus,Employee,71783,Other
+2016-09,Bus,Free Travel,32715,Other
+2016-09,Bus,School Student,2244235,Child/Student
+2016-09,Bus,Senior/Pensioner,4020871,Senior
+2016-10,Bus,Adult,13399297,Adult
+2016-10,Bus,Adult Single Bus Trip 1,183834,Adult
+2016-10,Bus,Adult Single Bus Trip 2,120313,Adult
+2016-10,Bus,Adult Single Bus Trip 3,49327,Adult
+2016-10,Bus,Child/Youth,1180998,Child/Student
+2016-10,Bus,Child/Youth Single Bus Trip 1,65256,Child/Student
+2016-10,Bus,Child/Youth Single Bus Trip 2,44063,Child/Student
+2016-10,Bus,Child/Youth Single Bus Trip 3,13664,Child/Student
+2016-10,Bus,Concession,1722565,Concession
+2016-10,Bus,Employee,71428,Other
+2016-10,Bus,Free Travel,33031,Other
+2016-10,Bus,School Student,2115831,Child/Student
+2016-10,Bus,Senior/Pensioner,4095695,Senior
+2016-11,Bus,Adult,14203977,Adult
+2016-11,Bus,Adult Single Bus Trip 1,190359,Adult
+2016-11,Bus,Adult Single Bus Trip 2,122653,Adult
+2016-11,Bus,Adult Single Bus Trip 3,48268,Adult
+2016-11,Bus,Child/Youth,1142170,Child/Student
+2016-11,Bus,Child/Youth Single Bus Trip 1,57618,Child/Student
+2016-11,Bus,Child/Youth Single Bus Trip 2,33400,Child/Student
+2016-11,Bus,Child/Youth Single Bus Trip 3,9669,Child/Student
+2016-11,Bus,Concession,1391898,Concession
+2016-11,Bus,Employee,76755,Other
+2016-11,Bus,Free Travel,36217,Other
+2016-11,Bus,School Student,2792634,Child/Student
+2016-11,Bus,Senior/Pensioner,4316765,Senior
+2016-12,Bus,Adult,12839969,Adult
+2016-12,Bus,Adult Single Bus Trip 1,190339,Adult
+2016-12,Bus,Adult Single Bus Trip 2,124517,Adult
+2016-12,Bus,Adult Single Bus Trip 3,51178,Adult
+2016-12,Bus,Child/Youth,1311601,Child/Student
+2016-12,Bus,Child/Youth Single Bus Trip 1,65006,Child/Student
+2016-12,Bus,Child/Youth Single Bus Trip 2,48328,Child/Student
+2016-12,Bus,Child/Youth Single Bus Trip 3,15754,Child/Student
+2016-12,Bus,Concession,1038399,Concession
+2016-12,Bus,Employee,71339,Other
+2016-12,Bus,Free Travel,34095,Other
+2016-12,Bus,School Student,1067910,Child/Student
+2016-12,Bus,Senior/Pensioner,4022430,Senior
+2017-01,Bus,Adult,12658936,Adult
+2017-01,Bus,Adult Single Bus Trip 1,182210,Adult
+2017-01,Bus,Adult Single Bus Trip 2,116130,Adult
+2017-01,Bus,Adult Single Bus Trip 3,46161,Adult
+2017-01,Bus,Child/Youth,1405219,Child/Student
+2017-01,Bus,Child/Youth Single Bus Trip 1,66323,Child/Student
+2017-01,Bus,Child/Youth Single Bus Trip 2,53334,Child/Student
+2017-01,Bus,Child/Youth Single Bus Trip 3,18050,Child/Student
+2017-01,Bus,Concession,985862,Concession
+2017-01,Bus,Employee,66458,Other
+2017-01,Bus,Free Travel,31281,Other
+2017-01,Bus,School Student,168257,Child/Student
+2017-01,Bus,Senior/Pensioner,3752674,Senior
+2017-02,Bus,Adult,13182869,Adult
+2017-02,Bus,Adult Single Bus Trip 1,167293,Adult
+2017-02,Bus,Adult Single Bus Trip 2,104008,Adult
+2017-02,Bus,Adult Single Bus Trip 3,39559,Adult
+2017-02,Bus,Child/Youth,1166175,Child/Student
+2017-02,Bus,Child/Youth Single Bus Trip 1,39460,Child/Student
+2017-02,Bus,Child/Youth Single Bus Trip 2,26163,Child/Student
+2017-02,Bus,Child/Youth Single Bus Trip 3,7942,Child/Student
+2017-02,Bus,Concession,1240006,Concession
+2017-02,Bus,Employee,69228,Other
+2017-02,Bus,Free Travel,33326,Other
+2017-02,Bus,School Student,2600682,Child/Student
+2017-02,Bus,Senior/Pensioner,3857972,Senior
+2017-03,Bus,Adult,15239178,Adult
+2017-03,Bus,Adult Single Bus Trip 1,177223,Adult
+2017-03,Bus,Adult Single Bus Trip 2,109926,Adult
+2017-03,Bus,Adult Single Bus Trip 3,42288,Adult
+2017-03,Bus,Child/Youth,1229286,Child/Student
+2017-03,Bus,Child/Youth Single Bus Trip 1,43347,Child/Student
+2017-03,Bus,Child/Youth Single Bus Trip 2,26923,Child/Student
+2017-03,Bus,Child/Youth Single Bus Trip 3,8514,Child/Student
+2017-03,Bus,Concession,2375998,Concession
+2017-03,Bus,Employee,78376,Other
+2017-03,Bus,Free Travel,38557,Other
+2017-03,Bus,School Student,3137115,Child/Student
+2017-03,Bus,Senior/Pensioner,4304384,Senior
+2017-04,Bus,Adult,12477134,Adult
+2017-04,Bus,Adult Single Bus Trip 1,158538,Adult
+2017-04,Bus,Adult Single Bus Trip 2,98729,Adult
+2017-04,Bus,Adult Single Bus Trip 3,39330,Adult
+2017-04,Bus,Child/Youth,1276586,Child/Student
+2017-04,Bus,Child/Youth Single Bus Trip 1,54620,Child/Student
+2017-04,Bus,Child/Youth Single Bus Trip 2,42726,Child/Student
+2017-04,Bus,Child/Youth Single Bus Trip 3,12903,Child/Student
+2017-04,Bus,Concession,1647277,Concession
+2017-04,Bus,Employee,65750,Other
+2017-04,Bus,Free Travel,33012,Other
+2017-04,Bus,School Student,1062002,Child/Student
+2017-04,Bus,Senior/Pensioner,3754438,Senior
+2017-05,Bus,Adult,14803185,Adult
+2017-05,Bus,Adult Single Bus Trip 1,168079,Adult
+2017-05,Bus,Adult Single Bus Trip 2,102429,Adult
+2017-05,Bus,Adult Single Bus Trip 3,39400,Adult
+2017-05,Bus,Child/Youth,1122661,Child/Student
+2017-05,Bus,Child/Youth Single Bus Trip 1,40946,Child/Student
+2017-05,Bus,Child/Youth Single Bus Trip 2,25907,Child/Student
+2017-05,Bus,Child/Youth Single Bus Trip 3,7355,Child/Student
+2017-05,Bus,Concession,2193095,Concession
+2017-05,Bus,Employee,77797,Other
+2017-05,Bus,Free Travel,40054,Other
+2017-05,Bus,School Student,3124770,Child/Student
+2017-05,Bus,Senior/Pensioner,4329706,Senior
+2017-06,Bus,Adult,13139949,Adult
+2017-06,Bus,Adult Single Bus Trip 1,149534,Adult
+2017-06,Bus,Adult Single Bus Trip 2,90172,Adult
+2017-06,Bus,Adult Single Bus Trip 3,35967,Adult
+2017-06,Bus,Child/Youth,1066813,Child/Student
+2017-06,Bus,Child/Youth Single Bus Trip 1,38891,Child/Student
+2017-06,Bus,Child/Youth Single Bus Trip 2,25954,Child/Student
+2017-06,Bus,Child/Youth Single Bus Trip 3,7945,Child/Student
+2017-06,Bus,Concession,1472712,Concession
+2017-06,Bus,Employee,69266,Other
+2017-06,Bus,Free Travel,35256,Other
+2017-06,Bus,School Student,2499684,Child/Student
+2017-06,Bus,Senior/Pensioner,3904931,Senior
+2017-07,Bus,Adult,13625495,Adult
+2017-07,Bus,Adult Single Bus Trip 1,159698,Adult
+2017-07,Bus,Adult Single Bus Trip 2,96674,Adult
+2017-07,Bus,Adult Single Bus Trip 3,36141,Adult
+2017-07,Bus,Child/Youth,1386168,Child/Student
+2017-07,Bus,Child/Youth Single Bus Trip 1,55170,Child/Student
+2017-07,Bus,Child/Youth Single Bus Trip 2,42041,Child/Student
+2017-07,Bus,Child/Youth Single Bus Trip 3,12555,Child/Student
+2017-07,Bus,Concession,1361714,Concession
+2017-07,Bus,Employee,71153,Other
+2017-07,Bus,Free Travel,36248,Other
+2017-07,Bus,School Student,1298172,Child/Student
+2017-07,Bus,Senior/Pensioner,4020743,Senior
+2017-08,Bus,Adult,14614966,Adult
+2017-08,Bus,Adult Single Bus Trip 1,152050,Adult
+2017-08,Bus,Adult Single Bus Trip 2,88604,Adult
+2017-08,Bus,Adult Single Bus Trip 3,33402,Adult
+2017-08,Bus,Child/Youth,1129569,Child/Student
+2017-08,Bus,Child/Youth Single Bus Trip 1,37346,Child/Student
+2017-08,Bus,Child/Youth Single Bus Trip 2,24122,Child/Student
+2017-08,Bus,Child/Youth Single Bus Trip 3,6683,Child/Student
+2017-08,Bus,Concession,2287083,Concession
+2017-08,Bus,Day Pass Child/Youth w/o SAF,7,Child/Student
+2017-08,Bus,Day Pass without SAF,15,Adult
+2017-08,Bus,Employee,75220,Other
+2017-08,Bus,Free Travel,39408,Other
+2017-08,Bus,School Student,2871680,Child/Student
+2017-08,Bus,Senior/Pensioner,4196065,Senior
+2017-09,Bus,Adult,13735459,Adult
+2017-09,Bus,Adult Single Bus Trip 1,150254,Adult
+2017-09,Bus,Adult Single Bus Trip 2,85965,Adult
+2017-09,Bus,Adult Single Bus Trip 3,32005,Adult
+2017-09,Bus,Child/Youth,1264103,Child/Student
+2017-09,Bus,Child/Youth Single Bus Trip 1,45357,Child/Student
+2017-09,Bus,Child/Youth Single Bus Trip 2,34037,Child/Student
+2017-09,Bus,Child/Youth Single Bus Trip 3,9811,Child/Student
+2017-09,Bus,Concession,1774365,Concession
+2017-09,Bus,Day Pass Child/Youth w/o SAF,31,Child/Student
+2017-09,Bus,Day Pass without SAF,152,Adult
+2017-09,Bus,Employee,70403,Other
+2017-09,Bus,Free Travel,37030,Other
+2017-09,Bus,School Student,1932171,Child/Student
+2017-09,Bus,Senior/Pensioner,3987618,Senior
+2017-10,Bus,Adult,14493838,Adult
+2017-10,Bus,Adult Single Bus Trip 1,154191,Adult
+2017-10,Bus,Adult Single Bus Trip 2,88281,Adult
+2017-10,Bus,Adult Single Bus Trip 3,32576,Adult
+2017-10,Bus,Child/Youth,1262367,Child/Student
+2017-10,Bus,Child/Youth Single Bus Trip 1,42773,Child/Student
+2017-10,Bus,Child/Youth Single Bus Trip 2,31260,Child/Student
+2017-10,Bus,Child/Youth Single Bus Trip 3,8908,Child/Student
+2017-10,Bus,Concession,1841943,Concession
+2017-10,Bus,Day Pass Child/Youth w/o SAF,20,Child/Student
+2017-10,Bus,Day Pass without SAF,76,Adult
+2017-10,Bus,Employee,71545,Other
+2017-10,Bus,Free Travel,39006,Other
+2017-10,Bus,School Student,2060482,Child/Student
+2017-10,Bus,Senior/Pensioner,4107245,Senior
+2017-11,Bus,Adult,14927209,Adult
+2017-11,Bus,Adult Single Bus Trip 1,152433,Adult
+2017-11,Bus,Adult Single Bus Trip 2,86713,Adult
+2017-11,Bus,Adult Single Bus Trip 3,31905,Adult
+2017-11,Bus,Child/Youth,1175200,Child/Student
+2017-11,Bus,Child/Youth Single Bus Trip 1,36062,Child/Student
+2017-11,Bus,Child/Youth Single Bus Trip 2,23996,Child/Student
+2017-11,Bus,Child/Youth Single Bus Trip 3,6816,Child/Student
+2017-11,Bus,Concession,1473370,Concession
+2017-11,Bus,Day Pass without SAF,1,Adult
+2017-11,Bus,Employee,74772,Other
+2017-11,Bus,Free Travel,39917,Other
+2017-11,Bus,School Student,2589339,Child/Student
+2017-11,Bus,Senior/Pensioner,4269152,Senior
+2017-12,Bus,Adult,13321082,Adult
+2017-12,Bus,Adult Single Bus Trip 1,158523,Adult
+2017-12,Bus,Adult Single Bus Trip 2,91020,Adult
+2017-12,Bus,Adult Single Bus Trip 3,33611,Adult
+2017-12,Bus,Child/Youth,1412859,Child/Student
+2017-12,Bus,Child/Youth Single Bus Trip 1,48701,Child/Student
+2017-12,Bus,Child/Youth Single Bus Trip 2,38599,Child/Student
+2017-12,Bus,Child/Youth Single Bus Trip 3,11737,Child/Student
+2017-12,Bus,Concession,1066654,Concession
+2017-12,Bus,Day Pass Child/Youth w/o SAF,2,Child/Student
+2017-12,Bus,Employee,69644,Other
+2017-12,Bus,Free Travel,35334,Other
+2017-12,Bus,School Student,926795,Child/Student
+2017-12,Bus,Senior/Pensioner,3927879,Senior
+2018-01,Bus,Adult,13665898,Adult
+2018-01,Bus,Adult Single Bus Trip 1,144931,Adult
+2018-01,Bus,Adult Single Bus Trip 2,80665,Adult
+2018-01,Bus,Adult Single Bus Trip 3,29410,Adult
+2018-01,Bus,Child/Youth,1559929,Child/Student
+2018-01,Bus,Child/Youth Single Bus Trip 1,49176,Child/Student
+2018-01,Bus,Child/Youth Single Bus Trip 2,40857,Child/Student
+2018-01,Bus,Child/Youth Single Bus Trip 3,12535,Child/Student
+2018-01,Bus,Concession,1022052,Concession
+2018-01,Bus,Employee,67410,Other
+2018-01,Bus,Free Travel,34628,Other
+2018-01,Bus,On Demand,232,Other
+2018-01,Bus,Other,24389,Other
+2018-01,Bus,School Student,186979,Child/Student
+2018-01,Bus,Senior/Pensioner,3857789,Senior
+2018-02,Bus,Adult,14158256,Adult
+2018-02,Bus,Adult Single Bus Trip 1,135021,Adult
+2018-02,Bus,Adult Single Bus Trip 2,72765,Adult
+2018-02,Bus,Adult Single Bus Trip 3,25901,Adult
+2018-02,Bus,Child/Youth,1271723,Child/Student
+2018-02,Bus,Child/Youth Single Bus Trip 1,28631,Child/Student
+2018-02,Bus,Child/Youth Single Bus Trip 2,19424,Child/Student
+2018-02,Bus,Child/Youth Single Bus Trip 3,5413,Child/Student
+2018-02,Bus,Concession,1275676,Concession
+2018-02,Bus,Employee,71212,Other
+2018-02,Bus,Free Travel,36666,Other
+2018-02,Bus,On Demand,672,Other
+2018-02,Bus,Other,55421,Other
+2018-02,Bus,School Student,2701483,Child/Student
+2018-02,Bus,Senior/Pensioner,3956457,Senior
+2018-03,Bus,Adult,15671919,Adult
+2018-03,Bus,Adult Single Bus Trip 1,149812,Adult
+2018-03,Bus,Adult Single Bus Trip 2,81989,Adult
+2018-03,Bus,Adult Single Bus Trip 3,28085,Adult
+2018-03,Bus,Child/Youth,1325239,Child/Student
+2018-03,Bus,Child/Youth Single Bus Trip 1,33439,Child/Student
+2018-03,Bus,Child/Youth Single Bus Trip 2,22468,Child/Student
+2018-03,Bus,Child/Youth Single Bus Trip 3,6274,Child/Student
+2018-03,Bus,Concession,2271925,Concession
+2018-03,Bus,Day Pass Child/Youth w/o SAF,17,Child/Student
+2018-03,Bus,Day Pass without SAF,45,Adult
+2018-03,Bus,Employee,77210,Other
+2018-03,Bus,Free Travel,40280,Other
+2018-03,Bus,On Demand,1049,Other
+2018-03,Bus,Other,64634,Other
+2018-03,Bus,School Student,2983327,Child/Student
+2018-03,Bus,Senior/Pensioner,4303012,Senior
+2018-04,Bus,Adult,14183574,Adult
+2018-04,Bus,Adult Single Bus Trip 1,139901,Adult
+2018-04,Bus,Adult Single Bus Trip 2,75101,Adult
+2018-04,Bus,Adult Single Bus Trip 3,25295,Adult
+2018-04,Bus,Child/Youth,1426034,Child/Student
+2018-04,Bus,Child/Youth Single Bus Trip 1,41733,Child/Student
+2018-04,Bus,Child/Youth Single Bus Trip 2,32744,Child/Student
+2018-04,Bus,Child/Youth Single Bus Trip 3,9079,Child/Student
+2018-04,Bus,Concession,1787676,Concession
+2018-04,Bus,Day Pass Child/Youth w/o SAF,8,Child/Student
+2018-04,Bus,Day Pass without SAF,111,Adult
+2018-04,Bus,Employee,70833,Other
+2018-04,Bus,Free Travel,36465,Other
+2018-04,Bus,On Demand,1319,Other
+2018-04,Bus,Other,41889,Other
+2018-04,Bus,School Student,1243894,Child/Student
+2018-04,Bus,Senior/Pensioner,3949337,Senior
+2018-05,Bus,Adult,15824004,Adult
+2018-05,Bus,Adult Single Bus Trip 1,138667,Adult
+2018-05,Bus,Adult Single Bus Trip 2,73371,Adult
+2018-05,Bus,Adult Single Bus Trip 3,24464,Adult
+2018-05,Bus,Child/Youth,1184699,Child/Student
+2018-05,Bus,Child/Youth Single Bus Trip 1,29882,Child/Student
+2018-05,Bus,Child/Youth Single Bus Trip 2,19692,Child/Student
+2018-05,Bus,Child/Youth Single Bus Trip 3,5125,Child/Student
+2018-05,Bus,Concession,2210352,Concession
+2018-05,Bus,Day Pass Child/Youth w/o SAF,29,Child/Student
+2018-05,Bus,Day Pass without SAF,206,Adult
+2018-05,Bus,Employee,79814,Other
+2018-05,Bus,Free Travel,41549,Other
+2018-05,Bus,On Demand,1782,Other
+2018-05,Bus,Other,66092,Other
+2018-05,Bus,School Student,3252145,Child/Student
+2018-05,Bus,Senior/Pensioner,4400482,Senior
+2018-06,Bus,Adult,14071974,Adult
+2018-06,Bus,Adult Single Bus Trip 1,119147,Adult
+2018-06,Bus,Adult Single Bus Trip 2,62524,Adult
+2018-06,Bus,Adult Single Bus Trip 3,20712,Adult
+2018-06,Bus,Child/Youth,1113371,Child/Student
+2018-06,Bus,Child/Youth Single Bus Trip 1,26701,Child/Student
+2018-06,Bus,Child/Youth Single Bus Trip 2,18362,Child/Student
+2018-06,Bus,Child/Youth Single Bus Trip 3,5138,Child/Student
+2018-06,Bus,Concession,1499845,Concession
+2018-06,Bus,Day Pass Child/Youth w/o SAF,4,Child/Student
+2018-06,Bus,Day Pass without SAF,216,Adult
+2018-06,Bus,Employee,71909,Other
+2018-06,Bus,Free Travel,37474,Other
+2018-06,Bus,On Demand,1896,Other
+2018-06,Bus,Other,56620,Other
+2018-06,Bus,School Student,2654907,Child/Student
+2018-06,Bus,Senior/Pensioner,3898801,Senior
+2018-07,Bus,Adult,14663512,Adult
+2018-07,Bus,Adult Single Bus Trip 1,125994,Adult
+2018-07,Bus,Adult Single Bus Trip 2,71134,Adult
+2018-07,Bus,Adult Single Bus Trip 3,21913,Adult
+2018-07,Bus,Child/Youth,1478229,Child/Student
+2018-07,Bus,Child/Youth Single Bus Trip 1,41280,Child/Student
+2018-07,Bus,Child/Youth Single Bus Trip 2,31772,Child/Student
+2018-07,Bus,Child/Youth Single Bus Trip 3,8494,Child/Student
+2018-07,Bus,Concession,1385605,Concession
+2018-07,Bus,Day Pass Child/Youth w/o SAF,10,Child/Student
+2018-07,Bus,Day Pass without SAF,263,Adult
+2018-07,Bus,Employee,75107,Other
+2018-07,Bus,Free Travel,40049,Other
+2018-07,Bus,On Demand,4117,Other
+2018-07,Bus,Other,37643,Other
+2018-07,Bus,School Student,1360830,Child/Student
+2018-07,Bus,Senior/Pensioner,4136888,Senior
+2018-08,Bus,Adult,15671796,Adult
+2018-08,Bus,Adult Single Bus Trip 1,117518,Adult
+2018-08,Bus,Adult Single Bus Trip 2,66263,Adult
+2018-08,Bus,Adult Single Bus Trip 3,20627,Adult
+2018-08,Bus,Child/Youth,1210309,Child/Student
+2018-08,Bus,Child/Youth Single Bus Trip 1,28189,Child/Student
+2018-08,Bus,Child/Youth Single Bus Trip 2,18873,Child/Student
+2018-08,Bus,Child/Youth Single Bus Trip 3,4924,Child/Student
+2018-08,Bus,Concession,2255143,Concession
+2018-08,Bus,Day Pass Child/Youth w/o SAF,15,Child/Student
+2018-08,Bus,Day Pass without SAF,294,Adult
+2018-08,Bus,Employee,84601,Other
+2018-08,Bus,Free Travel,42673,Other
+2018-08,Bus,On Demand,4888,Other
+2018-08,Bus,Other,68810,Other
+2018-08,Bus,School Student,3043783,Child/Student
+2018-08,Bus,Senior/Pensioner,4327181,Senior
+2018-09,Bus,Adult,14506860,Adult
+2018-09,Bus,Adult Single Bus Trip 1,108216,Adult
+2018-09,Bus,Adult Single Bus Trip 2,60426,Adult
+2018-09,Bus,Adult Single Bus Trip 3,19918,Adult
+2018-09,Bus,Child/Youth,1174339,Child/Student
+2018-09,Bus,Child/Youth Single Bus Trip 1,27904,Child/Student
+2018-09,Bus,Child/Youth Single Bus Trip 2,19441,Child/Student
+2018-09,Bus,Child/Youth Single Bus Trip 3,5161,Child/Student
+2018-09,Bus,Concession,1761178,Concession
+2018-09,Bus,Day Pass Child/Youth w/o SAF,7,Child/Student
+2018-09,Bus,Day Pass without SAF,259,Adult
+2018-09,Bus,Employee,81888,Other
+2018-09,Bus,Free Travel,38771,Other
+2018-09,Bus,On Demand,4679,Other
+2018-09,Bus,Other,66227,Other
+2018-09,Bus,School Student,2566165,Child/Student
+2018-09,Bus,Senior/Pensioner,4000218,Senior
+2018-10,Bus,Adult,15736379,Adult
+2018-10,Bus,Adult Single Bus Trip 1,115049,Adult
+2018-10,Bus,Adult Single Bus Trip 2,63772,Adult
+2018-10,Bus,Adult Single Bus Trip 3,21456,Adult
+2018-10,Bus,Child/Youth,1418158,Child/Student
+2018-10,Bus,Child/Youth Single Bus Trip 1,34527,Child/Student
+2018-10,Bus,Child/Youth Single Bus Trip 2,25996,Child/Student
+2018-10,Bus,Child/Youth Single Bus Trip 3,7029,Child/Student
+2018-10,Bus,Concession,1824756,Concession
+2018-10,Bus,Day Pass Child/Youth w/o SAF,8,Child/Student
+2018-10,Bus,Day Pass without SAF,369,Adult
+2018-10,Bus,Employee,88362,Other
+2018-10,Bus,Free Travel,41366,Other
+2018-10,Bus,On Demand,5295,Other
+2018-10,Bus,Other,81377,Other
+2018-10,Bus,School Student,1721983,Child/Student
+2018-10,Bus,Senior/Pensioner,4228361,Senior
+2018-11,Bus,Adult,16168800,Adult
+2018-11,Bus,Adult Single Bus Trip 1,118254,Adult
+2018-11,Bus,Adult Single Bus Trip 2,66378,Adult
+2018-11,Bus,Adult Single Bus Trip 3,21421,Adult
+2018-11,Bus,Child/Youth,1248624,Child/Student
+2018-11,Bus,Child/Youth Single Bus Trip 1,28168,Child/Student
+2018-11,Bus,Child/Youth Single Bus Trip 2,19078,Child/Student
+2018-11,Bus,Child/Youth Single Bus Trip 3,5046,Child/Student
+2018-11,Bus,Concession,1440331,Concession
+2018-11,Bus,Day Pass Child/Youth w/o SAF,25,Child/Student
+2018-11,Bus,Day Pass without SAF,489,Adult
+2018-11,Bus,Employee,91102,Other
+2018-11,Bus,Free Travel,42416,Other
+2018-11,Bus,On Demand,5377,Other
+2018-11,Bus,Other,174528,Other
+2018-11,Bus,School Student,2817780,Child/Student
+2018-11,Bus,Senior/Pensioner,4382870,Senior
+2018-12,Bus,Adult,14104676,Adult
+2018-12,Bus,Adult Single Bus Trip 1,112904,Adult
+2018-12,Bus,Adult Single Bus Trip 2,63021,Adult
+2018-12,Bus,Adult Single Bus Trip 3,21892,Adult
+2018-12,Bus,Child/Youth,1423439,Child/Student
+2018-12,Bus,Child/Youth Single Bus Trip 1,32811,Child/Student
+2018-12,Bus,Child/Youth Single Bus Trip 2,25849,Child/Student
+2018-12,Bus,Child/Youth Single Bus Trip 3,7956,Child/Student
+2018-12,Bus,Concession,1021477,Concession
+2018-12,Bus,Day Pass Child/Youth w/o SAF,29,Child/Student
+2018-12,Bus,Day Pass without SAF,426,Adult
+2018-12,Bus,Employee,82198,Other
+2018-12,Bus,Free Travel,38642,Other
+2018-12,Bus,On Demand,6439,Other
+2018-12,Bus,Other,65839,Other
+2018-12,Bus,School Student,1248913,Child/Student
+2018-12,Bus,Senior/Pensioner,4089027,Senior
+2019-01,Bus,Adult,14752879,Adult
+2019-01,Bus,Adult Single Bus Trip 1,110735,Adult
+2019-01,Bus,Adult Single Bus Trip 2,61336,Adult
+2019-01,Bus,Adult Single Bus Trip 3,20411,Adult
+2019-01,Bus,Child/Youth,1653909,Child/Student
+2019-01,Bus,Child/Youth Single Bus Trip 1,38810,Child/Student
+2019-01,Bus,Child/Youth Single Bus Trip 2,31393,Child/Student
+2019-01,Bus,Child/Youth Single Bus Trip 3,9539,Child/Student
+2019-01,Bus,Concession,1004593,Concession
+2019-01,Bus,Day Pass Child/Youth w/o SAF,18,Child/Student
+2019-01,Bus,Day Pass without SAF,725,Adult
+2019-01,Bus,Employee,85279,Other
+2019-01,Bus,Free Travel,38510,Other
+2019-01,Bus,On Demand,7041,Other
+2019-01,Bus,Other,48037,Other
+2019-01,Bus,School Student,205934,Child/Student
+2019-01,Bus,Senior/Pensioner,3970989,Senior
+2019-02,Bus,Adult,15426206,Adult
+2019-02,Bus,Adult Single Bus Trip 1,99772,Adult
+2019-02,Bus,Adult Single Bus Trip 2,54290,Adult
+2019-02,Bus,Adult Single Bus Trip 3,17375,Adult
+2019-02,Bus,Child/Youth,1357664,Child/Student
+2019-02,Bus,Child/Youth Single Bus Trip 1,21631,Child/Student
+2019-02,Bus,Child/Youth Single Bus Trip 2,15276,Child/Student
+2019-02,Bus,Child/Youth Single Bus Trip 3,4340,Child/Student
+2019-02,Bus,Concession,1415444,Concession
+2019-02,Bus,Day Pass Child/Youth w/o SAF,46,Child/Student
+2019-02,Bus,Day Pass without SAF,659,Adult
+2019-02,Bus,Employee,87689,Other
+2019-02,Bus,Free Travel,40466,Other
+2019-02,Bus,On Demand,8098,Other
+2019-02,Bus,Other,0,Other
+2019-02,Bus,School Student,3034805,Child/Student
+2019-02,Bus,Senior/Pensioner,4130053,Senior
+2019-03,Bus,Adult,16865038,Adult
+2019-03,Bus,Adult Single Bus Trip 1,104426,Adult
+2019-03,Bus,Adult Single Bus Trip 2,56005,Adult
+2019-03,Bus,Adult Single Bus Trip 3,18478,Adult
+2019-03,Bus,Child/Youth,1388228,Child/Student
+2019-03,Bus,Child/Youth Single Bus Trip 1,24315,Child/Student
+2019-03,Bus,Child/Youth Single Bus Trip 2,16792,Child/Student
+2019-03,Bus,Child/Youth Single Bus Trip 3,4803,Child/Student
+2019-03,Bus,Concession,2273012,Concession
+2019-03,Bus,Day Pass Child/Youth w/o SAF,90,Child/Student
+2019-03,Bus,Day Pass without SAF,989,Adult
+2019-03,Bus,Employee,94200,Other
+2019-03,Bus,Free Travel,43399,Other
+2019-03,Bus,On Demand,9767,Other
+2019-03,Bus,Other,0,Other
+2019-03,Bus,School Student,3406548,Child/Student
+2019-03,Bus,Senior/Pensioner,4436133,Senior
+2019-04,Bus,Adult,14959627,Adult
+2019-04,Bus,Adult Single Bus Trip 1,93026,Adult
+2019-04,Bus,Adult Single Bus Trip 2,48668,Adult
+2019-04,Bus,Adult Single Bus Trip 3,17329,Adult
+2019-04,Bus,Child/Youth,1449736,Child/Student
+2019-04,Bus,Child/Youth Single Bus Trip 1,27868,Child/Student
+2019-04,Bus,Child/Youth Single Bus Trip 2,21897,Child/Student
+2019-04,Bus,Child/Youth Single Bus Trip 3,6122,Child/Student
+2019-04,Bus,Concession,1834882,Concession
+2019-04,Bus,Day Pass Child/Youth w/o SAF,48,Child/Student
+2019-04,Bus,Day Pass without SAF,773,Adult
+2019-04,Bus,Employee,85255,Other
+2019-04,Bus,Free Travel,38720,Other
+2019-04,Bus,On Demand,9784,Other
+2019-04,Bus,School Student,1735455,Child/Student
+2019-04,Bus,Senior/Pensioner,4113032,Senior
+2019-05,Bus,Adult,16827324,Adult
+2019-05,Bus,Adult Single Bus Trip 1,93036,Adult
+2019-05,Bus,Adult Single Bus Trip 2,49965,Adult
+2019-05,Bus,Adult Single Bus Trip 3,16623,Adult
+2019-05,Bus,Child/Youth,1256375,Child/Student
+2019-05,Bus,Child/Youth Single Bus Trip 1,20657,Child/Student
+2019-05,Bus,Child/Youth Single Bus Trip 2,14135,Child/Student
+2019-05,Bus,Child/Youth Single Bus Trip 3,3968,Child/Student
+2019-05,Bus,Concession,1882427,Concession
+2019-05,Bus,Day Pass Child/Youth w/o SAF,68,Child/Student
+2019-05,Bus,Day Pass without SAF,787,Adult
+2019-05,Bus,Employee,99204,Other
+2019-05,Bus,Free Travel,44534,Other
+2019-05,Bus,On Demand,11130,Other
+2019-05,Bus,School Student,3592972,Child/Student
+2019-05,Bus,Senior/Pensioner,4586037,Senior
+2019-06,Bus,Adult,14504498,Adult
+2019-06,Bus,Adult Single Bus Trip 1,80555,Adult
+2019-06,Bus,Adult Single Bus Trip 2,42267,Adult
+2019-06,Bus,Adult Single Bus Trip 3,13191,Adult
+2019-06,Bus,Child/Youth,1175335,Child/Student
+2019-06,Bus,Child/Youth Single Bus Trip 1,19193,Child/Student
+2019-06,Bus,Child/Youth Single Bus Trip 2,13566,Child/Student
+2019-06,Bus,Child/Youth Single Bus Trip 3,3543,Child/Student
+2019-06,Bus,Concession,1555717,Concession
+2019-06,Bus,Day Pass Child/Youth w/o SAF,50,Child/Student
+2019-06,Bus,Day Pass without SAF,832,Adult
+2019-06,Bus,Employee,86459,Other
+2019-06,Bus,Free Travel,37745,Other
+2019-06,Bus,On Demand,9946,Other
+2019-06,Bus,School Student,2754915,Child/Student
+2019-06,Bus,Senior/Pensioner,3942952,Senior
+2019-07,Bus,Adult,15823165,Adult
+2019-07,Bus,Adult Single Bus Trip 1,87764,Adult
+2019-07,Bus,Adult Single Bus Trip 2,46970,Adult
+2019-07,Bus,Adult Single Bus Trip 3,11597,Adult
+2019-07,Bus,Child/Youth,1578565,Child/Student
+2019-07,Bus,Child/Youth Single Bus Trip 1,29117,Child/Student
+2019-07,Bus,Child/Youth Single Bus Trip 2,21315,Child/Student
+2019-07,Bus,Child/Youth Single Bus Trip 3,5469,Child/Student
+2019-07,Bus,Concession,1578007,Concession
+2019-07,Bus,Day Pass Child/Youth w/o SAF,61,Child/Student
+2019-07,Bus,Day Pass without SAF,900,Adult
+2019-07,Bus,Employee,95618,Other
+2019-07,Bus,Free Travel,42759,Other
+2019-07,Bus,On Demand,22584,Other
+2019-07,Bus,School Student,1644170,Child/Student
+2019-07,Bus,Senior/Pensioner,4334952,Senior
+2019-08,Bus,Adult,15900861,Adult
+2019-08,Bus,Adult Single Bus Trip 1,79217,Adult
+2019-08,Bus,Adult Single Bus Trip 2,40983,Adult
+2019-08,Bus,Adult Single Bus Trip 3,10600,Adult
+2019-08,Bus,Child/Youth,1260371,Child/Student
+2019-08,Bus,Child/Youth Single Bus Trip 1,19594,Child/Student
+2019-08,Bus,Child/Youth Single Bus Trip 2,12843,Child/Student
+2019-08,Bus,Child/Youth Single Bus Trip 3,3384,Child/Student
+2019-08,Bus,Concession,1914213,Concession
+2019-08,Bus,CTP,45975,Contactless
+2019-08,Bus,Day Pass Child/Youth w/o SAF,113,Child/Student
+2019-08,Bus,Day Pass without SAF,905,Adult
+2019-08,Bus,Employee,94889,Other
+2019-08,Bus,Free Travel,42665,Other
+2019-08,Bus,On Demand,23135,Other
+2019-08,Bus,School Student,3182243,Child/Student
+2019-08,Bus,Senior/Pensioner,4320530,Senior
+2019-09,Bus,Adult,15217496,Adult
+2019-09,Bus,Adult Single Bus Trip 1,69894,Adult
+2019-09,Bus,Adult Single Bus Trip 2,35769,Adult
+2019-09,Bus,Adult Single Bus Trip 3,8661,Adult
+2019-09,Bus,Child/Youth,1230301,Child/Student
+2019-09,Bus,Child/Youth Single Bus Trip 1,18939,Child/Student
+2019-09,Bus,Child/Youth Single Bus Trip 2,12737,Child/Student
+2019-09,Bus,Child/Youth Single Bus Trip 3,3586,Child/Student
+2019-09,Bus,Concession,1651851,Concession
+2019-09,Bus,CTP,286305,Contactless
+2019-09,Bus,Day Pass Child/Youth w/o SAF,64,Child/Student
+2019-09,Bus,Day Pass without SAF,965,Adult
+2019-09,Bus,Employee,91530,Other
+2019-09,Bus,Free Travel,39795,Other
+2019-09,Bus,On Demand,23624,Other
+2019-09,Bus,School Student,2788612,Child/Student
+2019-09,Bus,Senior/Pensioner,4146158,Senior
+2019-10,Bus,Adult,15278827,Adult
+2019-10,Bus,Adult Single Bus Trip 1,68763,Adult
+2019-10,Bus,Adult Single Bus Trip 2,35689,Adult
+2019-10,Bus,Adult Single Bus Trip 3,8464,Adult
+2019-10,Bus,Child/Youth,1503845,Child/Student
+2019-10,Bus,Child/Youth Single Bus Trip 1,23363,Child/Student
+2019-10,Bus,Child/Youth Single Bus Trip 2,16736,Child/Student
+2019-10,Bus,Child/Youth Single Bus Trip 3,4514,Child/Student
+2019-10,Bus,Concession,1789622,Concession
+2019-10,Bus,CTP,1367495,Contactless
+2019-10,Bus,Day Pass Child/Youth w/o SAF,94,Child/Student
+2019-10,Bus,Day Pass without SAF,1091,Adult
+2019-10,Bus,Employee,96225,Other
+2019-10,Bus,Free Travel,42777,Other
+2019-10,Bus,On Demand,25895,Other
+2019-10,Bus,School Student,1933260,Child/Student
+2019-10,Bus,Senior/Pensioner,4467434,Senior
+2019-11,Bus,Adult,14719303,Adult
+2019-11,Bus,Adult Single Bus Trip 1,52753,Adult
+2019-11,Bus,Adult Single Bus Trip 2,27310,Adult
+2019-11,Bus,Adult Single Bus Trip 3,7189,Adult
+2019-11,Bus,Child/Youth,1273847,Child/Student
+2019-11,Bus,Child/Youth Single Bus Trip 1,14456,Child/Student
+2019-11,Bus,Child/Youth Single Bus Trip 2,8991,Child/Student
+2019-11,Bus,Child/Youth Single Bus Trip 3,2881,Child/Student
+2019-11,Bus,Concession,1511797,Concession
+2019-11,Bus,CTP,2036680,Contactless
+2019-11,Bus,Day Pass Child/Youth w/o SAF,81,Child/Student
+2019-11,Bus,Day Pass without SAF,998,Adult
+2019-11,Bus,Employee,95973,Other
+2019-11,Bus,Free Travel,42709,Other
+2019-11,Bus,On Demand,26304,Other
+2019-11,Bus,School Student,2787603,Child/Student
+2019-11,Bus,Senior/Pensioner,4444174,Senior
+2019-12,Bus,Adult,12722252,Adult
+2019-12,Bus,Adult Single Bus Trip 1,51990,Adult
+2019-12,Bus,Adult Single Bus Trip 2,27391,Adult
+2019-12,Bus,Adult Single Bus Trip 3,7586,Adult
+2019-12,Bus,Child/Youth,1447321,Child/Student
+2019-12,Bus,Child/Youth Single Bus Trip 1,17165,Child/Student
+2019-12,Bus,Child/Youth Single Bus Trip 2,13106,Child/Student
+2019-12,Bus,Child/Youth Single Bus Trip 3,4314,Child/Student
+2019-12,Bus,Concession,1033031,Concession
+2019-12,Bus,CTP,2232214,Contactless
+2019-12,Bus,Day Pass Child/Youth w/o SAF,84,Child/Student
+2019-12,Bus,Day Pass without SAF,850,Adult
+2019-12,Bus,Employee,89096,Other
+2019-12,Bus,Free Travel,39503,Other
+2019-12,Bus,On Demand,23818,Other
+2019-12,Bus,School Student,1307381,Child/Student
+2019-12,Bus,Senior/Pensioner,4182665,Senior
+2020-01,Bus,Adult,12404965,Adult
+2020-01,Bus,Adult Single Bus Trip 1,49458,Adult
+2020-01,Bus,Adult Single Bus Trip 2,25989,Adult
+2020-01,Bus,Adult Single Bus Trip 3,7329,Adult
+2020-01,Bus,Child/Youth,1611069,Child/Student
+2020-01,Bus,Child/Youth Single Bus Trip 1,18956,Child/Student
+2020-01,Bus,Child/Youth Single Bus Trip 2,14724,Child/Student
+2020-01,Bus,Child/Youth Single Bus Trip 3,5103,Child/Student
+2020-01,Bus,Concession,910944,Concession
+2020-01,Bus,CTP,2628423,Contactless
+2020-01,Bus,Day Pass Child/Youth w/o SAF,67,Child/Student
+2020-01,Bus,Day Pass without SAF,908,Adult
+2020-01,Bus,Employee,86718,Other
+2020-01,Bus,Free Travel,38216,Other
+2020-01,Bus,On Demand,25607,Other
+2020-01,Bus,School Student,336070,Child/Student
+2020-01,Bus,Senior/Pensioner,3965486,Senior
+2020-02,Bus,Adult,12587420,Adult
+2020-02,Bus,Adult Single Bus Trip 1,46306,Adult
+2020-02,Bus,Adult Single Bus Trip 2,23497,Adult
+2020-02,Bus,Adult Single Bus Trip 3,6781,Adult
+2020-02,Bus,Child/Youth,1267671,Child/Student
+2020-02,Bus,Child/Youth Single Bus Trip 1,11037,Child/Student
+2020-02,Bus,Child/Youth Single Bus Trip 2,7638,Child/Student
+2020-02,Bus,Child/Youth Single Bus Trip 3,2825,Child/Student
+2020-02,Bus,Concession,1322299,Concession
+2020-02,Bus,CTP,2889541,Contactless
+2020-02,Bus,Day Pass Child/Youth w/o SAF,48,Child/Student
+2020-02,Bus,Day Pass without SAF,1070,Adult
+2020-02,Bus,Employee,88938,Other
+2020-02,Bus,Free Travel,39465,Other
+2020-02,Bus,On Demand,25615,Other
+2020-02,Bus,School Student,2961680,Child/Student
+2020-02,Bus,Senior/Pensioner,3924662,Senior
+2020-03,Bus,Adult,9373131,Adult
+2020-03,Bus,Adult Single Bus Trip 1,27590,Adult
+2020-03,Bus,Adult Single Bus Trip 2,13872,Adult
+2020-03,Bus,Adult Single Bus Trip 3,4215,Adult
+2020-03,Bus,Child/Youth,831831,Child/Student
+2020-03,Bus,Child/Youth Single Bus Trip 1,6788,Child/Student
+2020-03,Bus,Child/Youth Single Bus Trip 2,4348,Child/Student
+2020-03,Bus,Child/Youth Single Bus Trip 3,1689,Child/Student
+2020-03,Bus,Concession,1281861,Concession
+2020-03,Bus,CTP,2271222,Contactless
+2020-03,Bus,Day Pass Child/Youth w/o SAF,61,Child/Student
+2020-03,Bus,Day Pass without SAF,953,Adult
+2020-03,Bus,Employee,74277,Other
+2020-03,Bus,Free Travel,30754,Other
+2020-03,Bus,On Demand,19475,Other
+2020-03,Bus,School Student,2180536,Child/Student
+2020-03,Bus,Senior/Pensioner,3068966,Senior
+2020-04,Bus,Adult,3003345,Adult
+2020-04,Bus,Adult Single Bus Trip 1,153,Adult
+2020-04,Bus,Adult Single Bus Trip 2,71,Adult
+2020-04,Bus,Adult Single Bus Trip 3,23,Adult
+2020-04,Bus,Child/Youth,156022,Child/Student
+2020-04,Bus,Child/Youth Single Bus Trip 1,19,Child/Student
+2020-04,Bus,Child/Youth Single Bus Trip 2,15,Child/Student
+2020-04,Bus,Child/Youth Single Bus Trip 3,7,Child/Student
+2020-04,Bus,Concession,180150,Concession
+2020-04,Bus,CTP,734339,Contactless
+2020-04,Bus,Day Pass Child/Youth w/o SAF,6,Child/Student
+2020-04,Bus,Day Pass without SAF,444,Adult
+2020-04,Bus,Employee,34370,Other
+2020-04,Bus,Free Travel,11618,Other
+2020-04,Bus,On Demand,7039,Other
+2020-04,Bus,School Student,28417,Child/Student
+2020-04,Bus,Senior/Pensioner,1348784,Senior
+2020-05,Bus,Adult,4107310,Adult
+2020-05,Bus,Adult Single Bus Trip 1,138,Adult
+2020-05,Bus,Adult Single Bus Trip 2,40,Adult
+2020-05,Bus,Adult Single Bus Trip 3,25,Adult
+2020-05,Bus,Child/Youth,357558,Child/Student
+2020-05,Bus,Child/Youth Single Bus Trip 1,25,Child/Student
+2020-05,Bus,Child/Youth Single Bus Trip 2,8,Child/Student
+2020-05,Bus,Child/Youth Single Bus Trip 3,4,Child/Student
+2020-05,Bus,Concession,289775,Concession
+2020-05,Bus,CTP,1156729,Contactless
+2020-05,Bus,Day Pass Child/Youth w/o SAF,1,Child/Student
+2020-05,Bus,Day Pass without SAF,393,Adult
+2020-05,Bus,Employee,41491,Other
+2020-05,Bus,Free Travel,15935,Other
+2020-05,Bus,On Demand,10192,Other
+2020-05,Bus,School Student,727918,Child/Student
+2020-05,Bus,Senior/Pensioner,1842193,Senior
+2020-06,Bus,Adult,5296996,Adult
+2020-06,Bus,Adult Single Bus Trip 1,107,Adult
+2020-06,Bus,Adult Single Bus Trip 2,61,Adult
+2020-06,Bus,Adult Single Bus Trip 3,17,Adult
+2020-06,Bus,Child/Youth,605522,Child/Student
+2020-06,Bus,Child/Youth Single Bus Trip 1,15,Child/Student
+2020-06,Bus,Child/Youth Single Bus Trip 2,21,Child/Student
+2020-06,Bus,Child/Youth Single Bus Trip 3,4,Child/Student
+2020-06,Bus,Concession,456231,Concession
+2020-06,Bus,CTP,1664174,Contactless
+2020-06,Bus,Day Pass Child/Youth w/o SAF,22,Child/Student
+2020-06,Bus,Day Pass without SAF,464,Adult
+2020-06,Bus,Employee,50008,Other
+2020-06,Bus,Free Travel,21672,Other
+2020-06,Bus,On Demand,13690,Other
+2020-06,Bus,School Student,1891322,Child/Student
+2020-06,Bus,Senior/Pensioner,2385697,Senior
+2020-07,Bus,Adult,5980811,Adult
+2020-07,Bus,Adult Single Bus Trip 1,142,Adult
+2020-07,Bus,Adult Single Bus Trip 2,76,Adult
+2020-07,Bus,Adult Single Bus Trip 3,18,Adult
+2020-07,Bus,Child/Youth,863848,Child/Student
+2020-07,Bus,Child/Youth Single Bus Trip 1,34,Child/Student
+2020-07,Bus,Child/Youth Single Bus Trip 2,31,Child/Student
+2020-07,Bus,Child/Youth Single Bus Trip 3,5,Child/Student
+2020-07,Bus,Concession,581048,Concession
+2020-07,Bus,CTP,2013614,Contactless
+2020-07,Bus,Day Pass Child/Youth w/o SAF,62,Child/Student
+2020-07,Bus,Day Pass without SAF,559,Adult
+2020-07,Bus,Employee,54732,Other
+2020-07,Bus,Free Travel,24073,Other
+2020-07,Bus,On Demand,16368,Other
+2020-07,Bus,School Student,1033486,Child/Student
+2020-07,Bus,Senior/Pensioner,2563464,Senior
+2020-08,Bus,Adult,5609631,Adult
+2020-08,Bus,Adult Single Bus Trip 1,114,Adult
+2020-08,Bus,Adult Single Bus Trip 2,41,Adult
+2020-08,Bus,Adult Single Bus Trip 3,22,Adult
+2020-08,Bus,Child/Youth,628201,Child/Student
+2020-08,Bus,Child/Youth Single Bus Trip 1,9,Child/Student
+2020-08,Bus,Child/Youth Single Bus Trip 2,7,Child/Student
+2020-08,Bus,Child/Youth Single Bus Trip 3,5,Child/Student
+2020-08,Bus,Concession,622654,Concession
+2020-08,Bus,CTP,1939712,Contactless
+2020-08,Bus,Day Pass Child/Youth w/o SAF,1,Child/Student
+2020-08,Bus,Day Pass without SAF,422,Adult
+2020-08,Bus,Employee,51775,Other
+2020-08,Bus,Free Travel,22685,Other
+2020-08,Bus,On Demand,14999,Other
+2020-08,Bus,School Student,1806836,Child/Student
+2020-08,Bus,Senior/Pensioner,2410075,Senior
+2020-09,Bus,Adult,5844392,Adult
+2020-09,Bus,Adult Single Bus Trip 1,76,Adult
+2020-09,Bus,Adult Single Bus Trip 2,36,Adult
+2020-09,Bus,Adult Single Bus Trip 3,24,Adult
+2020-09,Bus,Child/Youth,715957,Child/Student
+2020-09,Bus,Child/Youth Single Bus Trip 1,5,Child/Student
+2020-09,Bus,Child/Youth Single Bus Trip 2,1,Child/Student
+2020-09,Bus,Child/Youth Single Bus Trip 3,5,Child/Student
+2020-09,Bus,Concession,674595,Concession
+2020-09,Bus,CTP,2131509,Contactless
+2020-09,Bus,Day Pass Child/Youth w/o SAF,1,Child/Student
+2020-09,Bus,Day Pass without SAF,436,Adult
+2020-09,Bus,Employee,53927,Other
+2020-09,Bus,Free Travel,23695,Other
+2020-09,Bus,On Demand,16714,Other
+2020-09,Bus,School Student,1625421,Child/Student
+2020-09,Bus,Senior/Pensioner,2603832,Senior
+2020-10,Bus,Adult,6006332,Adult
+2020-10,Bus,Adult Single Bus Trip 1,107,Adult
+2020-10,Bus,Adult Single Bus Trip 2,46,Adult
+2020-10,Bus,Adult Single Bus Trip 3,25,Adult
+2020-10,Bus,Child/Youth,838452,Child/Student
+2020-10,Bus,Child/Youth Single Bus Trip 1,17,Child/Student
+2020-10,Bus,Child/Youth Single Bus Trip 2,10,Child/Student
+2020-10,Bus,Child/Youth Single Bus Trip 3,7,Child/Student
+2020-10,Bus,Concession,691561,Concession
+2020-10,Bus,CTP,2395589,Contactless
+2020-10,Bus,Day Pass Child/Youth w/o SAF,1,Child/Student
+2020-10,Bus,Day Pass without SAF,527,Adult
+2020-10,Bus,Employee,56430,Other
+2020-10,Bus,Free Travel,24881,Other
+2020-10,Bus,On Demand,16944,Other
+2020-10,Bus,School Student,1261371,Child/Student
+2020-10,Bus,Senior/Pensioner,2766738,Senior
+2020-11,Bus,Adult,6166389,Adult
+2020-11,Bus,Adult Single Bus Trip 1,78,Adult
+2020-11,Bus,Adult Single Bus Trip 2,30,Adult
+2020-11,Bus,Adult Single Bus Trip 3,13,Adult
+2020-11,Bus,Child/Youth,704689,Child/Student
+2020-11,Bus,Child/Youth Single Bus Trip 1,4,Child/Student
+2020-11,Bus,Child/Youth Single Bus Trip 2,7,Child/Student
+2020-11,Bus,Child/Youth Single Bus Trip 3,4,Child/Student
+2020-11,Bus,Concession,678187,Concession
+2020-11,Bus,CTP,2558091,Contactless
+2020-11,Bus,Day Pass Child/Youth w/o SAF,17,Child/Student
+2020-11,Bus,Day Pass without SAF,563,Adult
+2020-11,Bus,Employee,59168,Other
+2020-11,Bus,Free Travel,26771,Other
+2020-11,Bus,On Demand,17146,Other
+2020-11,Bus,School Student,1701786,Child/Student
+2020-11,Bus,Senior/Pensioner,2896802,Senior
+2020-12,Bus,Adult,5739175,Adult
+2020-12,Bus,Adult Single Bus Trip 1,96,Adult
+2020-12,Bus,Adult Single Bus Trip 2,30,Adult
+2020-12,Bus,Adult Single Bus Trip 3,6,Adult
+2020-12,Bus,Child/Youth,800460,Child/Student
+2020-12,Bus,Child/Youth Single Bus Trip 1,1,Child/Student
+2020-12,Bus,Child/Youth Single Bus Trip 2,6,Child/Student
+2020-12,Bus,Child/Youth Single Bus Trip 3,2,Child/Student
+2020-12,Bus,Concession,580697,Concession
+2020-12,Bus,CTP,2549345,Contactless
+2020-12,Bus,Day Pass Child/Youth w/o SAF,11,Child/Student
+2020-12,Bus,Day Pass without SAF,618,Adult
+2020-12,Bus,Employee,56361,Other
+2020-12,Bus,Free Travel,25512,Other
+2020-12,Bus,On Demand,17201,Other
+2020-12,Bus,School Student,780929,Child/Student
+2020-12,Bus,Senior/Pensioner,2841423,Senior
+2021-01,Bus,Adult,5148624,Adult
+2021-01,Bus,Adult Single Bus Trip 1,61,Adult
+2021-01,Bus,Adult Single Bus Trip 2,23,Adult
+2021-01,Bus,Adult Single Bus Trip 3,9,Adult
+2021-01,Bus,Child/Youth,887024,Child/Student
+2021-01,Bus,Child/Youth Single Bus Trip 1,17,Child/Student
+2021-01,Bus,Child/Youth Single Bus Trip 2,2,Child/Student
+2021-01,Bus,Concession,499048,Concession
+2021-01,Bus,CTP,2416896,Contactless
+2021-01,Bus,Day Pass Child/Youth w/o SAF,2,Child/Student
+2021-01,Bus,Day Pass without SAF,604,Adult
+2021-01,Bus,Employee,48782,Other
+2021-01,Bus,Free Travel,21806,Other
+2021-01,Bus,On Demand,15373,Other
+2021-01,Bus,School Student,81935,Child/Student
+2021-01,Bus,Senior/Pensioner,2447119,Senior
+2021-02,Bus,Adult,5907430,Adult
+2021-02,Bus,Adult Single Bus Trip 1,152,Adult
+2021-02,Bus,Adult Single Bus Trip 2,33,Adult
+2021-02,Bus,Adult Single Bus Trip 3,11,Adult
+2021-02,Bus,Child/Youth,737454,Child/Student
+2021-02,Bus,Child/Youth Single Bus Trip 1,3,Child/Student
+2021-02,Bus,Child/Youth Single Bus Trip 3,2,Child/Student
+2021-02,Bus,Concession,707314,Concession
+2021-02,Bus,CTP,2714548,Contactless
+2021-02,Bus,Day Pass Child/Youth w/o SAF,15,Child/Student
+2021-02,Bus,Day Pass without SAF,667,Adult
+2021-02,Bus,Employee,55329,Other
+2021-02,Bus,Free Travel,26110,Other
+2021-02,Bus,On Demand,18068,Other
+2021-02,Bus,School Student,1989485,Child/Student
+2021-02,Bus,Senior/Pensioner,2808255,Senior
+2021-03,Bus,Adult,6661997,Adult
+2021-03,Bus,Adult Single Bus Trip 1,92,Adult
+2021-03,Bus,Adult Single Bus Trip 2,35,Adult
+2021-03,Bus,Adult Single Bus Trip 3,19,Adult
+2021-03,Bus,Child/Youth,697395,Child/Student
+2021-03,Bus,Concession,1076821,Concession
+2021-03,Bus,CTP,3112024,Contactless
+2021-03,Bus,Day Pass Child/Youth w/o SAF,31,Child/Student
+2021-03,Bus,Day Pass without SAF,725,Adult
+2021-03,Bus,Employee,62780,Other
+2021-03,Bus,Free Travel,29437,Other
+2021-03,Bus,On Demand,21078,Other
+2021-03,Bus,School Student,2153901,Child/Student
+2021-03,Bus,Senior/Pensioner,3215739,Senior
+2021-04,Bus,Adult,6250652,Adult
+2021-04,Bus,Adult Single Bus Trip 1,73,Adult
+2021-04,Bus,Adult Single Bus Trip 2,70,Adult
+2021-04,Bus,Adult Single Bus Trip 3,17,Adult
+2021-04,Bus,Child/Youth,936865,Child/Student
+2021-04,Bus,Child/Youth Single Bus Trip 1,5,Child/Student
+2021-04,Bus,Child/Youth Single Bus Trip 2,9,Child/Student
+2021-04,Bus,Child/Youth Single Bus Trip 3,1,Child/Student
+2021-04,Bus,Concession,846573,Concession
+2021-04,Bus,CTP,3177099,Contactless
+2021-04,Bus,Day Pass Child/Youth w/o SAF,5,Child/Student
+2021-04,Bus,Day Pass without SAF,502,Adult
+2021-04,Bus,Employee,60810,Other
+2021-04,Bus,Free Travel,28799,Other
+2021-04,Bus,On Demand,19530,Other
+2021-04,Bus,School Student,946897,Child/Student
+2021-04,Bus,Senior/Pensioner,3203204,Senior
+2021-05,Bus,Adult,6504495,Adult
+2021-05,Bus,Adult Single Bus Trip 1,89,Adult
+2021-05,Bus,Adult Single Bus Trip 2,22,Adult
+2021-05,Bus,Adult Single Bus Trip 3,15,Adult
+2021-05,Bus,Child/Youth,684511,Child/Student
+2021-05,Bus,Child/Youth Single Bus Trip 1,7,Child/Student
+2021-05,Bus,Child/Youth Single Bus Trip 2,1,Child/Student
+2021-05,Bus,Child/Youth Single Bus Trip 3,3,Child/Student
+2021-05,Bus,Concession,920032,Concession
+2021-05,Bus,CTP,3319276,Contactless
+2021-05,Bus,Day Pass Child/Youth w/o SAF,5,Child/Student
+2021-05,Bus,Day Pass without SAF,727,Adult
+2021-05,Bus,Employee,63334,Other
+2021-05,Bus,Free Travel,28884,Other
+2021-05,Bus,On Demand,20804,Other
+2021-05,Bus,School Student,1849310,Child/Student
+2021-05,Bus,Senior/Pensioner,3258937,Senior
+2021-06,Bus,Adult,5480610,Adult
+2021-06,Bus,Adult Single Bus Trip 1,66,Adult
+2021-06,Bus,Adult Single Bus Trip 2,28,Adult
+2021-06,Bus,Adult Single Bus Trip 3,13,Adult
+2021-06,Bus,Child/Youth,570279,Child/Student
+2021-06,Bus,Child/Youth Single Bus Trip 1,3,Child/Student
+2021-06,Bus,Child/Youth Single Bus Trip 2,1,Child/Student
+2021-06,Bus,Child/Youth Single Bus Trip 3,2,Child/Student
+2021-06,Bus,Concession,682886,Concession
+2021-06,Bus,CTP,2814237,Contactless
+2021-06,Bus,Day Pass Child/Youth w/o SAF,8,Child/Student
+2021-06,Bus,Day Pass without SAF,595,Adult
+2021-06,Bus,Employee,44912,Other
+2021-06,Bus,Free Travel,24437,Other
+2021-06,Bus,On Demand,18803,Other
+2021-06,Bus,School Student,1404565,Child/Student
+2021-06,Bus,Senior/Pensioner,2817884,Senior
+2021-07,Bus,Adult,2299880,Adult
+2021-07,Bus,Adult Single Bus Trip 1,56,Adult
+2021-07,Bus,Adult Single Bus Trip 2,25,Adult
+2021-07,Bus,Adult Single Bus Trip 3,11,Adult
+2021-07,Bus,Child/Youth,167037,Child/Student
+2021-07,Bus,Child/Youth Single Bus Trip 1,1,Child/Student
+2021-07,Bus,Child/Youth Single Bus Trip 2,1,Child/Student
+2021-07,Bus,Concession,179630,Concession
+2021-07,Bus,CTP,1083341,Contactless
+2021-07,Bus,Day Pass without SAF,386,Adult
+2021-07,Bus,Employee,20412,Other
+2021-07,Bus,Free Travel,10140,Other
+2021-07,Bus,On Demand,9478,Other
+2021-07,Bus,School Student,74866,Child/Student
+2021-07,Bus,Senior/Pensioner,1261330,Senior
+2021-08,Bus,Adult,1945211,Adult
+2021-08,Bus,Adult Single Bus Trip 1,62,Adult
+2021-08,Bus,Adult Single Bus Trip 2,29,Adult
+2021-08,Bus,Adult Single Bus Trip 3,9,Adult
+2021-08,Bus,Child/Youth,100445,Child/Student
+2021-08,Bus,Child/Youth Single Bus Trip 1,1,Child/Student
+2021-08,Bus,Concession,129968,Concession
+2021-08,Bus,CTP,949416,Contactless
+2021-08,Bus,Day Pass Child/Youth w/o SAF,4,Child/Student
+2021-08,Bus,Day Pass without SAF,405,Adult
+2021-08,Bus,Employee,17777,Other
+2021-08,Bus,Free Travel,8885,Other
+2021-08,Bus,On Demand,6463,Other
+2021-08,Bus,School Student,48228,Child/Student
+2021-08,Bus,Senior/Pensioner,1080294,Senior
+2021-09,Bus,Adult,2026419,Adult
+2021-09,Bus,Adult Single Bus Trip 1,47,Adult
+2021-09,Bus,Adult Single Bus Trip 2,17,Adult
+2021-09,Bus,Adult Single Bus Trip 3,8,Adult
+2021-09,Bus,Child/Youth,152734,Child/Student
+2021-09,Bus,Child/Youth Single Bus Trip 1,1,Child/Student
+2021-09,Bus,Concession,134804,Concession
+2021-09,Bus,CTP,1072112,Contactless
+2021-09,Bus,Day Pass Child/Youth w/o SAF,6,Child/Student
+2021-09,Bus,Day Pass without SAF,424,Adult
+2021-09,Bus,Employee,21387,Other
+2021-09,Bus,Free Travel,9912,Other
+2021-09,Bus,On Demand,7547,Other
+2021-09,Bus,School Student,21891,Child/Student
+2021-09,Bus,Senior/Pensioner,1209858,Senior
+2021-10,Bus,Adult,3249805,Adult
+2021-10,Bus,Adult Single Bus Trip 1,131,Adult
+2021-10,Bus,Adult Single Bus Trip 2,51,Adult
+2021-10,Bus,Adult Single Bus Trip 3,15,Adult
+2021-10,Bus,Child/Youth,381176,Child/Student
+2021-10,Bus,Child/Youth Single Bus Trip 1,2,Child/Student
+2021-10,Bus,Child/Youth Single Bus Trip 2,18,Child/Student
+2021-10,Bus,Child/Youth Single Bus Trip 3,3,Child/Student
+2021-10,Bus,Concession,314007,Concession
+2021-10,Bus,CTP,1961145,Contactless
+2021-10,Bus,Day Pass Child/Youth w/o SAF,2,Child/Student
+2021-10,Bus,Day Pass without SAF,512,Adult
+2021-10,Bus,Employee,35329,Other
+2021-10,Bus,Free Travel,16626,Other
+2021-10,Bus,On Demand,12369,Other
+2021-10,Bus,School Student,460443,Child/Student
+2021-10,Bus,Senior/Pensioner,1967905,Senior
+2021-11,Bus,Adult,4475868,Adult
+2021-11,Bus,Adult Single Bus Trip 1,93,Adult
+2021-11,Bus,Adult Single Bus Trip 2,34,Adult
+2021-11,Bus,Adult Single Bus Trip 3,10,Adult
+2021-11,Bus,Child/Youth,519653,Child/Student
+2021-11,Bus,Child/Youth Single Bus Trip 2,3,Child/Student
+2021-11,Bus,Concession,479864,Concession
+2021-11,Bus,CTP,2702675,Contactless
+2021-11,Bus,Day Pass Child/Youth w/o SAF,3,Child/Student
+2021-11,Bus,Day Pass without SAF,528,Adult
+2021-11,Bus,Employee,47652,Other
+2021-11,Bus,Free Travel,22062,Other
+2021-11,Bus,On Demand,17583,Other
+2021-11,Bus,School Student,1582582,Child/Student
+2021-11,Bus,Senior/Pensioner,2587962,Senior
+2021-12,Bus,Adult,4224733,Adult
+2021-12,Bus,Adult Single Bus Trip 1,124,Adult
+2021-12,Bus,Adult Single Bus Trip 2,44,Adult
+2021-12,Bus,Adult Single Bus Trip 3,19,Adult
+2021-12,Bus,Child/Youth,637255,Child/Student
+2021-12,Bus,Child/Youth Single Bus Trip 1,1,Child/Student
+2021-12,Bus,Child/Youth Single Bus Trip 2,2,Child/Student
+2021-12,Bus,Concession,471774,Concession
+2021-12,Bus,CTP,2631049,Contactless
+2021-12,Bus,Day Pass Child/Youth w/o SAF,21,Child/Student
+2021-12,Bus,Day Pass without SAF,604,Adult
+2021-12,Bus,Employee,47570,Other
+2021-12,Bus,Free Travel,21412,Other
+2021-12,Bus,On Demand,18475,Other
+2021-12,Bus,School Student,603437,Child/Student
+2021-12,Bus,Senior/Pensioner,2490492,Senior
+2022-01,Bus,Adult,3280150,Adult
+2022-01,Bus,Adult Single Bus Trip 1,93,Adult
+2022-01,Bus,Adult Single Bus Trip 2,21,Adult
+2022-01,Bus,Adult Single Bus Trip 3,14,Adult
+2022-01,Bus,Child/Youth,552340,Child/Student
+2022-01,Bus,Child/Youth Single Bus Trip 1,2,Child/Student
+2022-01,Bus,Child/Youth Single Bus Trip 2,1,Child/Student
+2022-01,Bus,Concession,332743,Concession
+2022-01,Bus,CTP,2088109,Contactless
+2022-01,Bus,Day Pass Child/Youth w/o SAF,9,Child/Student
+2022-01,Bus,Day Pass without SAF,437,Adult
+2022-01,Bus,Employee,37542,Other
+2022-01,Bus,Free Travel,16557,Other
+2022-01,Bus,On Demand,15290,Other
+2022-01,Bus,School Student,23011,Child/Student
+2022-01,Bus,Senior/Pensioner,1915765,Senior
+2022-02,Bus,Adult,4244808,Adult
+2022-02,Bus,Adult Single Bus Trip 1,73,Adult
+2022-02,Bus,Adult Single Bus Trip 2,28,Adult
+2022-02,Bus,Adult Single Bus Trip 3,7,Adult
+2022-02,Bus,Child/Youth,562929,Child/Student
+2022-02,Bus,Child/Youth Single Bus Trip 1,1,Child/Student
+2022-02,Bus,Child/Youth Single Bus Trip 2,3,Child/Student
+2022-02,Bus,Concession,566350,Concession
+2022-02,Bus,CTP,2739591,Contactless
+2022-02,Bus,Day Pass without SAF,389,Adult
+2022-02,Bus,Employee,44817,Other
+2022-02,Bus,Free Travel,20091,Other
+2022-02,Bus,On Demand,18034,Other
+2022-02,Bus,School Student,1483705,Child/Student
+2022-02,Bus,Senior/Pensioner,2280735,Senior
+2022-03,Bus,Adult,5275005,Adult
+2022-03,Bus,Adult Single Bus Trip 1,104,Adult
+2022-03,Bus,Adult Single Bus Trip 2,38,Adult
+2022-03,Bus,Adult Single Bus Trip 3,14,Adult
+2022-03,Bus,Child/Youth,542260,Child/Student
+2022-03,Bus,Child/Youth Single Bus Trip 1,3,Child/Student
+2022-03,Bus,Concession,896181,Concession
+2022-03,Bus,CTP,3460409,Contactless
+2022-03,Bus,Day Pass Child/Youth w/o SAF,18,Child/Student
+2022-03,Bus,Day Pass without SAF,503,Adult
+2022-03,Bus,Employee,52935,Other
+2022-03,Bus,Free Travel,23571,Other
+2022-03,Bus,On Demand,21147,Other
+2022-03,Bus,School Student,1469333,Child/Student
+2022-03,Bus,Senior/Pensioner,2664934,Senior
+2022-04,Bus,Adult,5006854,Adult
+2022-04,Bus,Adult Single Bus Trip 1,149,Adult
+2022-04,Bus,Adult Single Bus Trip 2,109,Adult
+2022-04,Bus,Adult Single Bus Trip 3,148,Adult
+2022-04,Bus,Child/Youth,663096,Child/Student
+2022-04,Bus,Child/Youth Single Bus Trip 1,12,Child/Student
+2022-04,Bus,Child/Youth Single Bus Trip 2,3,Child/Student
+2022-04,Bus,Concession,647357,Concession
+2022-04,Bus,CTP,3146796,Contactless
+2022-04,Bus,Day Pass Child/Youth w/o SAF,6,Child/Student
+2022-04,Bus,Day Pass without SAF,367,Adult
+2022-04,Bus,Employee,45399,Other
+2022-04,Bus,Free Travel,20971,Other
+2022-04,Bus,On Demand,19661,Other
+2022-04,Bus,School Student,574559,Child/Student
+2022-04,Bus,Senior/Pensioner,2488231,Senior
+2022-05,Bus,Adult,5632116,Adult
+2022-05,Bus,Adult Single Bus Trip 1,106,Adult
+2022-05,Bus,Adult Single Bus Trip 2,34,Adult
+2022-05,Bus,Adult Single Bus Trip 3,16,Adult
+2022-05,Bus,Child/Youth,550795,Child/Student
+2022-05,Bus,Child/Youth Single Bus Trip 1,2,Child/Student
+2022-05,Bus,Child/Youth Single Bus Trip 2,4,Child/Student
+2022-05,Bus,Concession,756242,Concession
+2022-05,Bus,CTP,3857044,Contactless
+2022-05,Bus,Day Pass Child/Youth w/o SAF,17,Child/Student
+2022-05,Bus,Day Pass without SAF,555,Adult
+2022-05,Bus,Employee,54714,Other
+2022-05,Bus,Free Travel,25184,Other
+2022-05,Bus,On Demand,21803,Other
+2022-05,Bus,School Student,1453409,Child/Student
+2022-05,Bus,Senior/Pensioner,2859536,Senior
+2022-06,Bus,Adult,5574794,Adult
+2022-06,Bus,Adult Single Bus Trip 1,93,Adult
+2022-06,Bus,Adult Single Bus Trip 2,39,Adult
+2022-06,Bus,Adult Single Bus Trip 3,8,Adult
+2022-06,Bus,Child/Youth,568172,Child/Student
+2022-06,Bus,Child/Youth Single Bus Trip 1,4,Child/Student
+2022-06,Bus,Child/Youth Single Bus Trip 2,2,Child/Student
+2022-06,Bus,Concession,663253,Concession
+2022-06,Bus,CTP,3877626,Contactless
+2022-06,Bus,Day Pass Child/Youth w/o SAF,15,Child/Student
+2022-06,Bus,Day Pass without SAF,665,Adult
+2022-06,Bus,Employee,55746,Other
+2022-06,Bus,Free Travel,25494,Other
+2022-06,Bus,On Demand,19223,Other
+2022-06,Bus,School Student,1333603,Child/Student
+2022-06,Bus,Senior/Pensioner,2859395,Senior
+2022-07,Bus,Adult,5385400,Adult
+2022-07,Bus,Adult Single Bus Trip 1,85,Adult
+2022-07,Bus,Adult Single Bus Trip 2,40,Adult
+2022-07,Bus,Adult Single Bus Trip 3,18,Adult
+2022-07,Bus,Child/Youth,677145,Child/Student
+2022-07,Bus,Child/Youth Single Bus Trip 1,1,Child/Student
+2022-07,Bus,Child/Youth Single Bus Trip 3,1,Child/Student
+2022-07,Bus,Concession,619503,Concession
+2022-07,Bus,CTP,3838227,Contactless
+2022-07,Bus,Day Pass Child/Youth w/o SAF,2,Child/Student
+2022-07,Bus,Day Pass without SAF,591,Adult
+2022-07,Bus,Employee,51073,Other
+2022-07,Bus,Free Travel,22670,Other
+2022-07,Bus,On Demand,18983,Other
+2022-07,Bus,School Student,649786,Child/Student
+2022-07,Bus,Senior/Pensioner,2590620,Senior
+2022-08,Bus,Adult,6018740,Adult
+2022-08,Bus,Adult Single Bus Trip 1,94,Adult
+2022-08,Bus,Adult Single Bus Trip 2,52,Adult
+2022-08,Bus,Adult Single Bus Trip 3,22,Adult
+2022-08,Bus,Child/Youth,556563,Child/Student
+2022-08,Bus,Concession,898039,Concession
+2022-08,Bus,CTP,4329612,Contactless
+2022-08,Bus,Day Pass Child/Youth w/o SAF,9,Child/Student
+2022-08,Bus,Day Pass without SAF,787,Adult
+2022-08,Bus,Employee,55583,Other
+2022-08,Bus,Free Travel,26661,Other
+2022-08,Bus,On Demand,21070,Other
+2022-08,Bus,School Student,1558539,Child/Student
+2022-08,Bus,Senior/Pensioner,2936059,Senior
+2022-09,Bus,Adult,5809458,Adult
+2022-09,Bus,Adult Single Bus Trip 1,81,Adult
+2022-09,Bus,Adult Single Bus Trip 2,48,Adult
+2022-09,Bus,Adult Single Bus Trip 3,24,Adult
+2022-09,Bus,Child/Youth,623682,Child/Student
+2022-09,Bus,Child/Youth Single Bus Trip 1,5,Child/Student
+2022-09,Bus,Child/Youth Single Bus Trip 2,7,Child/Student
+2022-09,Bus,Concession,747522,Concession
+2022-09,Bus,CTP,4348438,Contactless
+2022-09,Bus,Day Pass Child/Youth w/o SAF,6,Child/Student
+2022-09,Bus,Day Pass without SAF,693,Adult
+2022-09,Bus,Employee,53584,Other
+2022-09,Bus,Free Travel,24843,Other
+2022-09,Bus,On Demand,21062,Other
+2022-09,Bus,School Student,1050246,Child/Student
+2022-09,Bus,Senior/Pensioner,2807482,Senior
+2022-10,Bus,Adult,6136773,Adult
+2022-10,Bus,Adult Single Bus Trip 1,134,Adult
+2022-10,Bus,Adult Single Bus Trip 2,42,Adult
+2022-10,Bus,Adult Single Bus Trip 3,22,Adult
+2022-10,Bus,Child/Youth,683823,Child/Student
+2022-10,Bus,Concession,774831,Concession
+2022-10,Bus,CTP,4854953,Contactless
+2022-10,Bus,Day Pass Child/Youth w/o SAF,18,Child/Student
+2022-10,Bus,Day Pass without SAF,788,Adult
+2022-10,Bus,Employee,56671,Other
+2022-10,Bus,Free Travel,26586,Other
+2022-10,Bus,On Demand,20702,Other
+2022-10,Bus,School Student,1066215,Child/Student
+2022-10,Bus,Senior/Pensioner,2961033,Senior
+2022-11,Bus,Adult,6474148,Adult
+2022-11,Bus,Adult Single Bus Trip 1,91,Adult
+2022-11,Bus,Adult Single Bus Trip 2,36,Adult
+2022-11,Bus,Adult Single Bus Trip 3,22,Adult
+2022-11,Bus,Child/Youth,627975,Child/Student
+2022-11,Bus,Child/Youth Single Bus Trip 1,1,Child/Student
+2022-11,Bus,Child/Youth Single Bus Trip 2,3,Child/Student
+2022-11,Bus,Child/Youth Single Bus Trip 3,1,Child/Student
+2022-11,Bus,Concession,683684,Concession
+2022-11,Bus,CTP,5249541,Contactless
+2022-11,Bus,Day Pass Child/Youth w/o SAF,11,Child/Student
+2022-11,Bus,Day Pass without SAF,846,Adult
+2022-11,Bus,Employee,60203,Other
+2022-11,Bus,Free Travel,29299,Other
+2022-11,Bus,On Demand,21311,Other
+2022-11,Bus,School Student,1430322,Child/Student
+2022-11,Bus,Senior/Pensioner,3198927,Senior
+2022-12,Bus,Adult,6005060,Adult
+2022-12,Bus,Adult Single Bus Trip 1,89,Adult
+2022-12,Bus,Adult Single Bus Trip 2,26,Adult
+2022-12,Bus,Adult Single Bus Trip 3,23,Adult
+2022-12,Bus,Child/Youth,779633,Child/Student
+2022-12,Bus,Child/Youth Single Bus Trip 1,2,Child/Student
+2022-12,Bus,Child/Youth Single Bus Trip 2,1,Child/Student
+2022-12,Bus,Concession,540844,Concession
+2022-12,Bus,CTP,5154068,Contactless
+2022-12,Bus,Day Pass Child/Youth w/o SAF,76,Child/Student
+2022-12,Bus,Day Pass without SAF,875,Adult
+2022-12,Bus,Employee,57600,Other
+2022-12,Bus,Free Travel,27112,Other
+2022-12,Bus,On Demand,19991,Other
+2022-12,Bus,School Student,609216,Child/Student
+2022-12,Bus,Senior/Pensioner,3033997,Senior
+2023-01,Bus,Adult,5837688,Adult
+2023-01,Bus,Adult Single Bus Trip 1,118,Adult
+2023-01,Bus,Adult Single Bus Trip 2,39,Adult
+2023-01,Bus,Adult Single Bus Trip 3,16,Adult
+2023-01,Bus,Child/Youth,937575,Child/Student
+2023-01,Bus,Child/Youth Single Bus Trip 1,4,Child/Student
+2023-01,Bus,Child/Youth Single Bus Trip 3,2,Child/Student
+2023-01,Bus,Concession,497056,Concession
+2023-01,Bus,CTP,5225867,Contactless
+2023-01,Bus,Day Pass Child/Youth w/o SAF,27,Child/Student
+2023-01,Bus,Day Pass without SAF,843,Adult
+2023-01,Bus,Employee,53044,Other
+2023-01,Bus,Free Travel,24933,Other
+2023-01,Bus,On Demand,20233,Other
+2023-01,Bus,School Student,68263,Child/Student
+2023-01,Bus,Senior/Pensioner,2864913,Senior
+2023-02,Bus,Adult,6556480,Adult
+2023-02,Bus,Adult Single Bus Trip 1,123,Adult
+2023-02,Bus,Adult Single Bus Trip 2,45,Adult
+2023-02,Bus,Adult Single Bus Trip 3,18,Adult
+2023-02,Bus,Child/Youth,711553,Child/Student
+2023-02,Bus,Child/Youth Single Bus Trip 1,3,Child/Student
+2023-02,Bus,Concession,744808,Concession
+2023-02,Bus,CTP,5722372,Contactless
+2023-02,Bus,Day Pass Child/Youth w/o SAF,17,Child/Student
+2023-02,Bus,Day Pass without SAF,797,Adult
+2023-02,Bus,Employee,56198,Other
+2023-02,Bus,Free Travel,27684,Other
+2023-02,Bus,On Demand,20943,Other
+2023-02,Bus,School Student,1649956,Child/Student
+2023-02,Bus,Senior/Pensioner,3008755,Senior
+2023-03,Bus,Adult,7519038,Adult
+2023-03,Bus,Adult Single Bus Trip 1,166,Adult
+2023-03,Bus,Adult Single Bus Trip 2,43,Adult
+2023-03,Bus,Adult Single Bus Trip 3,35,Adult
+2023-03,Bus,Child/Youth,700890,Child/Student
+2023-03,Bus,Child/Youth Single Bus Trip 1,2,Child/Student
+2023-03,Bus,Child/Youth Single Bus Trip 2,1,Child/Student
+2023-03,Bus,Child/Youth Single Bus Trip 3,4,Child/Student
+2023-03,Bus,Concession,1124148,Concession
+2023-03,Bus,CTP,6535087,Contactless
+2023-03,Bus,Day Pass Child/Youth w/o SAF,5,Child/Student
+2023-03,Bus,Day Pass without SAF,828,Adult
+2023-03,Bus,Employee,63019,Other
+2023-03,Bus,Free Travel,31190,Other
+2023-03,Bus,On Demand,23727,Other
+2023-03,Bus,School Student,1838842,Child/Student
+2023-03,Bus,Senior/Pensioner,3379990,Senior
+2023-04,Bus,Adult,6160543,Adult
+2023-04,Bus,Adult Single Bus Trip 1,136,Adult
+2023-04,Bus,Adult Single Bus Trip 2,38,Adult
+2023-04,Bus,Adult Single Bus Trip 3,19,Adult
+2023-04,Bus,Child/Youth,793429,Child/Student
+2023-04,Bus,Child/Youth Single Bus Trip 1,4,Child/Student
+2023-04,Bus,Concession,737056,Concession
+2023-04,Bus,CTP,5449786,Contactless
+2023-04,Bus,Day Pass Child/Youth w/o SAF,10,Child/Student
+2023-04,Bus,Day Pass without SAF,640,Adult
+2023-04,Bus,Employee,52762,Other
+2023-04,Bus,Free Travel,25999,Other
+2023-04,Bus,On Demand,19879,Other
+2023-04,Bus,School Student,535317,Child/Student
+2023-04,Bus,Senior/Pensioner,2870360,Senior
+2023-05,Bus,Adult,7183054,Adult
+2023-05,Bus,Adult Single Bus Trip 1,122,Adult
+2023-05,Bus,Adult Single Bus Trip 2,60,Adult
+2023-05,Bus,Adult Single Bus Trip 3,50,Adult
+2023-05,Bus,Child/Youth,620035,Child/Student
+2023-05,Bus,Child/Youth Single Bus Trip 1,4,Child/Student
+2023-05,Bus,Child/Youth Single Bus Trip 2,6,Child/Student
+2023-05,Bus,Concession,913933,Concession
+2023-05,Bus,CTP,6225131,Contactless
+2023-05,Bus,Day Pass Child/Youth w/o SAF,42,Child/Student
+2023-05,Bus,Day Pass without SAF,812,Adult
+2023-05,Bus,Employee,60831,Other
+2023-05,Bus,Free Travel,30606,Other
+2023-05,Bus,On Demand,23498,Other
+2023-05,Bus,School Student,1732938,Child/Student
+2023-05,Bus,Senior/Pensioner,3303661,Senior
+2023-06,Bus,Adult,6737620,Adult
+2023-06,Bus,Adult Single Bus Trip 1,122,Adult
+2023-06,Bus,Adult Single Bus Trip 2,36,Adult
+2023-06,Bus,Adult Single Bus Trip 3,20,Adult
+2023-06,Bus,Child/Youth,631376,Child/Student
+2023-06,Bus,Child/Youth Single Bus Trip 1,2,Child/Student
+2023-06,Bus,Child/Youth Single Bus Trip 2,2,Child/Student
+2023-06,Bus,Child/Youth Single Bus Trip 3,2,Child/Student
+2023-06,Bus,Concession,738771,Concession
+2023-06,Bus,CTP,5807866,Contactless
+2023-06,Bus,Day Pass Child/Youth w/o SAF,32,Child/Student
+2023-06,Bus,Day Pass without SAF,795,Adult
+2023-06,Bus,Employee,59092,Other
+2023-06,Bus,Free Travel,28632,Other
+2023-06,Bus,On Demand,21708,Other
+2023-06,Bus,School Student,1438756,Child/Student
+2023-06,Bus,Senior/Pensioner,3121090,Senior
+2023-07,Bus,Adult,6954647,Adult
+2023-07,Bus,Adult Single Bus Trip 1,167,Adult
+2023-07,Bus,Adult Single Bus Trip 2,58,Adult
+2023-07,Bus,Adult Single Bus Trip 3,31,Adult
+2023-07,Bus,Child/Youth,862457,Child/Student
+2023-07,Bus,Child/Youth Single Bus Trip 1,2,Child/Student
+2023-07,Bus,Child/Youth Single Bus Trip 2,2,Child/Student
+2023-07,Bus,Concession,704268,Concession
+2023-07,Bus,CTP,5933683,Contactless
+2023-07,Bus,Day Pass Child/Youth w/o SAF,75,Child/Student
+2023-07,Bus,Day Pass without SAF,897,Adult
+2023-07,Bus,Employee,55711,Other
+2023-07,Bus,Free Travel,28817,Other
+2023-07,Bus,On Demand,22410,Other
+2023-07,Bus,School Student,732360,Child/Student
+2023-07,Bus,Senior/Pensioner,3144619,Senior
+2023-08,Bus,Adult,7488394,Adult
+2023-08,Bus,Adult Single Bus Trip 1,119,Adult
+2023-08,Bus,Adult Single Bus Trip 2,40,Adult
+2023-08,Bus,Adult Single Bus Trip 3,12,Adult
+2023-08,Bus,Child/Youth,654775,Child/Student
+2023-08,Bus,Child/Youth Single Bus Trip 1,9,Child/Student
+2023-08,Bus,Child/Youth Single Bus Trip 2,1,Child/Student
+2023-08,Bus,Concession,1009829,Concession
+2023-08,Bus,CTP,6452578,Contactless
+2023-08,Bus,Day Pass Child/Youth w/o SAF,24,Child/Student
+2023-08,Bus,Day Pass without SAF,1072,Adult
+2023-08,Bus,Employee,61504,Other
+2023-08,Bus,Free Travel,30404,Other
+2023-08,Bus,On Demand,23305,Other
+2023-08,Bus,School Student,1659586,Child/Student
+2023-08,Bus,Senior/Pensioner,3327349,Senior
+2023-09,Bus,Adult,7210065,Adult
+2023-09,Bus,Adult Single Bus Trip 1,205,Adult
+2023-09,Bus,Adult Single Bus Trip 2,36,Adult
+2023-09,Bus,Adult Single Bus Trip 3,21,Adult
+2023-09,Bus,Child/Youth,745820,Child/Student
+2023-09,Bus,Child/Youth Single Bus Trip 1,4,Child/Student
+2023-09,Bus,Child/Youth Single Bus Trip 2,6,Child/Student
+2023-09,Bus,Concession,878719,Concession
+2023-09,Bus,CTP,6414509,Contactless
+2023-09,Bus,Day Pass Child/Youth w/o SAF,35,Child/Student
+2023-09,Bus,Day Pass without SAF,1104,Adult
+2023-09,Bus,Employee,59160,Other
+2023-09,Bus,Free Travel,28199,Other
+2023-09,Bus,On Demand,21874,Other
+2023-09,Bus,School Student,1103009,Child/Student
+2023-09,Bus,Senior/Pensioner,3177181,Senior
+2023-10,Bus,Adult,7376720,Adult
+2023-10,Bus,Adult Single Bus Trip 1,109,Adult
+2023-10,Bus,Adult Single Bus Trip 2,48,Adult
+2023-10,Bus,Adult Single Bus Trip 3,26,Adult
+2023-10,Bus,Child/Youth,750832,Child/Student
+2023-10,Bus,Child/Youth Single Bus Trip 1,1,Child/Student
+2023-10,Bus,Child/Youth Single Bus Trip 3,1,Child/Student
+2023-10,Bus,Concession,913122,Concession
+2023-10,Bus,CTP,6848735,Contactless
+2023-10,Bus,Day Pass Child/Youth w/o SAF,46,Child/Student
+2023-10,Bus,Day Pass without SAF,965,Adult
+2023-10,Bus,Employee,62160,Other
+2023-10,Bus,Free Travel,29730,Other
+2023-10,Bus,On Demand,22581,Other
+2023-10,Bus,School Student,1149219,Child/Student
+2023-10,Bus,Senior/Pensioner,3261947,Senior
+2023-11,Bus,Adult,7332267,Adult
+2023-11,Bus,Adult Single Bus Trip 1,120,Adult
+2023-11,Bus,Adult Single Bus Trip 2,72,Adult
+2023-11,Bus,Adult Single Bus Trip 3,29,Adult
+2023-11,Bus,Child/Youth,638475,Child/Student
+2023-11,Bus,Child/Youth Single Bus Trip 2,1,Child/Student
+2023-11,Bus,Child/Youth Single Bus Trip 3,2,Child/Student
+2023-11,Bus,Concession,764431,Concession
+2023-11,Bus,CTP,7022689,Contactless
+2023-11,Bus,Day Pass Child/Youth w/o SAF,35,Child/Student
+2023-11,Bus,Day Pass without SAF,1000,Adult
+2023-11,Bus,Employee,62959,Other
+2023-11,Bus,Free Travel,30071,Other
+2023-11,Bus,On Demand,22514,Other
+2023-11,Bus,School Student,1421368,Child/Student
+2023-11,Bus,Senior/Pensioner,3352004,Senior
+2023-12,Bus,Adult,6558058,Adult
+2023-12,Bus,Adult Single Bus Trip 1,140,Adult
+2023-12,Bus,Adult Single Bus Trip 2,36,Adult
+2023-12,Bus,Adult Single Bus Trip 3,21,Adult
+2023-12,Bus,Child/Youth,788695,Child/Student
+2023-12,Bus,Child/Youth Single Bus Trip 1,2,Child/Student
+2023-12,Bus,Child/Youth Single Bus Trip 2,1,Child/Student
+2023-12,Bus,Concession,564924,Concession
+2023-12,Bus,CTP,6687137,Contactless
+2023-12,Bus,Day Pass Child/Youth w/o SAF,17,Child/Student
+2023-12,Bus,Day Pass without SAF,1002,Adult
+2023-12,Bus,Employee,59638,Other
+2023-12,Bus,Free Travel,27716,Other
+2023-12,Bus,On Demand,19650,Other
+2023-12,Bus,School Student,547473,Child/Student
+2023-12,Bus,Senior/Pensioner,3116395,Senior
+2024-01,Bus,Adult,6491822,Adult
+2024-01,Bus,Child/Youth,963039,Child/Student
+2024-01,Bus,Concession,530888,Concession
+2024-01,Bus,CTP,6712175,Contactless
+2024-01,Bus,Day Pass Child/Youth w/o SAF,14,Child/Student
+2024-01,Bus,Day Pass without SAF,1223,Adult
+2024-01,Bus,Employee,56231,Other
+2024-01,Bus,Free Travel,27073,Other
+2024-01,Bus,On Demand,60778,Other
+2024-01,Bus,School Student,31527,Child/Student
+2024-01,Bus,Senior/Pensioner,3068068,Senior
+2024-01,Bus,UNKNOWN,52,Other
+2024-02,Bus,Adult,7225333,Adult
+2024-02,Bus,Child/Youth,731401,Child/Student
+2024-02,Bus,Concession,845806,Concession
+2024-02,Bus,CTP,7202865,Contactless
+2024-02,Bus,Day Pass Child/Youth w/o SAF,10,Child/Student
+2024-02,Bus,Day Pass without SAF,1201,Adult
+2024-02,Bus,Employee,58888,Other
+2024-02,Bus,Free Travel,27696,Other
+2024-02,Bus,On Demand,60557,Other
+2024-02,Bus,School Student,1528991,Child/Student
+2024-02,Bus,Senior/Pensioner,3153299,Senior
+2024-02,Bus,UNKNOWN,223,Other
+2024-03,Bus,Adult,7319585,Adult
+2024-03,Bus,Child/Youth,670547,Child/Student
+2024-03,Bus,Concession,1127874,Concession
+2024-03,Bus,CTP,7413240,Contactless
+2024-03,Bus,Day Pass Child/Youth w/o SAF,9,Child/Student
+2024-03,Bus,Day Pass without SAF,1094,Adult
+2024-03,Bus,Employee,61289,Other
+2024-03,Bus,Free Travel,29299,Other
+2024-03,Bus,On Demand,57258,Other
+2024-03,Bus,School Student,1482352,Child/Student
+2024-03,Bus,Senior/Pensioner,3349867,Senior
+2024-03,Bus,UNKNOWN,148,Other
+2024-04,Bus,Adult,6776386,Adult
+2024-04,Bus,Child/Youth,786210,Child/Student
+2024-04,Bus,Concession,920544,Concession
+2024-04,Bus,CTP,6993234,Contactless
+2024-04,Bus,Day Pass Child/Youth w/o SAF,53,Child/Student
+2024-04,Bus,Day Pass without SAF,1078,Adult
+2024-04,Bus,Employee,63414,Other
+2024-04,Bus,Free Travel,27884,Other
+2024-04,Bus,On Demand,57571,Other
+2024-04,Bus,School Student,656048,Child/Student
+2024-04,Bus,Senior/Pensioner,3158495,Senior
+2024-04,Bus,UNKNOWN,144,Other
+2024-05,Bus,Adult,7223700,Adult
+2024-05,Bus,Child/Youth,575196,Child/Student
+2024-05,Bus,Concession,1014088,Concession
+2024-05,Bus,CTP,7317814,Contactless
+2024-05,Bus,Day Pass Child/Youth w/o SAF,37,Child/Student
+2024-05,Bus,Day Pass without SAF,992,Adult
+2024-05,Bus,Employee,74752,Other
+2024-05,Bus,Free Travel,28449,Other
+2024-05,Bus,On Demand,61319,Other
+2024-05,Bus,School Student,1544547,Child/Student
+2024-05,Bus,Senior/Pensioner,3366431,Senior
+2024-05,Bus,UNKNOWN,262,Other
+2024-06,Bus,Adult,6338863,Adult
+2024-06,Bus,Child/Youth,556158,Child/Student
+2024-06,Bus,Concession,791569,Concession
+2024-06,Bus,CTP,6392070,Contactless
+2024-06,Bus,Day Pass Child/Youth w/o SAF,9,Child/Student
+2024-06,Bus,Day Pass without SAF,1092,Adult
+2024-06,Bus,Employee,67533,Other
+2024-06,Bus,Free Travel,26010,Other
+2024-06,Bus,On Demand,56418,Other
+2024-06,Bus,School Student,1212845,Child/Student
+2024-06,Bus,Senior/Pensioner,3031263,Senior
+2024-06,Bus,UNKNOWN,148,Other
+2024-07,Bus,Adult,6950155,Adult
+2024-07,Bus,Child/Youth,818016,Child/Student
+2024-07,Bus,Concession,823070,Concession
+2024-07,Bus,CTP,6975633,Contactless
+2024-07,Bus,Day Pass Child/Youth w/o SAF,19,Child/Student
+2024-07,Bus,Day Pass without SAF,1245,Adult
+2024-07,Bus,Employee,74951,Other
+2024-07,Bus,Free Travel,29240,Other
+2024-07,Bus,On Demand,63116,Other
+2024-07,Bus,School Student,703933,Child/Student
+2024-07,Bus,Senior/Pensioner,3292915,Senior
+2024-07,Bus,UNKNOWN,161,Other
+2024-08,Bus,Adult,7134529,Adult
+2024-08,Bus,Child/Youth,635572,Child/Student
+2024-08,Bus,Concession,1100597,Concession
+2024-08,Bus,CTP,7234374,Contactless
+2024-08,Bus,Day Pass Child/Youth w/o SAF,10,Child/Student
+2024-08,Bus,Day Pass without SAF,1219,Adult
+2024-08,Bus,Employee,76565,Other
+2024-08,Bus,Free Travel,30149,Other
+2024-08,Bus,On Demand,57638,Other
+2024-08,Bus,School Student,1411393,Child/Student
+2024-08,Bus,Senior/Pensioner,3401688,Senior
+2024-08,Bus,UNKNOWN,150,Other
+2024-09,Bus,Adult,6792698,Adult
+2024-09,Bus,Child/Youth,587456,Child/Student
+2024-09,Bus,Concession,1022300,Concession
+2024-09,Bus,CTP,7093109,Contactless
+2024-09,Bus,Day Pass Child/Youth w/o SAF,34,Child/Student
+2024-09,Bus,Day Pass without SAF,1272,Adult
+2024-09,Bus,Employee,72752,Other
+2024-09,Bus,Free Travel,29726,Other
+2024-09,Bus,On Demand,54436,Other
+2024-09,Bus,School Student,1237969,Child/Student
+2024-09,Bus,Senior/Pensioner,3260107,Senior
+2024-09,Bus,UNKNOWN,78,Other
+2024-10,Bus,Adult,7055253,Adult
+2024-10,Bus,Child/Youth,767811,Child/Student
+2024-10,Bus,Concession,1017981,Concession
+2024-10,Bus,CTP,7714601,Contactless
+2024-10,Bus,Day Pass Child/Youth w/o SAF,47,Child/Student
+2024-10,Bus,Day Pass without SAF,1215,Adult
+2024-10,Bus,Employee,76858,Other
+2024-10,Bus,Free Travel,30370,Other
+2024-10,Bus,On Demand,38759,Other
+2024-10,Bus,School Student,826205,Child/Student
+2024-10,Bus,Senior/Pensioner,3447184,Senior
+2024-10,Bus,UNKNOWN,82,Other
+2024-11,Bus,Adult,6853297,Adult
+2024-11,Bus,Child/Youth,601534,Child/Student
+2024-11,Bus,Concession,846197,Concession
+2024-11,Bus,CTP,7649188,Contactless
+2024-11,Bus,Day Pass Child/Youth w/o SAF,21,Child/Student
+2024-11,Bus,Day Pass without SAF,1026,Adult
+2024-11,Bus,Employee,75642,Other
+2024-11,Bus,Free Travel,30327,Other
+2024-11,Bus,On Demand,35625,Other
+2024-11,Bus,School Student,1203738,Child/Student
+2024-11,Bus,Senior/Pensioner,3398065,Senior
+2024-11,Bus,UNKNOWN,82,Other
+2024-12,Bus,Adult,6253891,Adult
+2024-12,Bus,Child/Youth,730066,Child/Student
+2024-12,Bus,Concession,640198,Concession
+2024-12,Bus,CTP,7274067,Contactless
+2024-12,Bus,Day Pass Child/Youth w/o SAF,134,Child/Student
+2024-12,Bus,Day Pass without SAF,837,Adult
+2024-12,Bus,Employee,75435,Other
+2024-12,Bus,Free Travel,28291,Other
+2024-12,Bus,On Demand,33285,Other
+2024-12,Bus,School Student,580977,Child/Student
+2024-12,Bus,Senior/Pensioner,3299749,Senior
+2024-12,Bus,UNKNOWN,25,Other
+2025-01,Bus,Adult,6045487,Adult
+2025-01,Bus,Child/Youth,877909,Child/Student
+2025-01,Bus,Concession,578570,Concession
+2025-01,Bus,CTP,7220103,Contactless
+2025-01,Bus,Day Pass Child/Youth w/o SAF,2,Child/Student
+2025-01,Bus,Day Pass without SAF,860,Adult
+2025-01,Bus,Employee,72103,Other
+2025-01,Bus,Free Travel,28054,Other
+2025-01,Bus,On Demand,48119,Other
+2025-01,Bus,School Student,11096,Child/Student
+2025-01,Bus,Senior/Pensioner,3132431,Senior
+2025-01,Bus,UNKNOWN,20,Other
+2025-02,Bus,Adult,6528279,Adult
+2025-02,Bus,Child/Youth,705777,Child/Student
+2025-02,Bus,Concession,879201,Concession
+2025-02,Bus,CTP,7749283,Contactless
+2025-02,Bus,Day Pass Child/Youth w/o SAF,44,Child/Student
+2025-02,Bus,Day Pass without SAF,998,Adult
+2025-02,Bus,Employee,75830,Other
+2025-02,Bus,Free Travel,29583,Other
+2025-02,Bus,On Demand,49050,Other
+2025-02,Bus,School Student,1315644,Child/Student
+2025-02,Bus,Senior/Pensioner,3232711,Senior
+2025-02,Bus,UNKNOWN,51,Other
+2025-03,Bus,Adult,7084575,Adult
+2025-03,Bus,Child/Youth,640351,Child/Student
+2025-03,Bus,Concession,1313881,Concession
+2025-03,Bus,CTP,8544262,Contactless
+2025-03,Bus,Day Pass Child/Youth w/o SAF,54,Child/Student
+2025-03,Bus,Day Pass without SAF,1006,Adult
+2025-03,Bus,Employee,81363,Other
+2025-03,Bus,Free Travel,31425,Other
+2025-03,Bus,On Demand,53082,Other
+2025-03,Bus,School Student,1534859,Child/Student
+2025-03,Bus,Senior/Pensioner,3436577,Senior
+2025-03,Bus,UNKNOWN,101,Other
+2025-04,Bus,Adult,6183518,Adult
+2025-04,Bus,Child/Youth,729205,Child/Student
+2025-04,Bus,Concession,1056082,Concession
+2025-04,Bus,CTP,7511779,Contactless
+2025-04,Bus,Day Pass Child/Youth w/o SAF,7,Child/Student
+2025-04,Bus,Day Pass without SAF,918,Adult
+2025-04,Bus,Employee,74367,Other
+2025-04,Bus,Free Travel,27526,Other
+2025-04,Bus,On Demand,49932,Other
+2025-04,Bus,School Student,717253,Child/Student
+2025-04,Bus,Senior/Pensioner,3136107,Senior
+2025-04,Bus,UNKNOWN,66,Other
+2025-05,Bus,Adult,6631547,Adult
+2025-05,Bus,Child/Youth,561257,Child/Student
+2025-05,Bus,Concession,1097768,Concession
+2025-05,Bus,CTP,7906266,Contactless
+2025-05,Bus,Day Pass Child/Youth w/o SAF,14,Child/Student
+2025-05,Bus,Day Pass without SAF,1129,Adult
+2025-05,Bus,Employee,80995,Other
+2025-05,Bus,Free Travel,29582,Other
+2025-05,Bus,On Demand,55921,Other
+2025-05,Bus,School Student,1424220,Child/Student
+2025-05,Bus,Senior/Pensioner,3298477,Senior
+2025-05,Bus,UNKNOWN,48,Other
+2025-06,Bus,Adult,6077451,Adult
+2025-06,Bus,Child/Youth,537658,Child/Student
+2025-06,Bus,Concession,854342,Concession
+2025-06,Bus,CTP,7224030,Contactless
+2025-06,Bus,Day Pass Child/Youth w/o SAF,48,Child/Student
+2025-06,Bus,Day Pass without SAF,1395,Adult
+2025-06,Bus,Employee,78305,Other
+2025-06,Bus,Free Travel,28368,Other
+2025-06,Bus,On Demand,49380,Other
+2025-06,Bus,School Student,1222709,Child/Student
+2025-06,Bus,Senior/Pensioner,3138547,Senior
+2025-06,Bus,UNKNOWN,23,Other
+2025-07,Bus,Adult,6377442,Adult
+2025-07,Bus,Child/Youth,772408,Child/Student
+2025-07,Bus,Concession,808703,Concession
+2025-07,Bus,CTP,7525753,Contactless
+2025-07,Bus,Day Pass Child/Youth w/o SAF,33,Child/Student
+2025-07,Bus,Day Pass without SAF,1288,Adult
+2025-07,Bus,Employee,80771,Other
+2025-07,Bus,Free Travel,28616,Other
+2025-07,Bus,On Demand,37862,Other
+2025-07,Bus,School Student,641317,Child/Student
+2025-07,Bus,Senior/Pensioner,3205876,Senior
+2025-07,Bus,UNKNOWN,16,Other
+2025-08,Bus,Adult,6294343,Adult
+2025-08,Bus,Child/Youth,557475,Child/Student
+2025-08,Bus,Concession,1075599,Concession
+2025-08,Bus,CTP,7694292,Contactless
+2025-08,Bus,Day Pass Child/Youth w/o SAF,11,Child/Student
+2025-08,Bus,Day Pass without SAF,1190,Adult
+2025-08,Bus,Employee,79758,Other
+2025-08,Bus,Free Travel,28518,Other
+2025-08,Bus,On Demand,32760,Other
+2025-08,Bus,School Student,1215988,Child/Student
+2025-08,Bus,Senior/Pensioner,3103105,Senior
+2025-08,Bus,UNKNOWN,11,Other
+2025-09,Bus,Adult,6473300,Adult
+2025-09,Bus,Child/Youth,580156,Child/Student
+2025-09,Bus,Concession,1053191,Concession
+2025-09,Bus,CTP,8015509,Contactless
+2025-09,Bus,Day Pass Child/Youth w/o SAF,22,Child/Student
+2025-09,Bus,Day Pass without SAF,1326,Adult
+2025-09,Bus,Employee,83439,Other
+2025-09,Bus,Free Travel,29194,Other
+2025-09,Bus,On Demand,36516,Other
+2025-09,Bus,School Student,1144348,Child/Student
+2025-09,Bus,Senior/Pensioner,3305037,Senior
+2025-09,Bus,UNKNOWN,8,Other
+2025-10,Bus,Adult,6567774,Adult
+2025-10,Bus,Child/Youth,725065,Child/Student
+2025-10,Bus,Concession,1046203,Concession
+2025-10,Bus,CTP,8516372,Contactless
+2025-10,Bus,Day Pass Child/Youth w/o SAF,19,Child/Student
+2025-10,Bus,Day Pass without SAF,1388,Adult
+2025-10,Bus,Employee,84698,Other
+2025-10,Bus,Free Travel,30165,Other
+2025-10,Bus,On Demand,38433,Other
+2025-10,Bus,School Student,804848,Child/Student
+2025-10,Bus,Senior/Pensioner,3419869,Senior
+2025-10,Bus,UNKNOWN,21,Other
+2025-11,Bus,Adult,6394415,Adult
+2025-11,Bus,Child/Youth,577875,Child/Student
+2025-11,Bus,Concession,879073,Concession
+2025-11,Bus,CTP,8553115,Contactless
+2025-11,Bus,Day Pass Child/Youth w/o SAF,128,Child/Student
+2025-11,Bus,Day Pass without SAF,1178,Adult
+2025-11,Bus,Employee,83856,Other
+2025-11,Bus,Free Travel,28835,Other
+2025-11,Bus,On Demand,27615,Other
+2025-11,Bus,School Student,1096165,Child/Student
+2025-11,Bus,Senior/Pensioner,3372686,Senior
+2025-11,Bus,UNKNOWN,44,Other
+2025-12,Bus,Adult,5810979,Adult
+2025-12,Bus,Child/Youth,653193,Child/Student
+2025-12,Bus,Concession,640506,Concession
+2025-12,Bus,CTP,8210781,Contactless
+2025-12,Bus,Day Pass Child/Youth w/o SAF,5,Child/Student
+2025-12,Bus,Day Pass without SAF,1156,Adult
+2025-12,Bus,Employee,83745,Other
+2025-12,Bus,Free Travel,28536,Other
+2025-12,Bus,On Demand,31451,Other
+2025-12,Bus,School Student,595405,Child/Student
+2025-12,Bus,Senior/Pensioner,3304105,Senior
+2025-12,Bus,UNKNOWN,18,Other
+2026-01,Bus,Adult,5548903,Adult
+2026-01,Bus,Child/Youth,828841,Child/Student
+2026-01,Bus,Concession,522488,Concession
+2026-01,Bus,CTP,8068252,Contactless
+2026-01,Bus,Day Pass Child/Youth w/o SAF,4,Child/Student
+2026-01,Bus,Day Pass without SAF,931,Adult
+2026-01,Bus,Employee,80344,Other
+2026-01,Bus,Free Travel,27452,Other
+2026-01,Bus,On Demand,35172,Other
+2026-01,Bus,School Student,48545,Child/Student
+2026-01,Bus,Senior/Pensioner,3106695,Senior
+2026-01,Bus,UNKNOWN,10,Other
+2026-02,Bus,Adult,5976119,Adult
+2026-02,Bus,Child/Youth,606973,Child/Student
+2026-02,Bus,Concession,776853,Concession
+2026-02,Bus,CTP,8530017,Contactless
+2026-02,Bus,Day Pass Child/Youth w/o SAF,1,Child/Student
+2026-02,Bus,Day Pass without SAF,1010,Adult
+2026-02,Bus,Employee,82053,Other
+2026-02,Bus,Free Travel,27444,Other
+2026-02,Bus,On Demand,29641,Other
+2026-02,Bus,School Student,1286547,Child/Student
+2026-02,Bus,Senior/Pensioner,3135680,Senior
+2026-02,Bus,UNKNOWN,15,Other
+2026-03,Bus,Adult,6746612,Adult
+2026-03,Bus,Child/Youth,598311,Child/Student
+2026-03,Bus,Concession,1287367,Concession
+2026-03,Bus,CTP,9815886,Contactless
+2026-03,Bus,Day Pass Child/Youth w/o SAF,23,Child/Student
+2026-03,Bus,Day Pass without SAF,966,Adult
+2026-03,Bus,Employee,99392,Other
+2026-03,Bus,Free Travel,31598,Other
+2026-03,Bus,On Demand,52510,Other
+2026-03,Bus,School Student,1413767,Child/Student
+2026-03,Bus,Senior/Pensioner,3677052,Senior
+2026-03,Bus,UNKNOWN,19,Other
+2026-04,Bus,Adult,5914581,Adult
+2026-04,Bus,Child/Youth,770229,Child/Student
+2026-04,Bus,Concession,1049645,Concession
+2026-04,Bus,CTP,8646243,Contactless
+2026-04,Bus,Day Pass Child/Youth w/o SAF,2,Child/Student
+2026-04,Bus,Day Pass without SAF,900,Adult
+2026-04,Bus,Employee,92324,Other
+2026-04,Bus,Free Travel,29347,Other
+2026-04,Bus,On Demand,47378,Other
+2026-04,Bus,School Student,532384,Child/Student
+2026-04,Bus,Senior/Pensioner,3462388,Senior
+2026-04,Bus,UNKNOWN,6,Other
+2026-05,Bus,Adult,5946171,Adult
+2026-05,Bus,Child/Youth,524098,Child/Student
+2026-05,Bus,Concession,1055210,Concession
+2026-05,Bus,CTP,8879735,Contactless
+2026-05,Bus,Day Pass Child/Youth w/o SAF,27,Child/Student
+2026-05,Bus,Day Pass without SAF,904,Adult
+2026-05,Bus,Employee,89906,Other
+2026-05,Bus,Free Travel,28504,Other
+2026-05,Bus,On Demand,49020,Other
+2026-05,Bus,School Student,1186869,Child/Student
+2026-05,Bus,Senior/Pensioner,3373379,Senior
+2026-05,Bus,UNKNOWN,22,Other
+2026-06,Bus,Adult,5502362,Adult
+2026-06,Bus,Child/Youth,472634,Child/Student
+2026-06,Bus,Concession,838842,Concession
+2026-06,Bus,CTP,7900260,Contactless
+2026-06,Bus,Day Pass Child/Youth w/o SAF,45,Child/Student
+2026-06,Bus,Day Pass without SAF,991,Adult
+2026-06,Bus,Employee,83414,Other
+2026-06,Bus,Free Travel,25960,Other
+2026-06,Bus,On Demand,35350,Other
+2026-06,Bus,School Student,1063274,Child/Student
+2026-06,Bus,Senior/Pensioner,3223803,Senior
+2026-06,Bus,UNKNOWN,17,Other
+2026-07,Bus,Adult,5948116,Adult
+2026-07,Bus,Child/Youth,741957,Child/Student
+2026-07,Bus,Concession,806775,Concession
+2026-07,Bus,CTP,8506570,Contactless
+2026-07,Bus,Day Pass Child/Youth w/o SAF,46,Child/Student
+2026-07,Bus,Day Pass without SAF,968,Adult
+2026-07,Bus,Employee,94242,Other
+2026-07,Bus,Free Travel,29019,Other
+2026-07,Bus,On Demand,48119,Other
+2026-07,Bus,School Student,597025,Child/Student
+2026-07,Bus,Senior/Pensioner,3534343,Senior
+2026-07,Bus,UNKNOWN,8,Other
+2026-08,Bus,Adult,5875274,Adult
+2026-08,Bus,Child/Youth,542386,Child/Student
+2026-08,Bus,Concession,1059019,Concession
+2026-08,Bus,CTP,8918325,Contactless
+2026-08,Bus,Day Pass Child/Youth w/o SAF,35,Child/Student
+2026-08,Bus,Day Pass without SAF,898,Adult
+2026-08,Bus,Employee,93866,Other
+2026-08,Bus,Free Travel,29085,Other
+2026-08,Bus,On Demand,27520,Other
+2026-08,Bus,School Student,1103878,Child/Student
+2026-08,Bus,Senior/Pensioner,3494521,Senior
+2026-08,Bus,UNKNOWN,15,Other
+2016-07,Ferry,Adult,843225,Adult
+2016-07,Ferry,Child/Youth,106950,Child/Student
+2016-07,Ferry,Concession,65703,Concession
+2016-07,Ferry,Employee,4844,Other
+2016-07,Ferry,Free Travel,1124,Other
+2016-07,Ferry,School Student,729,Child/Student
+2016-07,Ferry,Senior/Pensioner,144870,Senior
+2016-07,Ferry,Sgl Trip Ferry Adult,10030,Adult
+2016-07,Ferry,Sgl Trip Ferry Child/Youth,2547,Child/Student
+2016-08,Ferry,Adult,753282,Adult
+2016-08,Ferry,Child/Youth,78631,Child/Student
+2016-08,Ferry,Concession,24222,Concession
+2016-08,Ferry,Employee,4261,Other
+2016-08,Ferry,Free Travel,1474,Other
+2016-08,Ferry,School Student,1705,Child/Student
+2016-08,Ferry,Senior/Pensioner,149840,Senior
+2016-08,Ferry,Sgl Trip Ferry Adult,39692,Adult
+2016-08,Ferry,Sgl Trip Ferry Child/Youth,8103,Child/Student
+2016-09,Ferry,Adult,760301,Adult
+2016-09,Ferry,Child/Youth,97985,Child/Student
+2016-09,Ferry,Concession,24150,Concession
+2016-09,Ferry,Employee,4503,Other
+2016-09,Ferry,Free Travel,1587,Other
+2016-09,Ferry,School Student,1177,Child/Student
+2016-09,Ferry,Senior/Pensioner,156096,Senior
+2016-09,Ferry,Sgl Trip Ferry Adult,46928,Adult
+2016-09,Ferry,Sgl Trip Ferry Child/Youth,10730,Child/Student
+2016-10,Ferry,Adult,857922,Adult
+2016-10,Ferry,Child/Youth,115145,Child/Student
+2016-10,Ferry,Concession,23186,Concession
+2016-10,Ferry,Employee,4994,Other
+2016-10,Ferry,Free Travel,1831,Other
+2016-10,Ferry,School Student,1056,Child/Student
+2016-10,Ferry,Senior/Pensioner,178735,Senior
+2016-10,Ferry,Sgl Trip Ferry Adult,52692,Adult
+2016-10,Ferry,Sgl Trip Ferry Child/Youth,9442,Child/Student
+2016-11,Ferry,Adult,906467,Adult
+2016-11,Ferry,Child/Youth,73594,Child/Student
+2016-11,Ferry,Concession,24764,Concession
+2016-11,Ferry,Employee,5332,Other
+2016-11,Ferry,Free Travel,1984,Other
+2016-11,Ferry,School Student,1444,Child/Student
+2016-11,Ferry,Senior/Pensioner,185940,Senior
+2016-11,Ferry,Sgl Trip Ferry Adult,57975,Adult
+2016-11,Ferry,Sgl Trip Ferry Child/Youth,6023,Child/Student
+2016-12,Ferry,Adult,1026157,Adult
+2016-12,Ferry,Child/Youth,139955,Child/Student
+2016-12,Ferry,Concession,27007,Concession
+2016-12,Ferry,Employee,5397,Other
+2016-12,Ferry,Free Travel,1864,Other
+2016-12,Ferry,School Student,378,Child/Student
+2016-12,Ferry,Senior/Pensioner,177831,Senior
+2016-12,Ferry,Sgl Trip Ferry Adult,70707,Adult
+2016-12,Ferry,Sgl Trip Ferry Child/Youth,16773,Child/Student
+2017-01,Ferry,Adult,1142072,Adult
+2017-01,Ferry,Child/Youth,211042,Child/Student
+2017-01,Ferry,Concession,27702,Concession
+2017-01,Ferry,Employee,5585,Other
+2017-01,Ferry,Free Travel,2006,Other
+2017-01,Ferry,School Student,85,Child/Student
+2017-01,Ferry,Senior/Pensioner,212525,Senior
+2017-01,Ferry,Sgl Trip Ferry Adult,76631,Adult
+2017-01,Ferry,Sgl Trip Ferry Child/Youth,21171,Child/Student
+2017-02,Ferry,Adult,844150,Adult
+2017-02,Ferry,Child/Youth,54350,Child/Student
+2017-02,Ferry,Concession,22888,Concession
+2017-02,Ferry,Employee,4423,Other
+2017-02,Ferry,Free Travel,1612,Other
+2017-02,Ferry,School Student,1289,Child/Student
+2017-02,Ferry,Senior/Pensioner,161444,Senior
+2017-02,Ferry,Sgl Trip Ferry Adult,56176,Adult
+2017-02,Ferry,Sgl Trip Ferry Child/Youth,5700,Child/Student
+2017-03,Ferry,Adult,860621,Adult
+2017-03,Ferry,Child/Youth,60777,Child/Student
+2017-03,Ferry,Concession,28435,Concession
+2017-03,Ferry,Employee,4476,Other
+2017-03,Ferry,Free Travel,1583,Other
+2017-03,Ferry,School Student,1465,Child/Student
+2017-03,Ferry,Senior/Pensioner,161264,Senior
+2017-03,Ferry,Sgl Trip Ferry Adult,55429,Adult
+2017-03,Ferry,Sgl Trip Ferry Child/Youth,6774,Child/Student
+2017-04,Ferry,Adult,929160,Adult
+2017-04,Ferry,Child/Youth,143460,Child/Student
+2017-04,Ferry,Concession,27917,Concession
+2017-04,Ferry,Employee,4584,Other
+2017-04,Ferry,Free Travel,1845,Other
+2017-04,Ferry,School Student,508,Child/Student
+2017-04,Ferry,Senior/Pensioner,183715,Senior
+2017-04,Ferry,Sgl Trip Ferry Adult,59293,Adult
+2017-04,Ferry,Sgl Trip Ferry Child/Youth,15138,Child/Student
+2017-05,Ferry,Adult,788376,Adult
+2017-05,Ferry,Child/Youth,60566,Child/Student
+2017-05,Ferry,Concession,27035,Concession
+2017-05,Ferry,Employee,4829,Other
+2017-05,Ferry,Free Travel,1916,Other
+2017-05,Ferry,School Student,1431,Child/Student
+2017-05,Ferry,Senior/Pensioner,179581,Senior
+2017-05,Ferry,Sgl Trip Ferry Adult,40290,Adult
+2017-05,Ferry,Sgl Trip Ferry Child/Youth,5607,Child/Student
+2017-06,Ferry,Adult,770991,Adult
+2017-06,Ferry,Child/Youth,91944,Child/Student
+2017-06,Ferry,Concession,25763,Concession
+2017-06,Ferry,Employee,4713,Other
+2017-06,Ferry,Free Travel,1886,Other
+2017-06,Ferry,School Student,1074,Child/Student
+2017-06,Ferry,Senior/Pensioner,172622,Senior
+2017-06,Ferry,Sgl Trip Ferry Adult,42949,Adult
+2017-06,Ferry,Sgl Trip Ferry Child/Youth,10431,Child/Student
+2017-07,Ferry,Adult,834096,Adult
+2017-07,Ferry,Child/Youth,151312,Child/Student
+2017-07,Ferry,Concession,25015,Concession
+2017-07,Ferry,CTP,2138,Contactless
+2017-07,Ferry,Employee,4144,Other
+2017-07,Ferry,Free Travel,1758,Other
+2017-07,Ferry,School Student,570,Child/Student
+2017-07,Ferry,Senior/Pensioner,170393,Senior
+2017-07,Ferry,Sgl Trip Ferry Adult,55823,Adult
+2017-07,Ferry,Sgl Trip Ferry Child/Youth,20097,Child/Student
+2017-08,Ferry,Adult,737809,Adult
+2017-08,Ferry,Child/Youth,76409,Child/Student
+2017-08,Ferry,Concession,25782,Concession
+2017-08,Ferry,CTP,1976,Contactless
+2017-08,Ferry,Day Pass Child/Youth w/o SAF,3,Child/Student
+2017-08,Ferry,Day Pass without SAF,5,Adult
+2017-08,Ferry,Employee,3984,Other
+2017-08,Ferry,Free Travel,1462,Other
+2017-08,Ferry,School Student,1171,Child/Student
+2017-08,Ferry,Senior/Pensioner,154731,Senior
+2017-08,Ferry,Sgl Trip Ferry Adult,47631,Adult
+2017-08,Ferry,Sgl Trip Ferry Child/Youth,11008,Child/Student
+2017-09,Ferry,Adult,786596,Adult
+2017-09,Ferry,Child/Youth,108215,Child/Student
+2017-09,Ferry,Concession,26691,Concession
+2017-09,Ferry,CTP,2049,Contactless
+2017-09,Ferry,Day Pass without SAF,1,Adult
+2017-09,Ferry,Employee,4325,Other
+2017-09,Ferry,Free Travel,1711,Other
+2017-09,Ferry,School Student,785,Child/Student
+2017-09,Ferry,Senior/Pensioner,162664,Senior
+2017-09,Ferry,Sgl Trip Ferry Adult,51151,Adult
+2017-09,Ferry,Sgl Trip Ferry Child/Youth,12129,Child/Student
+2017-10,Ferry,Adult,873294,Adult
+2017-10,Ferry,Child/Youth,111485,Child/Student
+2017-10,Ferry,Concession,24151,Concession
+2017-10,Ferry,CTP,2459,Contactless
+2017-10,Ferry,Day Pass without SAF,1,Adult
+2017-10,Ferry,Employee,4670,Other
+2017-10,Ferry,Free Travel,1680,Other
+2017-10,Ferry,School Student,872,Child/Student
+2017-10,Ferry,Senior/Pensioner,173917,Senior
+2017-10,Ferry,Sgl Trip Ferry Adult,58384,Adult
+2017-10,Ferry,Sgl Trip Ferry Child/Youth,11756,Child/Student
+2017-11,Ferry,Adult,878178,Adult
+2017-11,Ferry,Child/Youth,72421,Child/Student
+2017-11,Ferry,Concession,23404,Concession
+2017-11,Ferry,CTP,2019,Contactless
+2017-11,Ferry,Employee,4994,Other
+2017-11,Ferry,Free Travel,1819,Other
+2017-11,Ferry,School Student,1205,Child/Student
+2017-11,Ferry,Senior/Pensioner,174627,Senior
+2017-11,Ferry,Sgl Trip Ferry Adult,63149,Adult
+2017-11,Ferry,Sgl Trip Ferry Child/Youth,7171,Child/Student
+2017-12,Ferry,Adult,1019882,Adult
+2017-12,Ferry,Child/Youth,141085,Child/Student
+2017-12,Ferry,Concession,27266,Concession
+2017-12,Ferry,CTP,2307,Contactless
+2017-12,Ferry,Employee,4690,Other
+2017-12,Ferry,Free Travel,1701,Other
+2017-12,Ferry,School Student,463,Child/Student
+2017-12,Ferry,Senior/Pensioner,175972,Senior
+2017-12,Ferry,Sgl Trip Ferry Adult,75067,Adult
+2017-12,Ferry,Sgl Trip Ferry Child/Youth,18807,Child/Student
+2018-01,Ferry,Adult,1084315,Adult
+2018-01,Ferry,Child/Youth,191520,Child/Student
+2018-01,Ferry,Concession,28238,Concession
+2018-01,Ferry,CTP,2466,Contactless
+2018-01,Ferry,Employee,5770,Other
+2018-01,Ferry,Free Travel,1951,Other
+2018-01,Ferry,School Student,132,Child/Student
+2018-01,Ferry,Senior/Pensioner,210200,Senior
+2018-01,Ferry,Sgl Trip Ferry Adult,79580,Adult
+2018-01,Ferry,Sgl Trip Ferry Child/Youth,23423,Child/Student
+2018-02,Ferry,Adult,876953,Adult
+2018-02,Ferry,Child/Youth,62141,Child/Student
+2018-02,Ferry,Concession,23826,Concession
+2018-02,Ferry,CTP,2069,Contactless
+2018-02,Ferry,Employee,4572,Other
+2018-02,Ferry,Free Travel,1726,Other
+2018-02,Ferry,School Student,1245,Child/Student
+2018-02,Ferry,Senior/Pensioner,174888,Senior
+2018-02,Ferry,Sgl Trip Ferry Adult,63773,Adult
+2018-02,Ferry,Sgl Trip Ferry Child/Youth,8079,Child/Student
+2018-03,Ferry,Adult,951833,Adult
+2018-03,Ferry,Child/Youth,74446,Child/Student
+2018-03,Ferry,Concession,31173,Concession
+2018-03,Ferry,CTP,14690,Contactless
+2018-03,Ferry,Employee,4440,Other
+2018-03,Ferry,Free Travel,1610,Other
+2018-03,Ferry,School Student,1268,Child/Student
+2018-03,Ferry,Senior/Pensioner,190851,Senior
+2018-03,Ferry,Sgl Trip Ferry Adult,61722,Adult
+2018-03,Ferry,Sgl Trip Ferry Child/Youth,10095,Child/Student
+2018-04,Ferry,Adult,955342,Adult
+2018-04,Ferry,Child/Youth,150683,Child/Student
+2018-04,Ferry,Concession,28818,Concession
+2018-04,Ferry,CTP,20559,Contactless
+2018-04,Ferry,Employee,4571,Other
+2018-04,Ferry,Free Travel,1764,Other
+2018-04,Ferry,School Student,584,Child/Student
+2018-04,Ferry,Senior/Pensioner,204628,Senior
+2018-04,Ferry,Sgl Trip Ferry Adult,54494,Adult
+2018-04,Ferry,Sgl Trip Ferry Child/Youth,16375,Child/Student
+2018-05,Ferry,Adult,802068,Adult
+2018-05,Ferry,Child/Youth,63884,Child/Student
+2018-05,Ferry,Concession,26197,Concession
+2018-05,Ferry,CTP,18440,Contactless
+2018-05,Ferry,Employee,4772,Other
+2018-05,Ferry,Free Travel,1716,Other
+2018-05,Ferry,School Student,1384,Child/Student
+2018-05,Ferry,Senior/Pensioner,190823,Senior
+2018-05,Ferry,Sgl Trip Ferry Adult,40546,Adult
+2018-05,Ferry,Sgl Trip Ferry Child/Youth,6662,Child/Student
+2018-06,Ferry,Adult,747161,Adult
+2018-06,Ferry,Child/Youth,89525,Child/Student
+2018-06,Ferry,Concession,23655,Concession
+2018-06,Ferry,CTP,20957,Contactless
+2018-06,Ferry,Employee,4208,Other
+2018-06,Ferry,Free Travel,1593,Other
+2018-06,Ferry,School Student,1174,Child/Student
+2018-06,Ferry,Senior/Pensioner,163644,Senior
+2018-06,Ferry,Sgl Trip Ferry Adult,39564,Adult
+2018-06,Ferry,Sgl Trip Ferry Child/Youth,11086,Child/Student
+2018-07,Ferry,Adult,816829,Adult
+2018-07,Ferry,Child/Youth,147689,Child/Student
+2018-07,Ferry,Concession,24012,Concession
+2018-07,Ferry,CTP,15079,Contactless
+2018-07,Ferry,Day Pass without SAF,3,Adult
+2018-07,Ferry,Employee,4163,Other
+2018-07,Ferry,Free Travel,1718,Other
+2018-07,Ferry,School Student,451,Child/Student
+2018-07,Ferry,Senior/Pensioner,178160,Senior
+2018-07,Ferry,Sgl Trip Ferry Adult,44585,Adult
+2018-07,Ferry,Sgl Trip Ferry Child/Youth,17510,Child/Student
+2018-08,Ferry,Adult,730939,Adult
+2018-08,Ferry,Child/Youth,74734,Child/Student
+2018-08,Ferry,Concession,23048,Concession
+2018-08,Ferry,CTP,14406,Contactless
+2018-08,Ferry,Day Pass without SAF,4,Adult
+2018-08,Ferry,Employee,3450,Other
+2018-08,Ferry,Free Travel,1483,Other
+2018-08,Ferry,School Student,1306,Child/Student
+2018-08,Ferry,Senior/Pensioner,158302,Senior
+2018-08,Ferry,Sgl Trip Ferry Adult,41119,Adult
+2018-08,Ferry,Sgl Trip Ferry Child/Youth,10037,Child/Student
+2018-09,Ferry,Adult,755965,Adult
+2018-09,Ferry,Child/Youth,80150,Child/Student
+2018-09,Ferry,Concession,21664,Concession
+2018-09,Ferry,CTP,13924,Contactless
+2018-09,Ferry,Employee,3788,Other
+2018-09,Ferry,Free Travel,1535,Other
+2018-09,Ferry,School Student,1127,Child/Student
+2018-09,Ferry,Senior/Pensioner,161253,Senior
+2018-09,Ferry,Sgl Trip Ferry Adult,41289,Adult
+2018-09,Ferry,Sgl Trip Ferry Child/Youth,8921,Child/Student
+2018-10,Ferry,Adult,738435,Adult
+2018-10,Ferry,Child/Youth,87423,Child/Student
+2018-10,Ferry,Concession,19170,Concession
+2018-10,Ferry,CTP,16320,Contactless
+2018-10,Ferry,Day Pass without SAF,3,Adult
+2018-10,Ferry,Employee,3631,Other
+2018-10,Ferry,Free Travel,1532,Other
+2018-10,Ferry,School Student,705,Child/Student
+2018-10,Ferry,Senior/Pensioner,161941,Senior
+2018-10,Ferry,Sgl Trip Ferry Adult,45136,Adult
+2018-10,Ferry,Sgl Trip Ferry Child/Youth,9845,Child/Student
+2018-11,Ferry,Adult,865957,Adult
+2018-11,Ferry,Child/Youth,72043,Child/Student
+2018-11,Ferry,Concession,22222,Concession
+2018-11,Ferry,CTP,20715,Contactless
+2018-11,Ferry,Day Pass without SAF,4,Adult
+2018-11,Ferry,Employee,4200,Other
+2018-11,Ferry,Free Travel,1567,Other
+2018-11,Ferry,School Student,1098,Child/Student
+2018-11,Ferry,Senior/Pensioner,176614,Senior
+2018-11,Ferry,Sgl Trip Ferry Adult,51364,Adult
+2018-11,Ferry,Sgl Trip Ferry Child/Youth,6894,Child/Student
+2018-12,Ferry,Adult,993902,Adult
+2018-12,Ferry,Child/Youth,133899,Child/Student
+2018-12,Ferry,Concession,23914,Concession
+2018-12,Ferry,CTP,45727,Contactless
+2018-12,Ferry,Day Pass without SAF,2,Adult
+2018-12,Ferry,Employee,5048,Other
+2018-12,Ferry,Free Travel,1650,Other
+2018-12,Ferry,School Student,447,Child/Student
+2018-12,Ferry,Senior/Pensioner,177514,Senior
+2018-12,Ferry,Sgl Trip Ferry Adult,62404,Adult
+2018-12,Ferry,Sgl Trip Ferry Child/Youth,16424,Child/Student
+2019-01,Ferry,Adult,999639,Adult
+2019-01,Ferry,Child/Youth,189671,Child/Student
+2019-01,Ferry,Concession,25242,Concession
+2019-01,Ferry,CTP,58537,Contactless
+2019-01,Ferry,Day Pass without SAF,5,Adult
+2019-01,Ferry,Employee,5194,Other
+2019-01,Ferry,Free Travel,2015,Other
+2019-01,Ferry,School Student,163,Child/Student
+2019-01,Ferry,Senior/Pensioner,211817,Senior
+2019-01,Ferry,Sgl Trip Ferry Adult,61360,Adult
+2019-01,Ferry,Sgl Trip Ferry Child/Youth,19149,Child/Student
+2019-02,Ferry,Adult,850571,Adult
+2019-02,Ferry,Child/Youth,64101,Child/Student
+2019-02,Ferry,Concession,22034,Concession
+2019-02,Ferry,CTP,47051,Contactless
+2019-02,Ferry,Day Pass without SAF,11,Adult
+2019-02,Ferry,Employee,4186,Other
+2019-02,Ferry,Free Travel,1713,Other
+2019-02,Ferry,School Student,1369,Child/Student
+2019-02,Ferry,Senior/Pensioner,180415,Senior
+2019-02,Ferry,Sgl Trip Ferry Adult,45285,Adult
+2019-02,Ferry,Sgl Trip Ferry Child/Youth,6282,Child/Student
+2019-03,Ferry,Adult,863238,Adult
+2019-03,Ferry,Child/Youth,65966,Child/Student
+2019-03,Ferry,Concession,27238,Concession
+2019-03,Ferry,CTP,52039,Contactless
+2019-03,Ferry,Day Pass Child/Youth w/o SAF,6,Child/Student
+2019-03,Ferry,Day Pass without SAF,10,Adult
+2019-03,Ferry,Employee,4077,Other
+2019-03,Ferry,Free Travel,1704,Other
+2019-03,Ferry,School Student,1496,Child/Student
+2019-03,Ferry,Senior/Pensioner,183694,Senior
+2019-03,Ferry,Sgl Trip Ferry Adult,46412,Adult
+2019-03,Ferry,Sgl Trip Ferry Child/Youth,6437,Child/Student
+2019-04,Ferry,Adult,887293,Adult
+2019-04,Ferry,Child/Youth,141300,Child/Student
+2019-04,Ferry,Concession,24374,Concession
+2019-04,Ferry,CTP,54154,Contactless
+2019-04,Ferry,Day Pass without SAF,6,Adult
+2019-04,Ferry,Employee,4212,Other
+2019-04,Ferry,Free Travel,1742,Other
+2019-04,Ferry,School Student,796,Child/Student
+2019-04,Ferry,Senior/Pensioner,199228,Senior
+2019-04,Ferry,Sgl Trip Ferry Adult,49727,Adult
+2019-04,Ferry,Sgl Trip Ferry Child/Youth,15970,Child/Student
+2019-05,Ferry,Adult,758239,Adult
+2019-05,Ferry,Child/Youth,62247,Child/Student
+2019-05,Ferry,Concession,23582,Concession
+2019-05,Ferry,CTP,51727,Contactless
+2019-05,Ferry,Day Pass Child/Youth w/o SAF,178,Child/Student
+2019-05,Ferry,Day Pass without SAF,21,Adult
+2019-05,Ferry,Employee,4626,Other
+2019-05,Ferry,Free Travel,1710,Other
+2019-05,Ferry,School Student,1738,Child/Student
+2019-05,Ferry,Senior/Pensioner,189887,Senior
+2019-05,Ferry,Sgl Trip Ferry Adult,31501,Adult
+2019-05,Ferry,Sgl Trip Ferry Child/Youth,5522,Child/Student
+2019-06,Ferry,Adult,732090,Adult
+2019-06,Ferry,Child/Youth,97035,Child/Student
+2019-06,Ferry,Concession,22511,Concession
+2019-06,Ferry,CTP,55609,Contactless
+2019-06,Ferry,Day Pass Child/Youth w/o SAF,80,Child/Student
+2019-06,Ferry,Day Pass without SAF,8,Adult
+2019-06,Ferry,Employee,4292,Other
+2019-06,Ferry,Free Travel,1557,Other
+2019-06,Ferry,School Student,1367,Child/Student
+2019-06,Ferry,Senior/Pensioner,168510,Senior
+2019-06,Ferry,Sgl Trip Ferry Adult,32282,Adult
+2019-06,Ferry,Sgl Trip Ferry Child/Youth,9985,Child/Student
+2019-07,Ferry,Adult,762309,Adult
+2019-07,Ferry,Child/Youth,140359,Child/Student
+2019-07,Ferry,Concession,21685,Concession
+2019-07,Ferry,CTP,50349,Contactless
+2019-07,Ferry,Day Pass Child/Youth w/o SAF,83,Child/Student
+2019-07,Ferry,Day Pass without SAF,9,Adult
+2019-07,Ferry,Employee,4094,Other
+2019-07,Ferry,Free Travel,1449,Other
+2019-07,Ferry,School Student,697,Child/Student
+2019-07,Ferry,Senior/Pensioner,174020,Senior
+2019-07,Ferry,Sgl Trip Ferry Adult,35865,Adult
+2019-07,Ferry,Sgl Trip Ferry Child/Youth,15817,Child/Student
+2019-08,Ferry,Adult,699103,Adult
+2019-08,Ferry,Child/Youth,76499,Child/Student
+2019-08,Ferry,Concession,21472,Concession
+2019-08,Ferry,CTP,58355,Contactless
+2019-08,Ferry,Day Pass Child/Youth w/o SAF,349,Child/Student
+2019-08,Ferry,Day Pass without SAF,26,Adult
+2019-08,Ferry,Employee,3327,Other
+2019-08,Ferry,Free Travel,1440,Other
+2019-08,Ferry,School Student,1749,Child/Student
+2019-08,Ferry,Senior/Pensioner,158257,Senior
+2019-08,Ferry,Sgl Trip Ferry Adult,31988,Adult
+2019-08,Ferry,Sgl Trip Ferry Child/Youth,8804,Child/Student
+2019-09,Ferry,Adult,724070,Adult
+2019-09,Ferry,Child/Youth,78952,Child/Student
+2019-09,Ferry,Concession,21770,Concession
+2019-09,Ferry,CTP,81461,Contactless
+2019-09,Ferry,Day Pass Child/Youth w/o SAF,139,Child/Student
+2019-09,Ferry,Day Pass without SAF,15,Adult
+2019-09,Ferry,Employee,3607,Other
+2019-09,Ferry,Free Travel,1554,Other
+2019-09,Ferry,School Student,1561,Child/Student
+2019-09,Ferry,Senior/Pensioner,162728,Senior
+2019-09,Ferry,Sgl Trip Ferry Adult,29810,Adult
+2019-09,Ferry,Sgl Trip Ferry Child/Youth,7458,Child/Student
+2019-10,Ferry,Adult,757149,Adult
+2019-10,Ferry,Child/Youth,115053,Child/Student
+2019-10,Ferry,Concession,21895,Concession
+2019-10,Ferry,CTP,144705,Contactless
+2019-10,Ferry,Day Pass Child/Youth w/o SAF,528,Child/Student
+2019-10,Ferry,Day Pass without SAF,75,Adult
+2019-10,Ferry,Employee,4516,Other
+2019-10,Ferry,Free Travel,1804,Other
+2019-10,Ferry,School Student,1325,Child/Student
+2019-10,Ferry,Senior/Pensioner,199329,Senior
+2019-10,Ferry,Sgl Trip Ferry Adult,36475,Adult
+2019-10,Ferry,Sgl Trip Ferry Child/Youth,10120,Child/Student
+2019-11,Ferry,Adult,732393,Adult
+2019-11,Ferry,Child/Youth,70765,Child/Student
+2019-11,Ferry,Concession,20130,Concession
+2019-11,Ferry,CTP,169582,Contactless
+2019-11,Ferry,Day Pass Child/Youth w/o SAF,431,Child/Student
+2019-11,Ferry,Day Pass without SAF,111,Adult
+2019-11,Ferry,Employee,4813,Other
+2019-11,Ferry,Free Travel,1657,Other
+2019-11,Ferry,School Student,2072,Child/Student
+2019-11,Ferry,Senior/Pensioner,184074,Senior
+2019-11,Ferry,Sgl Trip Ferry Adult,36807,Adult
+2019-11,Ferry,Sgl Trip Ferry Child/Youth,5826,Child/Student
+2019-12,Ferry,Adult,806919,Adult
+2019-12,Ferry,Child/Youth,127906,Child/Student
+2019-12,Ferry,Concession,22202,Concession
+2019-12,Ferry,CTP,216150,Contactless
+2019-12,Ferry,Day Pass Child/Youth w/o SAF,25,Child/Student
+2019-12,Ferry,Day Pass without SAF,79,Adult
+2019-12,Ferry,Employee,4492,Other
+2019-12,Ferry,Free Travel,1689,Other
+2019-12,Ferry,School Student,1868,Child/Student
+2019-12,Ferry,Senior/Pensioner,171955,Senior
+2019-12,Ferry,Sgl Trip Ferry Adult,47920,Adult
+2019-12,Ferry,Sgl Trip Ferry Child/Youth,15074,Child/Student
+2020-01,Ferry,Adult,778507,Adult
+2020-01,Ferry,Child/Youth,172094,Child/Student
+2020-01,Ferry,Concession,21295,Concession
+2020-01,Ferry,CTP,232668,Contactless
+2020-01,Ferry,Day Pass Child/Youth w/o SAF,4,Child/Student
+2020-01,Ferry,Day Pass without SAF,28,Adult
+2020-01,Ferry,Employee,4781,Other
+2020-01,Ferry,Free Travel,1737,Other
+2020-01,Ferry,School Student,705,Child/Student
+2020-01,Ferry,Senior/Pensioner,196336,Senior
+2020-01,Ferry,Sgl Trip Ferry Adult,48444,Adult
+2020-01,Ferry,Sgl Trip Ferry Child/Youth,18322,Child/Student
+2020-02,Ferry,Adult,574461,Adult
+2020-02,Ferry,Child/Youth,44642,Child/Student
+2020-02,Ferry,Concession,18415,Concession
+2020-02,Ferry,CTP,191812,Contactless
+2020-02,Ferry,Day Pass without SAF,21,Adult
+2020-02,Ferry,Employee,3626,Other
+2020-02,Ferry,Free Travel,1339,Other
+2020-02,Ferry,School Student,4924,Child/Student
+2020-02,Ferry,Senior/Pensioner,150255,Senior
+2020-02,Ferry,Sgl Trip Ferry Adult,31263,Adult
+2020-02,Ferry,Sgl Trip Ferry Child/Youth,4187,Child/Student
+2020-03,Ferry,Adult,364409,Adult
+2020-03,Ferry,Child/Youth,24926,Child/Student
+2020-03,Ferry,Concession,13908,Concession
+2020-03,Ferry,CTP,127153,Contactless
+2020-03,Ferry,Day Pass without SAF,16,Adult
+2020-03,Ferry,Employee,2481,Other
+2020-03,Ferry,Free Travel,876,Other
+2020-03,Ferry,School Student,4395,Child/Student
+2020-03,Ferry,Senior/Pensioner,87904,Senior
+2020-03,Ferry,Sgl Trip Ferry Adult,16082,Adult
+2020-03,Ferry,Sgl Trip Ferry Child/Youth,2533,Child/Student
+2020-04,Ferry,Adult,42947,Adult
+2020-04,Ferry,Child/Youth,1891,Child/Student
+2020-04,Ferry,Concession,1400,Concession
+2020-04,Ferry,CTP,18086,Contactless
+2020-04,Ferry,Day Pass without SAF,2,Adult
+2020-04,Ferry,Employee,970,Other
+2020-04,Ferry,Free Travel,176,Other
+2020-04,Ferry,School Student,41,Child/Student
+2020-04,Ferry,Senior/Pensioner,15858,Senior
+2020-04,Ferry,Sgl Trip Ferry Adult,522,Adult
+2020-04,Ferry,Sgl Trip Ferry Child/Youth,294,Child/Student
+2020-05,Ferry,Adult,95807,Adult
+2020-05,Ferry,Child/Youth,6985,Child/Student
+2020-05,Ferry,Concession,3939,Concession
+2020-05,Ferry,CTP,41067,Contactless
+2020-05,Ferry,Day Pass without SAF,2,Adult
+2020-05,Ferry,Employee,1203,Other
+2020-05,Ferry,Free Travel,360,Other
+2020-05,Ferry,School Student,1609,Child/Student
+2020-05,Ferry,Senior/Pensioner,35693,Senior
+2020-05,Ferry,Sgl Trip Ferry Adult,1162,Adult
+2020-05,Ferry,Sgl Trip Ferry Child/Youth,659,Child/Student
+2020-06,Ferry,Adult,167296,Adult
+2020-06,Ferry,Child/Youth,18282,Child/Student
+2020-06,Ferry,Concession,8457,Concession
+2020-06,Ferry,CTP,76954,Contactless
+2020-06,Ferry,Day Pass Child/Youth w/o SAF,2,Child/Student
+2020-06,Ferry,Day Pass without SAF,3,Adult
+2020-06,Ferry,Employee,1913,Other
+2020-06,Ferry,Free Travel,703,Other
+2020-06,Ferry,School Student,4698,Child/Student
+2020-06,Ferry,Senior/Pensioner,65322,Senior
+2020-06,Ferry,Sgl Trip Ferry Adult,3592,Adult
+2020-06,Ferry,Sgl Trip Ferry Child/Youth,2299,Child/Student
+2020-07,Ferry,Adult,190495,Adult
+2020-07,Ferry,Child/Youth,44486,Child/Student
+2020-07,Ferry,Concession,11626,Concession
+2020-07,Ferry,CTP,94238,Contactless
+2020-07,Ferry,Day Pass without SAF,13,Adult
+2020-07,Ferry,Employee,2285,Other
+2020-07,Ferry,Free Travel,822,Other
+2020-07,Ferry,School Student,2521,Child/Student
+2020-07,Ferry,Senior/Pensioner,72765,Senior
+2020-07,Ferry,Sgl Trip Ferry Adult,6021,Adult
+2020-07,Ferry,Sgl Trip Ferry Child/Youth,5740,Child/Student
+2020-08,Ferry,Adult,161074,Adult
+2020-08,Ferry,Child/Youth,14550,Child/Student
+2020-08,Ferry,Concession,10505,Concession
+2020-08,Ferry,CTP,84902,Contactless
+2020-08,Ferry,Day Pass without SAF,1,Adult
+2020-08,Ferry,Employee,1947,Other
+2020-08,Ferry,Free Travel,706,Other
+2020-08,Ferry,School Student,4416,Child/Student
+2020-08,Ferry,Senior/Pensioner,62721,Senior
+2020-08,Ferry,Sgl Trip Ferry Adult,1898,Adult
+2020-08,Ferry,Sgl Trip Ferry Child/Youth,1282,Child/Student
+2020-09,Ferry,Adult,180897,Adult
+2020-09,Ferry,Child/Youth,25580,Child/Student
+2020-09,Ferry,Concession,11896,Concession
+2020-09,Ferry,CTP,97244,Contactless
+2020-09,Ferry,Day Pass without SAF,4,Adult
+2020-09,Ferry,Employee,2640,Other
+2020-09,Ferry,Free Travel,875,Other
+2020-09,Ferry,School Student,4899,Child/Student
+2020-09,Ferry,Senior/Pensioner,80952,Senior
+2020-09,Ferry,Sgl Trip Ferry Adult,2772,Adult
+2020-09,Ferry,Sgl Trip Ferry Child/Youth,2306,Child/Student
+2020-10,Ferry,Adult,221134,Adult
+2020-10,Ferry,Child/Youth,54670,Child/Student
+2020-10,Ferry,Concession,13199,Concession
+2020-10,Ferry,CTP,119082,Contactless
+2020-10,Ferry,Day Pass Child/Youth w/o SAF,4,Child/Student
+2020-10,Ferry,Day Pass without SAF,20,Adult
+2020-10,Ferry,Employee,3232,Other
+2020-10,Ferry,Free Travel,1042,Other
+2020-10,Ferry,School Student,3868,Child/Student
+2020-10,Ferry,Senior/Pensioner,97780,Senior
+2020-10,Ferry,Sgl Trip Ferry Adult,5593,Adult
+2020-10,Ferry,Sgl Trip Ferry Child/Youth,5240,Child/Student
+2020-11,Ferry,Adult,207784,Adult
+2020-11,Ferry,Child/Youth,26252,Child/Student
+2020-11,Ferry,Concession,12171,Concession
+2020-11,Ferry,CTP,123020,Contactless
+2020-11,Ferry,Day Pass without SAF,10,Adult
+2020-11,Ferry,Employee,3070,Other
+2020-11,Ferry,Free Travel,1162,Other
+2020-11,Ferry,School Student,6383,Child/Student
+2020-11,Ferry,Senior/Pensioner,108042,Senior
+2020-11,Ferry,Sgl Trip Ferry Adult,4573,Adult
+2020-11,Ferry,Sgl Trip Ferry Child/Youth,2573,Child/Student
+2020-12,Ferry,Adult,185806,Adult
+2020-12,Ferry,Child/Youth,31511,Child/Student
+2020-12,Ferry,Concession,11088,Concession
+2020-12,Ferry,CTP,115940,Contactless
+2020-12,Ferry,Day Pass without SAF,15,Adult
+2020-12,Ferry,Employee,2554,Other
+2020-12,Ferry,Free Travel,886,Other
+2020-12,Ferry,School Student,3641,Child/Student
+2020-12,Ferry,Senior/Pensioner,85843,Senior
+2020-12,Ferry,Sgl Trip Ferry Adult,5608,Adult
+2020-12,Ferry,Sgl Trip Ferry Child/Youth,3470,Child/Student
+2021-01,Ferry,Adult,198600,Adult
+2021-01,Ferry,Child/Youth,58205,Child/Student
+2021-01,Ferry,Concession,13237,Concession
+2021-01,Ferry,CTP,129525,Contactless
+2021-01,Ferry,Day Pass Child/Youth w/o SAF,1,Child/Student
+2021-01,Ferry,Day Pass without SAF,5,Adult
+2021-01,Ferry,Employee,2920,Other
+2021-01,Ferry,Free Travel,919,Other
+2021-01,Ferry,School Student,667,Child/Student
+2021-01,Ferry,Senior/Pensioner,85893,Senior
+2021-01,Ferry,Sgl Trip Ferry Adult,4247,Adult
+2021-01,Ferry,Sgl Trip Ferry Child/Youth,4985,Child/Student
+2021-02,Ferry,Adult,207028,Adult
+2021-02,Ferry,Child/Youth,23784,Child/Student
+2021-02,Ferry,Concession,14678,Concession
+2021-02,Ferry,CTP,139655,Contactless
+2021-02,Ferry,Day Pass without SAF,3,Adult
+2021-02,Ferry,Employee,3180,Other
+2021-02,Ferry,Free Travel,1034,Other
+2021-02,Ferry,School Student,8187,Child/Student
+2021-02,Ferry,Senior/Pensioner,108810,Senior
+2021-02,Ferry,Sgl Trip Ferry Adult,4346,Adult
+2021-02,Ferry,Sgl Trip Ferry Child/Youth,2201,Child/Student
+2021-03,Ferry,Adult,226576,Adult
+2021-03,Ferry,Child/Youth,29621,Child/Student
+2021-03,Ferry,Concession,15791,Concession
+2021-03,Ferry,CTP,155959,Contactless
+2021-03,Ferry,Day Pass without SAF,16,Adult
+2021-03,Ferry,Employee,3573,Other
+2021-03,Ferry,Free Travel,1115,Other
+2021-03,Ferry,School Student,9084,Child/Student
+2021-03,Ferry,Senior/Pensioner,124318,Senior
+2021-03,Ferry,Sgl Trip Ferry Adult,6248,Adult
+2021-03,Ferry,Sgl Trip Ferry Child/Youth,3014,Child/Student
+2021-04,Ferry,Adult,326641,Adult
+2021-04,Ferry,Child/Youth,92715,Child/Student
+2021-04,Ferry,Concession,16643,Concession
+2021-04,Ferry,CTP,233926,Contactless
+2021-04,Ferry,Day Pass without SAF,15,Adult
+2021-04,Ferry,Employee,4519,Other
+2021-04,Ferry,Free Travel,1540,Other
+2021-04,Ferry,School Student,4288,Child/Student
+2021-04,Ferry,Senior/Pensioner,168032,Senior
+2021-04,Ferry,Sgl Trip Ferry Adult,18735,Adult
+2021-04,Ferry,Sgl Trip Ferry Child/Youth,15144,Child/Student
+2021-05,Ferry,Adult,235433,Adult
+2021-05,Ferry,Child/Youth,29413,Child/Student
+2021-05,Ferry,Concession,13817,Concession
+2021-05,Ferry,CTP,181396,Contactless
+2021-05,Ferry,Day Pass Child/Youth w/o SAF,612,Child/Student
+2021-05,Ferry,Day Pass without SAF,38,Adult
+2021-05,Ferry,Employee,4195,Other
+2021-05,Ferry,Free Travel,1239,Other
+2021-05,Ferry,School Student,7899,Child/Student
+2021-05,Ferry,Senior/Pensioner,137196,Senior
+2021-05,Ferry,Sgl Trip Ferry Adult,8717,Adult
+2021-05,Ferry,Sgl Trip Ferry Child/Youth,4322,Child/Student
+2021-06,Ferry,Adult,176057,Adult
+2021-06,Ferry,Child/Youth,24667,Child/Student
+2021-06,Ferry,Concession,9928,Concession
+2021-06,Ferry,CTP,131760,Contactless
+2021-06,Ferry,Day Pass Child/Youth w/o SAF,192,Child/Student
+2021-06,Ferry,Day Pass without SAF,3,Adult
+2021-06,Ferry,Employee,2373,Other
+2021-06,Ferry,Free Travel,965,Other
+2021-06,Ferry,School Student,5419,Child/Student
+2021-06,Ferry,Senior/Pensioner,95622,Senior
+2021-06,Ferry,Sgl Trip Ferry Adult,5169,Adult
+2021-06,Ferry,Sgl Trip Ferry Child/Youth,3029,Child/Student
+2021-07,Ferry,Adult,22439,Adult
+2021-07,Ferry,Child/Youth,1443,Child/Student
+2021-07,Ferry,Concession,1336,Concession
+2021-07,Ferry,CTP,17045,Contactless
+2021-07,Ferry,Day Pass without SAF,3,Adult
+2021-07,Ferry,Employee,525,Other
+2021-07,Ferry,Free Travel,156,Other
+2021-07,Ferry,School Student,63,Child/Student
+2021-07,Ferry,Senior/Pensioner,10987,Senior
+2021-07,Ferry,Sgl Trip Ferry Adult,196,Adult
+2021-07,Ferry,Sgl Trip Ferry Child/Youth,185,Child/Student
+2021-08,Ferry,Adult,18803,Adult
+2021-08,Ferry,Child/Youth,1098,Child/Student
+2021-08,Ferry,Concession,813,Concession
+2021-08,Ferry,CTP,16667,Contactless
+2021-08,Ferry,Day Pass without SAF,3,Adult
+2021-08,Ferry,Employee,571,Other
+2021-08,Ferry,Free Travel,93,Other
+2021-08,Ferry,School Student,108,Child/Student
+2021-08,Ferry,Senior/Pensioner,10679,Senior
+2021-08,Ferry,Sgl Trip Ferry Adult,172,Adult
+2021-08,Ferry,Sgl Trip Ferry Child/Youth,148,Child/Student
+2021-09,Ferry,Adult,25293,Adult
+2021-09,Ferry,Child/Youth,3599,Child/Student
+2021-09,Ferry,Concession,1022,Concession
+2021-09,Ferry,CTP,22920,Contactless
+2021-09,Ferry,Employee,649,Other
+2021-09,Ferry,Free Travel,168,Other
+2021-09,Ferry,School Student,87,Child/Student
+2021-09,Ferry,Senior/Pensioner,16809,Senior
+2021-09,Ferry,Sgl Trip Ferry Adult,214,Adult
+2021-09,Ferry,Sgl Trip Ferry Child/Youth,367,Child/Student
+2021-10,Ferry,Adult,106992,Adult
+2021-10,Ferry,Child/Youth,20387,Child/Student
+2021-10,Ferry,Concession,7011,Concession
+2021-10,Ferry,CTP,102574,Contactless
+2021-10,Ferry,Day Pass without SAF,1,Adult
+2021-10,Ferry,Employee,2141,Other
+2021-10,Ferry,Free Travel,689,Other
+2021-10,Ferry,School Student,2626,Child/Student
+2021-10,Ferry,Senior/Pensioner,66214,Senior
+2021-10,Ferry,Sgl Trip Ferry Adult,2157,Adult
+2021-10,Ferry,Sgl Trip Ferry Child/Youth,2099,Child/Student
+2021-11,Ferry,Adult,142700,Adult
+2021-11,Ferry,Child/Youth,18557,Child/Student
+2021-11,Ferry,Concession,8366,Concession
+2021-11,Ferry,CTP,136695,Contactless
+2021-11,Ferry,Day Pass without SAF,2,Adult
+2021-11,Ferry,Employee,2620,Other
+2021-11,Ferry,Free Travel,907,Other
+2021-11,Ferry,School Student,7818,Child/Student
+2021-11,Ferry,Senior/Pensioner,91541,Senior
+2021-11,Ferry,Sgl Trip Ferry Adult,4208,Adult
+2021-11,Ferry,Sgl Trip Ferry Child/Youth,2455,Child/Student
+2021-12,Ferry,Adult,202331,Adult
+2021-12,Ferry,Child/Youth,51477,Child/Student
+2021-12,Ferry,Concession,12135,Concession
+2021-12,Ferry,CTP,208910,Contactless
+2021-12,Ferry,Day Pass Child/Youth w/o SAF,7,Child/Student
+2021-12,Ferry,Day Pass without SAF,48,Adult
+2021-12,Ferry,Employee,3631,Other
+2021-12,Ferry,Free Travel,1069,Other
+2021-12,Ferry,School Student,4701,Child/Student
+2021-12,Ferry,Senior/Pensioner,100643,Senior
+2021-12,Ferry,Sgl Trip Ferry Adult,12391,Adult
+2021-12,Ferry,Sgl Trip Ferry Child/Youth,9570,Child/Student
+2022-01,Ferry,Adult,194279,Adult
+2022-01,Ferry,Child/Youth,67789,Child/Student
+2022-01,Ferry,Concession,10532,Concession
+2022-01,Ferry,CTP,200988,Contactless
+2022-01,Ferry,Day Pass Child/Youth w/o SAF,2,Child/Student
+2022-01,Ferry,Day Pass without SAF,8,Adult
+2022-01,Ferry,Employee,3912,Other
+2022-01,Ferry,Free Travel,1031,Other
+2022-01,Ferry,School Student,571,Child/Student
+2022-01,Ferry,Senior/Pensioner,90245,Senior
+2022-01,Ferry,Sgl Trip Ferry Adult,15507,Adult
+2022-01,Ferry,Sgl Trip Ferry Child/Youth,13836,Child/Student
+2022-02,Ferry,Adult,167086,Adult
+2022-02,Ferry,Child/Youth,22063,Child/Student
+2022-02,Ferry,Concession,11850,Concession
+2022-02,Ferry,CTP,176042,Contactless
+2022-02,Ferry,Day Pass without SAF,3,Adult
+2022-02,Ferry,Employee,3223,Other
+2022-02,Ferry,Free Travel,832,Other
+2022-02,Ferry,School Student,8654,Child/Student
+2022-02,Ferry,Senior/Pensioner,92564,Senior
+2022-02,Ferry,Sgl Trip Ferry Adult,7854,Adult
+2022-02,Ferry,Sgl Trip Ferry Child/Youth,3791,Child/Student
+2022-03,Ferry,Adult,207531,Adult
+2022-03,Ferry,Child/Youth,30629,Child/Student
+2022-03,Ferry,Concession,14341,Concession
+2022-03,Ferry,CTP,226421,Contactless
+2022-03,Ferry,Day Pass without SAF,3,Adult
+2022-03,Ferry,Employee,3059,Other
+2022-03,Ferry,Free Travel,938,Other
+2022-03,Ferry,School Student,8501,Child/Student
+2022-03,Ferry,Senior/Pensioner,101027,Senior
+2022-03,Ferry,Sgl Trip Ferry Adult,11094,Adult
+2022-03,Ferry,Sgl Trip Ferry Child/Youth,5201,Child/Student
+2022-04,Ferry,Adult,413608,Adult
+2022-04,Ferry,Child/Youth,117716,Child/Student
+2022-04,Ferry,Concession,17508,Concession
+2022-04,Ferry,CTP,340524,Contactless
+2022-04,Ferry,Day Pass Child/Youth w/o SAF,63,Child/Student
+2022-04,Ferry,Day Pass without SAF,28,Adult
+2022-04,Ferry,Employee,3624,Other
+2022-04,Ferry,Free Travel,995,Other
+2022-04,Ferry,School Student,3585,Child/Student
+2022-04,Ferry,Senior/Pensioner,133035,Senior
+2022-04,Ferry,Sgl Trip Ferry Adult,12096,Adult
+2022-04,Ferry,Sgl Trip Ferry Child/Youth,8094,Child/Student
+2022-05,Ferry,Adult,277175,Adult
+2022-05,Ferry,Child/Youth,46424,Child/Student
+2022-05,Ferry,Concession,14698,Concession
+2022-05,Ferry,CTP,314868,Contactless
+2022-05,Ferry,Day Pass without SAF,20,Adult
+2022-05,Ferry,Employee,4231,Other
+2022-05,Ferry,Free Travel,1203,Other
+2022-05,Ferry,School Student,9659,Child/Student
+2022-05,Ferry,Senior/Pensioner,132413,Senior
+2022-05,Ferry,Sgl Trip Ferry Adult,16156,Adult
+2022-05,Ferry,Sgl Trip Ferry Child/Youth,7719,Child/Student
+2022-06,Ferry,Adult,338495,Adult
+2022-06,Ferry,Child/Youth,80283,Child/Student
+2022-06,Ferry,Concession,17915,Concession
+2022-06,Ferry,CTP,395439,Contactless
+2022-06,Ferry,Day Pass without SAF,15,Adult
+2022-06,Ferry,Employee,4879,Other
+2022-06,Ferry,Free Travel,1507,Other
+2022-06,Ferry,School Student,8520,Child/Student
+2022-06,Ferry,Senior/Pensioner,162742,Senior
+2022-06,Ferry,Sgl Trip Ferry Adult,23803,Adult
+2022-06,Ferry,Sgl Trip Ferry Child/Youth,16354,Child/Student
+2022-07,Ferry,Adult,249437,Adult
+2022-07,Ferry,Child/Youth,69686,Child/Student
+2022-07,Ferry,Concession,11318,Concession
+2022-07,Ferry,CTP,277917,Contactless
+2022-07,Ferry,Employee,3115,Other
+2022-07,Ferry,Free Travel,932,Other
+2022-07,Ferry,School Student,3529,Child/Student
+2022-07,Ferry,Senior/Pensioner,97096,Senior
+2022-07,Ferry,Sgl Trip Ferry Adult,21046,Adult
+2022-07,Ferry,Sgl Trip Ferry Child/Youth,15127,Child/Student
+2022-08,Ferry,Adult,286074,Adult
+2022-08,Ferry,Child/Youth,43716,Child/Student
+2022-08,Ferry,Concession,15520,Concession
+2022-08,Ferry,CTP,329807,Contactless
+2022-08,Ferry,Day Pass without SAF,5,Adult
+2022-08,Ferry,Employee,3263,Other
+2022-08,Ferry,Free Travel,1183,Other
+2022-08,Ferry,School Student,8861,Child/Student
+2022-08,Ferry,Senior/Pensioner,128811,Senior
+2022-08,Ferry,Sgl Trip Ferry Adult,21714,Adult
+2022-08,Ferry,Sgl Trip Ferry Child/Youth,9912,Child/Student
+2022-09,Ferry,Adult,293958,Adult
+2022-09,Ferry,Child/Youth,67134,Child/Student
+2022-09,Ferry,Concession,14020,Concession
+2022-09,Ferry,CTP,356927,Contactless
+2022-09,Ferry,Day Pass Child/Youth w/o SAF,6,Child/Student
+2022-09,Ferry,Day Pass without SAF,34,Adult
+2022-09,Ferry,Employee,3408,Other
+2022-09,Ferry,Free Travel,1184,Other
+2022-09,Ferry,School Student,7110,Child/Student
+2022-09,Ferry,Senior/Pensioner,126357,Senior
+2022-09,Ferry,Sgl Trip Ferry Adult,24863,Adult
+2022-09,Ferry,Sgl Trip Ferry Child/Youth,15116,Child/Student
+2022-10,Ferry,Adult,315365,Adult
+2022-10,Ferry,Child/Youth,68310,Child/Student
+2022-10,Ferry,Concession,13172,Concession
+2022-10,Ferry,CTP,375977,Contactless
+2022-10,Ferry,Day Pass Child/Youth w/o SAF,45,Child/Student
+2022-10,Ferry,Day Pass without SAF,7,Adult
+2022-10,Ferry,Employee,3591,Other
+2022-10,Ferry,Free Travel,1289,Other
+2022-10,Ferry,School Student,6420,Child/Student
+2022-10,Ferry,Senior/Pensioner,139076,Senior
+2022-10,Ferry,Sgl Trip Ferry Adult,27587,Adult
+2022-10,Ferry,Sgl Trip Ferry Child/Youth,12306,Child/Student
+2022-11,Ferry,Adult,362644,Adult
+2022-11,Ferry,Child/Youth,53553,Child/Student
+2022-11,Ferry,Concession,15738,Concession
+2022-11,Ferry,CTP,475465,Contactless
+2022-11,Ferry,Day Pass Child/Youth w/o SAF,69,Child/Student
+2022-11,Ferry,Day Pass without SAF,21,Adult
+2022-11,Ferry,Employee,3956,Other
+2022-11,Ferry,Free Travel,1455,Other
+2022-11,Ferry,School Student,9535,Child/Student
+2022-11,Ferry,Senior/Pensioner,162608,Senior
+2022-11,Ferry,Sgl Trip Ferry Adult,31619,Adult
+2022-11,Ferry,Sgl Trip Ferry Child/Youth,8872,Child/Student
+2022-12,Ferry,Adult,419541,Adult
+2022-12,Ferry,Child/Youth,101742,Child/Student
+2022-12,Ferry,Concession,17238,Concession
+2022-12,Ferry,CTP,550351,Contactless
+2022-12,Ferry,Day Pass Child/Youth w/o SAF,99,Child/Student
+2022-12,Ferry,Day Pass without SAF,27,Adult
+2022-12,Ferry,Employee,4152,Other
+2022-12,Ferry,Free Travel,1423,Other
+2022-12,Ferry,School Student,5406,Child/Student
+2022-12,Ferry,Senior/Pensioner,159415,Senior
+2022-12,Ferry,Sgl Trip Ferry Adult,40557,Adult
+2022-12,Ferry,Sgl Trip Ferry Child/Youth,22256,Child/Student
+2023-01,Ferry,Adult,448777,Adult
+2023-01,Ferry,Child/Youth,152837,Child/Student
+2023-01,Ferry,Concession,16051,Concession
+2023-01,Ferry,CTP,585723,Contactless
+2023-01,Ferry,Day Pass without SAF,3,Adult
+2023-01,Ferry,Employee,4786,Other
+2023-01,Ferry,Free Travel,1750,Other
+2023-01,Ferry,School Student,563,Child/Student
+2023-01,Ferry,Senior/Pensioner,188585,Senior
+2023-01,Ferry,Sgl Trip Ferry Adult,42441,Adult
+2023-01,Ferry,Sgl Trip Ferry Child/Youth,27107,Child/Student
+2023-02,Ferry,Adult,363726,Adult
+2023-02,Ferry,Child/Youth,43674,Child/Student
+2023-02,Ferry,Concession,16185,Concession
+2023-02,Ferry,CTP,508587,Contactless
+2023-02,Ferry,Day Pass without SAF,10,Adult
+2023-02,Ferry,Employee,4123,Other
+2023-02,Ferry,Free Travel,1392,Other
+2023-02,Ferry,School Student,9113,Child/Student
+2023-02,Ferry,Senior/Pensioner,168449,Senior
+2023-02,Ferry,Sgl Trip Ferry Adult,29743,Adult
+2023-02,Ferry,Sgl Trip Ferry Child/Youth,6722,Child/Student
+2023-03,Ferry,Adult,384824,Adult
+2023-03,Ferry,Child/Youth,47004,Child/Student
+2023-03,Ferry,Concession,19875,Concession
+2023-03,Ferry,CTP,546115,Contactless
+2023-03,Ferry,Day Pass without SAF,14,Adult
+2023-03,Ferry,Employee,3909,Other
+2023-03,Ferry,Free Travel,1477,Other
+2023-03,Ferry,School Student,11053,Child/Student
+2023-03,Ferry,Senior/Pensioner,169507,Senior
+2023-03,Ferry,Sgl Trip Ferry Adult,30795,Adult
+2023-03,Ferry,Sgl Trip Ferry Child/Youth,9368,Child/Student
+2023-04,Ferry,Adult,368237,Adult
+2023-04,Ferry,Child/Youth,103105,Child/Student
+2023-04,Ferry,Concession,15267,Concession
+2023-04,Ferry,CTP,488367,Contactless
+2023-04,Ferry,Day Pass without SAF,9,Adult
+2023-04,Ferry,Employee,3675,Other
+2023-04,Ferry,Free Travel,1296,Other
+2023-04,Ferry,School Student,3288,Child/Student
+2023-04,Ferry,Senior/Pensioner,155487,Senior
+2023-04,Ferry,Sgl Trip Ferry Adult,35373,Adult
+2023-04,Ferry,Sgl Trip Ferry Child/Youth,21510,Child/Student
+2023-05,Ferry,Adult,334903,Adult
+2023-05,Ferry,Child/Youth,43188,Child/Student
+2023-05,Ferry,Concession,17042,Concession
+2023-05,Ferry,CTP,461808,Contactless
+2023-05,Ferry,Day Pass Child/Youth w/o SAF,192,Child/Student
+2023-05,Ferry,Day Pass without SAF,62,Adult
+2023-05,Ferry,Employee,4166,Other
+2023-05,Ferry,Free Travel,1440,Other
+2023-05,Ferry,School Student,10314,Child/Student
+2023-05,Ferry,Senior/Pensioner,169954,Senior
+2023-05,Ferry,Sgl Trip Ferry Adult,22430,Adult
+2023-05,Ferry,Sgl Trip Ferry Child/Youth,7432,Child/Student
+2023-06,Ferry,Adult,361289,Adult
+2023-06,Ferry,Child/Youth,79877,Child/Student
+2023-06,Ferry,Concession,17396,Concession
+2023-06,Ferry,CTP,511030,Contactless
+2023-06,Ferry,Day Pass Child/Youth w/o SAF,180,Child/Student
+2023-06,Ferry,Day Pass without SAF,25,Adult
+2023-06,Ferry,Employee,4499,Other
+2023-06,Ferry,Free Travel,1549,Other
+2023-06,Ferry,School Student,9006,Child/Student
+2023-06,Ferry,Senior/Pensioner,178208,Senior
+2023-06,Ferry,Sgl Trip Ferry Adult,25841,Adult
+2023-06,Ferry,Sgl Trip Ferry Child/Youth,15060,Child/Student
+2023-07,Ferry,Adult,369036,Adult
+2023-07,Ferry,Child/Youth,112967,Child/Student
+2023-07,Ferry,Concession,15507,Concession
+2023-07,Ferry,CTP,490586,Contactless
+2023-07,Ferry,Day Pass without SAF,10,Adult
+2023-07,Ferry,Employee,3860,Other
+2023-07,Ferry,Free Travel,1479,Other
+2023-07,Ferry,School Student,4689,Child/Student
+2023-07,Ferry,Senior/Pensioner,167493,Senior
+2023-07,Ferry,Sgl Trip Ferry Adult,33586,Adult
+2023-07,Ferry,Sgl Trip Ferry Child/Youth,23753,Child/Student
+2023-08,Ferry,Adult,342243,Adult
+2023-08,Ferry,Child/Youth,57289,Child/Student
+2023-08,Ferry,Concession,16880,Concession
+2023-08,Ferry,CTP,476669,Contactless
+2023-08,Ferry,Day Pass without SAF,3,Adult
+2023-08,Ferry,Employee,3825,Other
+2023-08,Ferry,Free Travel,1247,Other
+2023-08,Ferry,School Student,10160,Child/Student
+2023-08,Ferry,Senior/Pensioner,160621,Senior
+2023-08,Ferry,Sgl Trip Ferry Adult,28060,Adult
+2023-08,Ferry,Sgl Trip Ferry Child/Youth,12682,Child/Student
+2023-09,Ferry,Adult,368757,Adult
+2023-09,Ferry,Child/Youth,90217,Child/Student
+2023-09,Ferry,Concession,18775,Concession
+2023-09,Ferry,CTP,539534,Contactless
+2023-09,Ferry,Day Pass Child/Youth w/o SAF,288,Child/Student
+2023-09,Ferry,Day Pass without SAF,64,Adult
+2023-09,Ferry,Employee,3942,Other
+2023-09,Ferry,Free Travel,1500,Other
+2023-09,Ferry,School Student,8607,Child/Student
+2023-09,Ferry,Senior/Pensioner,169237,Senior
+2023-09,Ferry,Sgl Trip Ferry Adult,29477,Adult
+2023-09,Ferry,Sgl Trip Ferry Child/Youth,16992,Child/Student
+2023-10,Ferry,Adult,434628,Adult
+2023-10,Ferry,Child/Youth,84681,Child/Student
+2023-10,Ferry,Concession,19640,Concession
+2023-10,Ferry,CTP,685063,Contactless
+2023-10,Ferry,Day Pass without SAF,25,Adult
+2023-10,Ferry,Employee,4359,Other
+2023-10,Ferry,Free Travel,1591,Other
+2023-10,Ferry,School Student,7414,Child/Student
+2023-10,Ferry,Senior/Pensioner,179799,Senior
+2023-10,Ferry,Sgl Trip Ferry Adult,30061,Adult
+2023-10,Ferry,Sgl Trip Ferry Child/Youth,14062,Child/Student
+2023-11,Ferry,Adult,396375,Adult
+2023-11,Ferry,Child/Youth,53296,Child/Student
+2023-11,Ferry,Concession,16291,Concession
+2023-11,Ferry,CTP,683327,Contactless
+2023-11,Ferry,Day Pass Child/Youth w/o SAF,179,Child/Student
+2023-11,Ferry,Day Pass without SAF,46,Adult
+2023-11,Ferry,Employee,4271,Other
+2023-11,Ferry,Free Travel,1439,Other
+2023-11,Ferry,School Student,10739,Child/Student
+2023-11,Ferry,Senior/Pensioner,169008,Senior
+2023-11,Ferry,Sgl Trip Ferry Adult,26596,Adult
+2023-11,Ferry,Sgl Trip Ferry Child/Youth,7473,Child/Student
+2023-12,Ferry,Adult,483994,Adult
+2023-12,Ferry,Child/Youth,115379,Child/Student
+2023-12,Ferry,Concession,19608,Concession
+2023-12,Ferry,CTP,852824,Contactless
+2023-12,Ferry,Day Pass Child/Youth w/o SAF,1,Child/Student
+2023-12,Ferry,Day Pass without SAF,52,Adult
+2023-12,Ferry,Employee,4556,Other
+2023-12,Ferry,Free Travel,1502,Other
+2023-12,Ferry,School Student,7619,Child/Student
+2023-12,Ferry,Senior/Pensioner,180364,Senior
+2023-12,Ferry,Sgl Trip Ferry Adult,43482,Adult
+2023-12,Ferry,Sgl Trip Ferry Child/Youth,23980,Child/Student
+2024-01,Ferry,Adult,496714,Adult
+2024-01,Ferry,Child/Youth,172758,Child/Student
+2024-01,Ferry,Concession,19195,Concession
+2024-01,Ferry,CTP,898456,Contactless
+2024-01,Ferry,Day Pass Child/Youth w/o SAF,1,Child/Student
+2024-01,Ferry,Day Pass without SAF,51,Adult
+2024-01,Ferry,Employee,4561,Other
+2024-01,Ferry,Free Travel,1571,Other
+2024-01,Ferry,School Student,607,Child/Student
+2024-01,Ferry,Senior/Pensioner,201448,Senior
+2024-01,Ferry,Sgl Trip Ferry Adult,39563,Adult
+2024-01,Ferry,Sgl Trip Ferry Child/Youth,26525,Child/Student
+2024-02,Ferry,Adult,433304,Adult
+2024-02,Ferry,Child/Youth,61670,Child/Student
+2024-02,Ferry,Concession,19763,Concession
+2024-02,Ferry,CTP,820274,Contactless
+2024-02,Ferry,Day Pass without SAF,47,Adult
+2024-02,Ferry,Employee,3770,Other
+2024-02,Ferry,Free Travel,1364,Other
+2024-02,Ferry,School Student,10478,Child/Student
+2024-02,Ferry,Senior/Pensioner,173697,Senior
+2024-02,Ferry,Sgl Trip Ferry Adult,30972,Adult
+2024-02,Ferry,Sgl Trip Ferry Child/Youth,10241,Child/Student
+2024-02,Ferry,UNKNOWN,1,Other
+2024-03,Ferry,Adult,464119,Adult
+2024-03,Ferry,Child/Youth,68828,Child/Student
+2024-03,Ferry,Concession,25426,Concession
+2024-03,Ferry,CTP,876639,Contactless
+2024-03,Ferry,Day Pass Child/Youth w/o SAF,4,Child/Student
+2024-03,Ferry,Day Pass without SAF,39,Adult
+2024-03,Ferry,Employee,4151,Other
+2024-03,Ferry,Free Travel,1590,Other
+2024-03,Ferry,School Student,10309,Child/Student
+2024-03,Ferry,Senior/Pensioner,206612,Senior
+2024-03,Ferry,Sgl Trip Ferry Adult,29857,Adult
+2024-03,Ferry,Sgl Trip Ferry Child/Youth,11371,Child/Student
+2024-03,Ferry,UNKNOWN,11,Other
+2024-04,Ferry,Adult,404579,Adult
+2024-04,Ferry,Child/Youth,111229,Child/Student
+2024-04,Ferry,Concession,21743,Concession
+2024-04,Ferry,CTP,733693,Contactless
+2024-04,Ferry,Day Pass Child/Youth w/o SAF,2,Child/Student
+2024-04,Ferry,Day Pass without SAF,32,Adult
+2024-04,Ferry,Employee,4364,Other
+2024-04,Ferry,Free Travel,1564,Other
+2024-04,Ferry,School Student,5301,Child/Student
+2024-04,Ferry,Senior/Pensioner,185661,Senior
+2024-04,Ferry,Sgl Trip Ferry Adult,26558,Adult
+2024-04,Ferry,Sgl Trip Ferry Child/Youth,17705,Child/Student
+2024-04,Ferry,UNKNOWN,1,Other
+2024-05,Ferry,Adult,330694,Adult
+2024-05,Ferry,Child/Youth,41035,Child/Student
+2024-05,Ferry,Concession,19970,Concession
+2024-05,Ferry,CTP,615349,Contactless
+2024-05,Ferry,Day Pass Child/Youth w/o SAF,102,Child/Student
+2024-05,Ferry,Day Pass without SAF,34,Adult
+2024-05,Ferry,Employee,4060,Other
+2024-05,Ferry,Free Travel,1346,Other
+2024-05,Ferry,School Student,10738,Child/Student
+2024-05,Ferry,Senior/Pensioner,164789,Senior
+2024-05,Ferry,Sgl Trip Ferry Adult,15310,Adult
+2024-05,Ferry,Sgl Trip Ferry Child/Youth,5875,Child/Student
+2024-05,Ferry,UNKNOWN,2,Other
+2024-06,Ferry,Adult,325279,Adult
+2024-06,Ferry,Child/Youth,65136,Child/Student
+2024-06,Ferry,Concession,19222,Concession
+2024-06,Ferry,CTP,598095,Contactless
+2024-06,Ferry,Day Pass Child/Youth w/o SAF,111,Child/Student
+2024-06,Ferry,Day Pass without SAF,41,Adult
+2024-06,Ferry,Employee,3881,Other
+2024-06,Ferry,Free Travel,1325,Other
+2024-06,Ferry,School Student,8953,Child/Student
+2024-06,Ferry,Senior/Pensioner,153710,Senior
+2024-06,Ferry,Sgl Trip Ferry Adult,18839,Adult
+2024-06,Ferry,Sgl Trip Ferry Child/Youth,11249,Child/Student
+2024-07,Ferry,Adult,352705,Adult
+2024-07,Ferry,Child/Youth,109711,Child/Student
+2024-07,Ferry,Concession,18246,Concession
+2024-07,Ferry,CTP,611741,Contactless
+2024-07,Ferry,Day Pass Child/Youth w/o SAF,78,Child/Student
+2024-07,Ferry,Day Pass without SAF,25,Adult
+2024-07,Ferry,Employee,3982,Other
+2024-07,Ferry,Free Travel,1374,Other
+2024-07,Ferry,School Student,4397,Child/Student
+2024-07,Ferry,Senior/Pensioner,159012,Senior
+2024-07,Ferry,Sgl Trip Ferry Adult,23382,Adult
+2024-07,Ferry,Sgl Trip Ferry Child/Youth,17215,Child/Student
+2024-07,Ferry,UNKNOWN,1,Other
+2024-08,Ferry,Adult,356568,Adult
+2024-08,Ferry,Child/Youth,64345,Child/Student
+2024-08,Ferry,Concession,22911,Concession
+2024-08,Ferry,CTP,619994,Contactless
+2024-08,Ferry,Day Pass Child/Youth w/o SAF,58,Child/Student
+2024-08,Ferry,Day Pass without SAF,49,Adult
+2024-08,Ferry,Employee,4118,Other
+2024-08,Ferry,Free Travel,1488,Other
+2024-08,Ferry,School Student,10065,Child/Student
+2024-08,Ferry,Senior/Pensioner,165843,Senior
+2024-08,Ferry,Sgl Trip Ferry Adult,19902,Adult
+2024-08,Ferry,Sgl Trip Ferry Child/Youth,10301,Child/Student
+2024-08,Ferry,UNKNOWN,25,Other
+2024-09,Ferry,Adult,351233,Adult
+2024-09,Ferry,Child/Youth,65593,Child/Student
+2024-09,Ferry,Concession,22596,Concession
+2024-09,Ferry,CTP,702060,Contactless
+2024-09,Ferry,Day Pass Child/Youth w/o SAF,79,Child/Student
+2024-09,Ferry,Day Pass without SAF,65,Adult
+2024-09,Ferry,Employee,4311,Other
+2024-09,Ferry,Free Travel,1567,Other
+2024-09,Ferry,School Student,10829,Child/Student
+2024-09,Ferry,Senior/Pensioner,167363,Senior
+2024-09,Ferry,Sgl Trip Ferry Adult,20573,Adult
+2024-09,Ferry,Sgl Trip Ferry Child/Youth,11121,Child/Student
+2024-09,Ferry,UNKNOWN,5,Other
+2024-10,Ferry,Adult,401485,Adult
+2024-10,Ferry,Child/Youth,101183,Child/Student
+2024-10,Ferry,Concession,23460,Concession
+2024-10,Ferry,CTP,799703,Contactless
+2024-10,Ferry,Day Pass Child/Youth w/o SAF,71,Child/Student
+2024-10,Ferry,Day Pass without SAF,89,Adult
+2024-10,Ferry,Employee,4746,Other
+2024-10,Ferry,Free Travel,1842,Other
+2024-10,Ferry,School Student,6065,Child/Student
+2024-10,Ferry,Senior/Pensioner,188880,Senior
+2024-10,Ferry,Sgl Trip Ferry Adult,23832,Adult
+2024-10,Ferry,Sgl Trip Ferry Child/Youth,13289,Child/Student
+2024-10,Ferry,UNKNOWN,2,Other
+2024-11,Ferry,Adult,365591,Adult
+2024-11,Ferry,Child/Youth,57730,Child/Student
+2024-11,Ferry,Concession,20722,Concession
+2024-11,Ferry,CTP,827445,Contactless
+2024-11,Ferry,Day Pass without SAF,23,Adult
+2024-11,Ferry,Employee,4313,Other
+2024-11,Ferry,Free Travel,1675,Other
+2024-11,Ferry,School Student,10511,Child/Student
+2024-11,Ferry,Senior/Pensioner,177206,Senior
+2024-11,Ferry,Sgl Trip Ferry Adult,23036,Adult
+2024-11,Ferry,Sgl Trip Ferry Child/Youth,7543,Child/Student
+2024-12,Ferry,Adult,432860,Adult
+2024-12,Ferry,Child/Youth,115038,Child/Student
+2024-12,Ferry,Concession,23636,Concession
+2024-12,Ferry,CTP,979922,Contactless
+2024-12,Ferry,Day Pass Child/Youth w/o SAF,37,Child/Student
+2024-12,Ferry,Day Pass without SAF,54,Adult
+2024-12,Ferry,Employee,5119,Other
+2024-12,Ferry,Free Travel,1647,Other
+2024-12,Ferry,School Student,9177,Child/Student
+2024-12,Ferry,Senior/Pensioner,188437,Senior
+2024-12,Ferry,Sgl Trip Ferry Adult,38122,Adult
+2024-12,Ferry,Sgl Trip Ferry Child/Youth,22065,Child/Student
+2024-12,Ferry,UNKNOWN,2,Other
+2025-01,Ferry,Adult,423523,Adult
+2025-01,Ferry,Child/Youth,153520,Child/Student
+2025-01,Ferry,Concession,20135,Concession
+2025-01,Ferry,CTP,963926,Contactless
+2025-01,Ferry,Day Pass without SAF,39,Adult
+2025-01,Ferry,Employee,5484,Other
+2025-01,Ferry,Free Travel,1747,Other
+2025-01,Ferry,School Student,238,Child/Student
+2025-01,Ferry,Senior/Pensioner,192529,Senior
+2025-01,Ferry,Sgl Trip Ferry Adult,37546,Adult
+2025-01,Ferry,Sgl Trip Ferry Child/Youth,25220,Child/Student
+2025-01,Ferry,UNKNOWN,5,Other
+2025-02,Ferry,Adult,362901,Adult
+2025-02,Ferry,Child/Youth,59086,Child/Student
+2025-02,Ferry,Concession,23127,Concession
+2025-02,Ferry,CTP,856587,Contactless
+2025-02,Ferry,Day Pass Child/Youth w/o SAF,1,Child/Student
+2025-02,Ferry,Day Pass without SAF,26,Adult
+2025-02,Ferry,Employee,4560,Other
+2025-02,Ferry,Free Travel,1694,Other
+2025-02,Ferry,School Student,10427,Child/Student
+2025-02,Ferry,Senior/Pensioner,182212,Senior
+2025-02,Ferry,Sgl Trip Ferry Adult,24183,Adult
+2025-02,Ferry,Sgl Trip Ferry Child/Youth,7535,Child/Student
+2025-02,Ferry,UNKNOWN,25,Other
+2025-03,Ferry,Adult,359451,Adult
+2025-03,Ferry,Child/Youth,49145,Child/Student
+2025-03,Ferry,Concession,27721,Concession
+2025-03,Ferry,CTP,878076,Contactless
+2025-03,Ferry,Day Pass without SAF,33,Adult
+2025-03,Ferry,Employee,4437,Other
+2025-03,Ferry,Free Travel,1602,Other
+2025-03,Ferry,School Student,11016,Child/Student
+2025-03,Ferry,Senior/Pensioner,182016,Senior
+2025-03,Ferry,Sgl Trip Ferry Adult,23804,Adult
+2025-03,Ferry,Sgl Trip Ferry Child/Youth,7676,Child/Student
+2025-04,Ferry,Adult,378391,Adult
+2025-04,Ferry,Child/Youth,107309,Child/Student
+2025-04,Ferry,Concession,26778,Concession
+2025-04,Ferry,CTP,871577,Contactless
+2025-04,Ferry,Day Pass Child/Youth w/o SAF,1,Child/Student
+2025-04,Ferry,Day Pass without SAF,42,Adult
+2025-04,Ferry,Employee,4741,Other
+2025-04,Ferry,Free Travel,1647,Other
+2025-04,Ferry,School Student,5903,Child/Student
+2025-04,Ferry,Senior/Pensioner,184968,Senior
+2025-04,Ferry,Sgl Trip Ferry Adult,27788,Adult
+2025-04,Ferry,Sgl Trip Ferry Child/Youth,18492,Child/Student
+2025-04,Ferry,UNKNOWN,12,Other
+2025-05,Ferry,Adult,311993,Adult
+2025-05,Ferry,Child/Youth,47036,Child/Student
+2025-05,Ferry,Concession,23254,Concession
+2025-05,Ferry,CTP,716453,Contactless
+2025-05,Ferry,Day Pass Child/Youth w/o SAF,159,Child/Student
+2025-05,Ferry,Day Pass without SAF,42,Adult
+2025-05,Ferry,Employee,4350,Other
+2025-05,Ferry,Free Travel,1401,Other
+2025-05,Ferry,School Student,10809,Child/Student
+2025-05,Ferry,Senior/Pensioner,164237,Senior
+2025-05,Ferry,Sgl Trip Ferry Adult,14749,Adult
+2025-05,Ferry,Sgl Trip Ferry Child/Youth,5968,Child/Student
+2025-06,Ferry,Adult,304450,Adult
+2025-06,Ferry,Child/Youth,62492,Child/Student
+2025-06,Ferry,Concession,21069,Concession
+2025-06,Ferry,CTP,693407,Contactless
+2025-06,Ferry,Day Pass Child/Youth w/o SAF,50,Child/Student
+2025-06,Ferry,Day Pass without SAF,30,Adult
+2025-06,Ferry,Employee,4365,Other
+2025-06,Ferry,Free Travel,1505,Other
+2025-06,Ferry,School Student,9208,Child/Student
+2025-06,Ferry,Senior/Pensioner,167842,Senior
+2025-06,Ferry,Sgl Trip Ferry Adult,17010,Adult
+2025-06,Ferry,Sgl Trip Ferry Child/Youth,10362,Child/Student
+2025-07,Ferry,Adult,329814,Adult
+2025-07,Ferry,Child/Youth,111373,Child/Student
+2025-07,Ferry,Concession,19449,Concession
+2025-07,Ferry,CTP,713341,Contactless
+2025-07,Ferry,Day Pass Child/Youth w/o SAF,142,Child/Student
+2025-07,Ferry,Day Pass without SAF,45,Adult
+2025-07,Ferry,Employee,4586,Other
+2025-07,Ferry,Free Travel,1689,Other
+2025-07,Ferry,School Student,4194,Child/Student
+2025-07,Ferry,Senior/Pensioner,168296,Senior
+2025-07,Ferry,Sgl Trip Ferry Adult,27801,Adult
+2025-07,Ferry,Sgl Trip Ferry Child/Youth,20523,Child/Student
+2025-08,Ferry,Adult,286538,Adult
+2025-08,Ferry,Child/Youth,56638,Child/Student
+2025-08,Ferry,Concession,20326,Concession
+2025-08,Ferry,CTP,678811,Contactless
+2025-08,Ferry,Day Pass Child/Youth w/o SAF,55,Child/Student
+2025-08,Ferry,Day Pass without SAF,40,Adult
+2025-08,Ferry,Employee,3918,Other
+2025-08,Ferry,Free Travel,1497,Other
+2025-08,Ferry,School Student,8366,Child/Student
+2025-08,Ferry,Senior/Pensioner,146455,Senior
+2025-08,Ferry,Sgl Trip Ferry Adult,23217,Adult
+2025-08,Ferry,Sgl Trip Ferry Child/Youth,10578,Child/Student
+2025-09,Ferry,Adult,327154,Adult
+2025-09,Ferry,Child/Youth,71595,Child/Student
+2025-09,Ferry,Concession,24353,Concession
+2025-09,Ferry,CTP,772264,Contactless
+2025-09,Ferry,Day Pass Child/Youth w/o SAF,140,Child/Student
+2025-09,Ferry,Day Pass without SAF,58,Adult
+2025-09,Ferry,Employee,5016,Other
+2025-09,Ferry,Free Travel,1653,Other
+2025-09,Ferry,School Student,11628,Child/Student
+2025-09,Ferry,Senior/Pensioner,185056,Senior
+2025-09,Ferry,Sgl Trip Ferry Adult,23298,Adult
+2025-09,Ferry,Sgl Trip Ferry Child/Youth,11076,Child/Student
+2025-10,Ferry,Adult,362875,Adult
+2025-10,Ferry,Child/Youth,104390,Child/Student
+2025-10,Ferry,Concession,24752,Concession
+2025-10,Ferry,CTP,892347,Contactless
+2025-10,Ferry,Day Pass without SAF,42,Adult
+2025-10,Ferry,Employee,5548,Other
+2025-10,Ferry,Free Travel,1897,Other
+2025-10,Ferry,School Student,6196,Child/Student
+2025-10,Ferry,Senior/Pensioner,200044,Senior
+2025-10,Ferry,Sgl Trip Ferry Adult,29010,Adult
+2025-10,Ferry,Sgl Trip Ferry Child/Youth,14982,Child/Student
+2025-11,Ferry,Adult,339495,Adult
+2025-11,Ferry,Child/Youth,54874,Child/Student
+2025-11,Ferry,Concession,21107,Concession
+2025-11,Ferry,CTP,936723,Contactless
+2025-11,Ferry,Day Pass Child/Youth w/o SAF,935,Child/Student
+2025-11,Ferry,Day Pass without SAF,60,Adult
+2025-11,Ferry,Employee,5361,Other
+2025-11,Ferry,Free Travel,1795,Other
+2025-11,Ferry,School Student,10462,Child/Student
+2025-11,Ferry,Senior/Pensioner,192557,Senior
+2025-11,Ferry,Sgl Trip Ferry Adult,28760,Adult
+2025-11,Ferry,Sgl Trip Ferry Child/Youth,8110,Child/Student
+2025-11,Ferry,UNKNOWN,1,Other
+2025-12,Ferry,Adult,369637,Adult
+2025-12,Ferry,Child/Youth,100013,Child/Student
+2025-12,Ferry,Concession,21173,Concession
+2025-12,Ferry,CTP,1062097,Contactless
+2025-12,Ferry,Day Pass without SAF,46,Adult
+2025-12,Ferry,Employee,5430,Other
+2025-12,Ferry,Free Travel,1578,Other
+2025-12,Ferry,School Student,8569,Child/Student
+2025-12,Ferry,Senior/Pensioner,184213,Senior
+2025-12,Ferry,Sgl Trip Ferry Adult,51076,Adult
+2025-12,Ferry,Sgl Trip Ferry Child/Youth,23063,Child/Student
+2025-12,Ferry,UNKNOWN,22,Other
+2026-01,Ferry,Adult,370627,Adult
+2026-01,Ferry,Child/Youth,141059,Child/Student
+2026-01,Ferry,Concession,18929,Concession
+2026-01,Ferry,CTP,1084730,Contactless
+2026-01,Ferry,Day Pass without SAF,21,Adult
+2026-01,Ferry,Employee,5688,Other
+2026-01,Ferry,Free Travel,1745,Other
+2026-01,Ferry,School Student,1079,Child/Student
+2026-01,Ferry,Senior/Pensioner,204807,Senior
+2026-01,Ferry,Sgl Trip Ferry Adult,47825,Adult
+2026-01,Ferry,Sgl Trip Ferry Child/Youth,25375,Child/Student
+2026-01,Ferry,UNKNOWN,2,Other
+2026-02,Ferry,Adult,320821,Adult
+2026-02,Ferry,Child/Youth,50272,Child/Student
+2026-02,Ferry,Concession,18796,Concession
+2026-02,Ferry,CTP,897984,Contactless
+2026-02,Ferry,Day Pass without SAF,12,Adult
+2026-02,Ferry,Employee,4285,Other
+2026-02,Ferry,Free Travel,1506,Other
+2026-02,Ferry,School Student,9748,Child/Student
+2026-02,Ferry,Senior/Pensioner,171266,Senior
+2026-02,Ferry,Sgl Trip Ferry Adult,38780,Adult
+2026-02,Ferry,Sgl Trip Ferry Child/Youth,9574,Child/Student
+2026-03,Ferry,Adult,299533,Adult
+2026-03,Ferry,Child/Youth,49244,Child/Student
+2026-03,Ferry,Concession,22942,Concession
+2026-03,Ferry,CTP,944759,Contactless
+2026-03,Ferry,Day Pass Child/Youth w/o SAF,90,Child/Student
+2026-03,Ferry,Day Pass without SAF,16,Adult
+2026-03,Ferry,Employee,4749,Other
+2026-03,Ferry,Free Travel,1828,Other
+2026-03,Ferry,School Student,10513,Child/Student
+2026-03,Ferry,Senior/Pensioner,197467,Senior
+2026-03,Ferry,Sgl Trip Ferry Adult,31030,Adult
+2026-03,Ferry,Sgl Trip Ferry Child/Youth,8688,Child/Student
+2026-04,Ferry,Adult,317444,Adult
+2026-04,Ferry,Child/Youth,109199,Child/Student
+2026-04,Ferry,Concession,23556,Concession
+2026-04,Ferry,CTP,936341,Contactless
+2026-04,Ferry,Day Pass without SAF,20,Adult
+2026-04,Ferry,Employee,5716,Other
+2026-04,Ferry,Free Travel,1749,Other
+2026-04,Ferry,School Student,4895,Child/Student
+2026-04,Ferry,Senior/Pensioner,218508,Senior
+2026-04,Ferry,Sgl Trip Ferry Adult,30293,Adult
+2026-04,Ferry,Sgl Trip Ferry Child/Youth,17540,Child/Student
+2026-05,Ferry,Adult,255665,Adult
+2026-05,Ferry,Child/Youth,46350,Child/Student
+2026-05,Ferry,Concession,19769,Concession
+2026-05,Ferry,CTP,789708,Contactless
+2026-05,Ferry,Day Pass Child/Youth w/o SAF,311,Child/Student
+2026-05,Ferry,Day Pass without SAF,49,Adult
+2026-05,Ferry,Employee,4802,Other
+2026-05,Ferry,Free Travel,1399,Other
+2026-05,Ferry,School Student,9154,Child/Student
+2026-05,Ferry,Senior/Pensioner,170146,Senior
+2026-05,Ferry,Sgl Trip Ferry Adult,20229,Adult
+2026-05,Ferry,Sgl Trip Ferry Child/Youth,7410,Child/Student
+2026-06,Ferry,Adult,242302,Adult
+2026-06,Ferry,Child/Youth,58563,Child/Student
+2026-06,Ferry,Concession,18410,Concession
+2026-06,Ferry,CTP,753935,Contactless
+2026-06,Ferry,Day Pass Child/Youth w/o SAF,118,Child/Student
+2026-06,Ferry,Day Pass without SAF,49,Adult
+2026-06,Ferry,Employee,4843,Other
+2026-06,Ferry,Free Travel,1500,Other
+2026-06,Ferry,School Student,9163,Child/Student
+2026-06,Ferry,Senior/Pensioner,177616,Senior
+2026-06,Ferry,Sgl Trip Ferry Adult,16592,Adult
+2026-06,Ferry,Sgl Trip Ferry Child/Youth,9373,Child/Student
+2026-07,Ferry,Adult,265689,Adult
+2026-07,Ferry,Child/Youth,96554,Child/Student
+2026-07,Ferry,Concession,18727,Concession
+2026-07,Ferry,CTP,793331,Contactless
+2026-07,Ferry,Day Pass Child/Youth w/o SAF,112,Child/Student
+2026-07,Ferry,Day Pass without SAF,33,Adult
+2026-07,Ferry,Employee,4937,Other
+2026-07,Ferry,Free Travel,1568,Other
+2026-07,Ferry,School Student,5146,Child/Student
+2026-07,Ferry,Senior/Pensioner,186684,Senior
+2026-07,Ferry,Sgl Trip Ferry Adult,27431,Adult
+2026-07,Ferry,Sgl Trip Ferry Child/Youth,19279,Child/Student
+2026-08,Ferry,Adult,274761,Adult
+2026-08,Ferry,Child/Youth,60510,Child/Student
+2026-08,Ferry,Concession,22125,Concession
+2026-08,Ferry,CTP,854905,Contactless
+2026-08,Ferry,Day Pass Child/Youth w/o SAF,86,Child/Student
+2026-08,Ferry,Day Pass without SAF,51,Adult
+2026-08,Ferry,Employee,4780,Other
+2026-08,Ferry,Free Travel,1586,Other
+2026-08,Ferry,School Student,9435,Child/Student
+2026-08,Ferry,Senior/Pensioner,185904,Senior
+2026-08,Ferry,Sgl Trip Ferry Adult,24968,Adult
+2026-08,Ferry,Sgl Trip Ferry Child/Youth,10996,Child/Student
+2019-05,Metro,Adult,219429,Adult
+2019-05,Metro,Child/Youth,6186,Child/Student
+2019-05,Metro,Concession,19058,Concession
+2019-05,Metro,CTP,7887,Contactless
+2019-05,Metro,Day Pass without SAF,5,Adult
+2019-05,Metro,Employee,3142,Other
+2019-05,Metro,Free Travel,333,Other
+2019-05,Metro,School Student,13436,Child/Student
+2019-05,Metro,Senior/Pensioner,24600,Senior
+2019-05,Metro,Sgl Trip Rail Adult,1696,Adult
+2019-05,Metro,Sgl Trip Rail Child/Youth,332,Child/Student
+2019-06,Metro,Adult,1144461,Adult
+2019-06,Metro,Child/Youth,112236,Child/Student
+2019-06,Metro,Concession,145218,Concession
+2019-06,Metro,CTP,34882,Contactless
+2019-06,Metro,Day Pass without SAF,6,Adult
+2019-06,Metro,Employee,10974,Other
+2019-06,Metro,Free Travel,2296,Other
+2019-06,Metro,School Student,92249,Child/Student
+2019-06,Metro,Senior/Pensioner,143843,Senior
+2019-06,Metro,Sgl Trip Rail Adult,12588,Adult
+2019-06,Metro,Sgl Trip Rail Child/Youth,7851,Child/Student
+2019-07,Metro,Adult,1390001,Adult
+2019-07,Metro,Child/Youth,164783,Child/Student
+2019-07,Metro,Concession,134159,Concession
+2019-07,Metro,CTP,36923,Contactless
+2019-07,Metro,Day Pass Child/Youth w/o SAF,1,Child/Student
+2019-07,Metro,Day Pass without SAF,22,Adult
+2019-07,Metro,Employee,10328,Other
+2019-07,Metro,Free Travel,2159,Other
+2019-07,Metro,School Student,45109,Child/Student
+2019-07,Metro,Senior/Pensioner,155990,Senior
+2019-07,Metro,Sgl Trip Rail Adult,10958,Adult
+2019-07,Metro,Sgl Trip Rail Child/Youth,8387,Child/Student
+2019-08,Metro,Adult,1437608.153,Adult
+2019-08,Metro,Child/Youth,85909.3975,Child/Student
+2019-08,Metro,Concession,251912.4727,Concession
+2019-08,Metro,CTP,56587.36919,Contactless
+2019-08,Metro,Day Pass Child/Youth w/o SAF,2,Child/Student
+2019-08,Metro,Day Pass without SAF,11.28536,Adult
+2019-08,Metro,Employee,9626.619657,Other
+2019-08,Metro,Free Travel,1974.199695,Other
+2019-08,Metro,School Student,93320.3306,Child/Student
+2019-08,Metro,Senior/Pensioner,135069.6246,Senior
+2019-08,Metro,Sgl Trip Rail Adult,8621.263354,Adult
+2019-08,Metro,Sgl Trip Rail Child/Youth,3949.219067,Child/Student
+2019-09,Metro,Adult,1395364,Adult
+2019-09,Metro,Child/Youth,87350,Child/Student
+2019-09,Metro,Concession,188829,Concession
+2019-09,Metro,CTP,78623,Contactless
+2019-09,Metro,Day Pass without SAF,8,Adult
+2019-09,Metro,Employee,9631,Other
+2019-09,Metro,Free Travel,1872,Other
+2019-09,Metro,School Student,88990,Child/Student
+2019-09,Metro,Senior/Pensioner,127687,Senior
+2019-09,Metro,Sgl Trip Rail Adult,7742,Adult
+2019-09,Metro,Sgl Trip Rail Child/Youth,3881,Child/Student
+2019-10,Metro,Adult,1461547.869,Adult
+2019-10,Metro,Child/Youth,139949.1529,Child/Student
+2019-10,Metro,Concession,234295.3295,Concession
+2019-10,Metro,CTP,148911.5375,Contactless
+2019-10,Metro,Day Pass without SAF,11.993033,Adult
+2019-10,Metro,Employee,9796.150491,Other
+2019-10,Metro,Free Travel,1993.975411,Other
+2019-10,Metro,School Student,58308.79011,Child/Student
+2019-10,Metro,Senior/Pensioner,139063.8281,Senior
+2019-10,Metro,Sgl Trip Rail Adult,7918.73612,Adult
+2019-10,Metro,Sgl Trip Rail Child/Youth,5121.971302,Child/Student
+2019-11,Metro,Adult,1368787,Adult
+2019-11,Metro,Child/Youth,92154,Child/Student
+2019-11,Metro,Concession,168049,Concession
+2019-11,Metro,CTP,174479,Contactless
+2019-11,Metro,Day Pass Child/Youth w/o SAF,5,Child/Student
+2019-11,Metro,Day Pass without SAF,17,Adult
+2019-11,Metro,Employee,9411,Other
+2019-11,Metro,Free Travel,1906,Other
+2019-11,Metro,School Student,92178,Child/Student
+2019-11,Metro,Senior/Pensioner,130042,Senior
+2019-11,Metro,Sgl Trip Rail Adult,7271,Adult
+2019-11,Metro,Sgl Trip Rail Child/Youth,3238,Child/Student
+2019-12,Metro,Adult,1240804,Adult
+2019-12,Metro,Child/Youth,151506,Child/Student
+2019-12,Metro,Concession,117858,Concession
+2019-12,Metro,CTP,191824,Contactless
+2019-12,Metro,Day Pass without SAF,7,Adult
+2019-12,Metro,Employee,9472,Other
+2019-12,Metro,Free Travel,1910,Other
+2019-12,Metro,School Student,51793,Child/Student
+2019-12,Metro,Senior/Pensioner,140387,Senior
+2019-12,Metro,Sgl Trip Rail Adult,10143,Adult
+2019-12,Metro,Sgl Trip Rail Child/Youth,7114,Child/Student
+2020-01,Metro,Adult,1222213,Adult
+2020-01,Metro,Child/Youth,173317,Child/Student
+2020-01,Metro,Concession,108098,Concession
+2020-01,Metro,CTP,198421,Contactless
+2020-01,Metro,Day Pass Child/Youth w/o SAF,2,Child/Student
+2020-01,Metro,Day Pass without SAF,13,Adult
+2020-01,Metro,Employee,8277,Other
+2020-01,Metro,Free Travel,1600,Other
+2020-01,Metro,School Student,9594,Child/Student
+2020-01,Metro,Senior/Pensioner,130685,Senior
+2020-01,Metro,Sgl Trip Rail Adult,7000,Adult
+2020-01,Metro,Sgl Trip Rail Child/Youth,6226,Child/Student
+2020-02,Metro,Adult,1210442,Adult
+2020-02,Metro,Child/Youth,104015,Child/Student
+2020-02,Metro,Concession,148953,Concession
+2020-02,Metro,CTP,213212,Contactless
+2020-02,Metro,Day Pass without SAF,25,Adult
+2020-02,Metro,Employee,9771,Other
+2020-02,Metro,Free Travel,1583,Other
+2020-02,Metro,School Student,95832,Child/Student
+2020-02,Metro,Senior/Pensioner,107389,Senior
+2020-02,Metro,Sgl Trip Rail Adult,5660,Adult
+2020-02,Metro,Sgl Trip Rail Child/Youth,3213,Child/Student
+2020-03,Metro,Adult,870038,Adult
+2020-03,Metro,Child/Youth,58273,Child/Student
+2020-03,Metro,Concession,169730,Concession
+2020-03,Metro,CTP,161357,Contactless
+2020-03,Metro,Day Pass without SAF,17,Adult
+2020-03,Metro,Employee,8133,Other
+2020-03,Metro,Free Travel,1152,Other
+2020-03,Metro,School Student,67738,Child/Student
+2020-03,Metro,Senior/Pensioner,66483,Senior
+2020-03,Metro,Sgl Trip Rail Adult,3309,Adult
+2020-03,Metro,Sgl Trip Rail Child/Youth,2270,Child/Student
+2020-04,Metro,Adult,187366,Adult
+2020-04,Metro,Child/Youth,5426,Child/Student
+2020-04,Metro,Concession,12484,Concession
+2020-04,Metro,CTP,36251,Contactless
+2020-04,Metro,Day Pass without SAF,5,Adult
+2020-04,Metro,Employee,3234,Other
+2020-04,Metro,Free Travel,194,Other
+2020-04,Metro,School Student,787,Child/Student
+2020-04,Metro,Senior/Pensioner,15988,Senior
+2020-04,Metro,Sgl Trip Rail Adult,554,Adult
+2020-04,Metro,Sgl Trip Rail Child/Youth,563,Child/Student
+2020-05,Metro,Adult,279666,Adult
+2020-05,Metro,Child/Youth,18828,Child/Student
+2020-05,Metro,Concession,23677,Concession
+2020-05,Metro,CTP,62148,Contactless
+2020-05,Metro,Day Pass without SAF,8,Adult
+2020-05,Metro,Employee,4482,Other
+2020-05,Metro,Free Travel,375,Other
+2020-05,Metro,School Student,28670,Child/Student
+2020-05,Metro,Senior/Pensioner,29411,Senior
+2020-05,Metro,Sgl Trip Rail Adult,841,Adult
+2020-05,Metro,Sgl Trip Rail Child/Youth,1221,Child/Student
+2020-06,Metro,Adult,444552,Adult
+2020-06,Metro,Child/Youth,46163,Child/Student
+2020-06,Metro,Concession,48461,Concession
+2020-06,Metro,CTP,112387,Contactless
+2020-06,Metro,Day Pass Child/Youth w/o SAF,4,Child/Student
+2020-06,Metro,Day Pass without SAF,4,Adult
+2020-06,Metro,Employee,5725,Other
+2020-06,Metro,Free Travel,734,Other
+2020-06,Metro,School Student,80422,Child/Student
+2020-06,Metro,Senior/Pensioner,52746,Senior
+2020-06,Metro,Sgl Trip Rail Adult,1921,Adult
+2020-06,Metro,Sgl Trip Rail Child/Youth,2508,Child/Student
+2020-07,Metro,Adult,522269,Adult
+2020-07,Metro,Child/Youth,89378,Child/Student
+2020-07,Metro,Concession,72925,Concession
+2020-07,Metro,CTP,139350,Contactless
+2020-07,Metro,Day Pass without SAF,4,Adult
+2020-07,Metro,Employee,6046,Other
+2020-07,Metro,Free Travel,826,Other
+2020-07,Metro,School Student,48768,Child/Student
+2020-07,Metro,Senior/Pensioner,58530,Senior
+2020-07,Metro,Sgl Trip Rail Adult,2016,Adult
+2020-07,Metro,Sgl Trip Rail Child/Youth,3662,Child/Student
+2020-08,Metro,Adult,503923,Adult
+2020-08,Metro,Child/Youth,47188,Child/Student
+2020-08,Metro,Concession,104706,Concession
+2020-08,Metro,CTP,148270,Contactless
+2020-08,Metro,Day Pass without SAF,5,Adult
+2020-08,Metro,Employee,5770,Other
+2020-08,Metro,Free Travel,844,Other
+2020-08,Metro,School Student,80446,Child/Student
+2020-08,Metro,Senior/Pensioner,53995,Senior
+2020-08,Metro,Sgl Trip Rail Adult,1613,Adult
+2020-08,Metro,Sgl Trip Rail Child/Youth,2142,Child/Student
+2020-09,Metro,Adult,533927,Adult
+2020-09,Metro,Child/Youth,61501,Child/Student
+2020-09,Metro,Concession,94107,Concession
+2020-09,Metro,CTP,159481,Contactless
+2020-09,Metro,Day Pass without SAF,6,Adult
+2020-09,Metro,Employee,6245,Other
+2020-09,Metro,Free Travel,878,Other
+2020-09,Metro,School Student,80811,Child/Student
+2020-09,Metro,Senior/Pensioner,62527,Senior
+2020-09,Metro,Sgl Trip Rail Adult,1676,Adult
+2020-09,Metro,Sgl Trip Rail Child/Youth,2653,Child/Student
+2020-10,Metro,Adult,552180,Adult
+2020-10,Metro,Child/Youth,80137,Child/Student
+2020-10,Metro,Concession,102905,Concession
+2020-10,Metro,CTP,173066,Contactless
+2020-10,Metro,Day Pass without SAF,13,Adult
+2020-10,Metro,Employee,6414,Other
+2020-10,Metro,Free Travel,945,Other
+2020-10,Metro,School Student,63594,Child/Student
+2020-10,Metro,Senior/Pensioner,68481,Senior
+2020-10,Metro,Sgl Trip Rail Adult,2060,Adult
+2020-10,Metro,Sgl Trip Rail Child/Youth,3007,Child/Student
+2020-11,Metro,Adult,617476,Adult
+2020-11,Metro,Child/Youth,66747,Child/Student
+2020-11,Metro,Concession,86880,Concession
+2020-11,Metro,CTP,201491,Contactless
+2020-11,Metro,Day Pass without SAF,1,Adult
+2020-11,Metro,Employee,7401,Other
+2020-11,Metro,Free Travel,1081,Other
+2020-11,Metro,School Student,93904,Child/Student
+2020-11,Metro,Senior/Pensioner,81964,Senior
+2020-11,Metro,Sgl Trip Rail Adult,2462,Adult
+2020-11,Metro,Sgl Trip Rail Child/Youth,2839,Child/Student
+2020-12,Metro,Adult,583500,Adult
+2020-12,Metro,Child/Youth,94959,Child/Student
+2020-12,Metro,Concession,78503,Concession
+2020-12,Metro,CTP,215788,Contactless
+2020-12,Metro,Day Pass without SAF,9,Adult
+2020-12,Metro,Employee,7699,Other
+2020-12,Metro,Free Travel,1082,Other
+2020-12,Metro,School Student,51121,Child/Student
+2020-12,Metro,Senior/Pensioner,77723,Senior
+2020-12,Metro,Sgl Trip Rail Adult,3080,Adult
+2020-12,Metro,Sgl Trip Rail Child/Youth,4100,Child/Student
+2021-01,Metro,Adult,489531,Adult
+2021-01,Metro,Child/Youth,105764,Child/Student
+2021-01,Metro,Concession,67660,Concession
+2021-01,Metro,CTP,180974,Contactless
+2021-01,Metro,Day Pass without SAF,6,Adult
+2021-01,Metro,Employee,6574,Other
+2021-01,Metro,Free Travel,812,Other
+2021-01,Metro,School Student,5223,Child/Student
+2021-01,Metro,Senior/Pensioner,62489,Senior
+2021-01,Metro,Sgl Trip Rail Adult,1901,Adult
+2021-01,Metro,Sgl Trip Rail Child/Youth,3751,Child/Student
+2021-02,Metro,Adult,642411,Adult
+2021-02,Metro,Child/Youth,77584,Child/Student
+2021-02,Metro,Concession,104930,Concession
+2021-02,Metro,CTP,236161,Contactless
+2021-02,Metro,Day Pass without SAF,10,Adult
+2021-02,Metro,Employee,7230,Other
+2021-02,Metro,Free Travel,1117,Other
+2021-02,Metro,School Student,103196,Child/Student
+2021-02,Metro,Senior/Pensioner,85141,Senior
+2021-02,Metro,Sgl Trip Rail Adult,2486,Adult
+2021-02,Metro,Sgl Trip Rail Child/Youth,2792,Child/Student
+2021-03,Metro,Adult,753250,Adult
+2021-03,Metro,Child/Youth,69779,Child/Student
+2021-03,Metro,Concession,202933,Concession
+2021-03,Metro,CTP,282204,Contactless
+2021-03,Metro,Day Pass without SAF,3,Adult
+2021-03,Metro,Employee,8584,Other
+2021-03,Metro,Free Travel,1271,Other
+2021-03,Metro,School Student,122144,Child/Student
+2021-03,Metro,Senior/Pensioner,100401,Senior
+2021-03,Metro,Sgl Trip Rail Adult,2989,Adult
+2021-03,Metro,Sgl Trip Rail Child/Youth,2756,Child/Student
+2021-04,Metro,Adult,724933,Adult
+2021-04,Metro,Child/Youth,112888,Child/Student
+2021-04,Metro,Concession,139038,Concession
+2021-04,Metro,CTP,294486,Contactless
+2021-04,Metro,Day Pass without SAF,7,Adult
+2021-04,Metro,Employee,8072,Other
+2021-04,Metro,Free Travel,1412,Other
+2021-04,Metro,School Student,56909,Child/Student
+2021-04,Metro,Senior/Pensioner,107808,Senior
+2021-04,Metro,Sgl Trip Rail Adult,3971,Adult
+2021-04,Metro,Sgl Trip Rail Child/Youth,5286,Child/Student
+2021-05,Metro,Adult,784759,Adult
+2021-05,Metro,Child/Youth,76183,Child/Student
+2021-05,Metro,Concession,172821,Concession
+2021-05,Metro,CTP,324035,Contactless
+2021-05,Metro,Day Pass without SAF,3,Adult
+2021-05,Metro,Employee,9284,Other
+2021-05,Metro,Free Travel,1426,Other
+2021-05,Metro,School Student,117474,Child/Student
+2021-05,Metro,Senior/Pensioner,114252,Senior
+2021-05,Metro,Sgl Trip Rail Adult,3415,Adult
+2021-05,Metro,Sgl Trip Rail Child/Youth,3857,Child/Student
+2021-06,Metro,Adult,617927,Adult
+2021-06,Metro,Child/Youth,55744,Child/Student
+2021-06,Metro,Concession,104679,Concession
+2021-06,Metro,CTP,246817,Contactless
+2021-06,Metro,Day Pass without SAF,5,Adult
+2021-06,Metro,Employee,6129,Other
+2021-06,Metro,Free Travel,1070,Other
+2021-06,Metro,School Student,94870,Child/Student
+2021-06,Metro,Senior/Pensioner,89799,Senior
+2021-06,Metro,Sgl Trip Rail Adult,2213,Adult
+2021-06,Metro,Sgl Trip Rail Child/Youth,2771,Child/Student
+2021-07,Metro,Adult,179849,Adult
+2021-07,Metro,Child/Youth,5913,Child/Student
+2021-07,Metro,Concession,17652,Concession
+2021-07,Metro,CTP,62260,Contactless
+2021-07,Metro,Day Pass without SAF,2,Adult
+2021-07,Metro,Employee,2308,Other
+2021-07,Metro,Free Travel,191,Other
+2021-07,Metro,School Student,616,Child/Student
+2021-07,Metro,Senior/Pensioner,18309,Senior
+2021-07,Metro,Sgl Trip Rail Adult,455,Adult
+2021-07,Metro,Sgl Trip Rail Child/Youth,640,Child/Student
+2021-08,Metro,Adult,132635,Adult
+2021-08,Metro,Child/Youth,3023,Child/Student
+2021-08,Metro,Concession,11687,Concession
+2021-08,Metro,CTP,44113,Contactless
+2021-08,Metro,Day Pass without SAF,4,Adult
+2021-08,Metro,Employee,1519,Other
+2021-08,Metro,Free Travel,128,Other
+2021-08,Metro,School Student,705,Child/Student
+2021-08,Metro,Senior/Pensioner,13021,Senior
+2021-08,Metro,Sgl Trip Rail Adult,276,Adult
+2021-08,Metro,Sgl Trip Rail Child/Youth,507,Child/Student
+2021-09,Metro,Adult,136617,Adult
+2021-09,Metro,Child/Youth,4479,Child/Student
+2021-09,Metro,Concession,11143,Concession
+2021-09,Metro,CTP,47090,Contactless
+2021-09,Metro,Day Pass without SAF,7,Adult
+2021-09,Metro,Employee,1147,Other
+2021-09,Metro,Free Travel,139,Other
+2021-09,Metro,School Student,478,Child/Student
+2021-09,Metro,Senior/Pensioner,15393,Senior
+2021-09,Metro,Sgl Trip Rail Adult,293,Adult
+2021-09,Metro,Sgl Trip Rail Child/Youth,634,Child/Student
+2021-10,Metro,Adult,280790,Adult
+2021-10,Metro,Child/Youth,36456,Child/Student
+2021-10,Metro,Concession,44037,Concession
+2021-10,Metro,CTP,136772,Contactless
+2021-10,Metro,Day Pass without SAF,4,Adult
+2021-10,Metro,Employee,3504,Other
+2021-10,Metro,Free Travel,569,Other
+2021-10,Metro,School Student,28833,Child/Student
+2021-10,Metro,Senior/Pensioner,48030,Senior
+2021-10,Metro,Sgl Trip Rail Adult,1249,Adult
+2021-10,Metro,Sgl Trip Rail Child/Youth,1933,Child/Student
+2021-11,Metro,Adult,452954,Adult
+2021-11,Metro,Child/Youth,55977,Child/Student
+2021-11,Metro,Concession,72774,Concession
+2021-11,Metro,CTP,216940,Contactless
+2021-11,Metro,Day Pass without SAF,5,Adult
+2021-11,Metro,Employee,5866,Other
+2021-11,Metro,Free Travel,967,Other
+2021-11,Metro,School Student,116422,Child/Student
+2021-11,Metro,Senior/Pensioner,81250,Senior
+2021-11,Metro,Sgl Trip Rail Adult,2200,Adult
+2021-11,Metro,Sgl Trip Rail Child/Youth,2666,Child/Student
+2021-12,Metro,Adult,468401,Adult
+2021-12,Metro,Child/Youth,89830,Child/Student
+2021-12,Metro,Concession,79637,Concession
+2021-12,Metro,CTP,244548,Contactless
+2021-12,Metro,Day Pass without SAF,13,Adult
+2021-12,Metro,Employee,6606,Other
+2021-12,Metro,Free Travel,899,Other
+2021-12,Metro,School Student,55544,Child/Student
+2021-12,Metro,Senior/Pensioner,79251,Senior
+2021-12,Metro,Sgl Trip Rail Adult,3228,Adult
+2021-12,Metro,Sgl Trip Rail Child/Youth,4165,Child/Student
+2022-01,Metro,Adult,303258,Adult
+2022-01,Metro,Child/Youth,72529,Child/Student
+2022-01,Metro,Concession,50098,Concession
+2022-01,Metro,CTP,161355,Contactless
+2022-01,Metro,Day Pass without SAF,5,Adult
+2022-01,Metro,Employee,4492,Other
+2022-01,Metro,Free Travel,620,Other
+2022-01,Metro,School Student,2758,Child/Student
+2022-01,Metro,Senior/Pensioner,48621,Senior
+2022-01,Metro,Sgl Trip Rail Adult,1974,Adult
+2022-01,Metro,Sgl Trip Rail Child/Youth,3432,Child/Student
+2022-02,Metro,Adult,392103,Adult
+2022-02,Metro,Child/Youth,69520,Child/Student
+2022-02,Metro,Concession,90031,Concession
+2022-02,Metro,CTP,208243,Contactless
+2022-02,Metro,Day Pass without SAF,3,Adult
+2022-02,Metro,Employee,5587,Other
+2022-02,Metro,Free Travel,815,Other
+2022-02,Metro,School Student,107578,Child/Student
+2022-02,Metro,Senior/Pensioner,62320,Senior
+2022-02,Metro,Sgl Trip Rail Adult,2142,Adult
+2022-02,Metro,Sgl Trip Rail Child/Youth,2430,Child/Student
+2022-03,Metro,Adult,545201,Adult
+2022-03,Metro,Child/Youth,70762,Child/Student
+2022-03,Metro,Concession,184842,Concession
+2022-03,Metro,CTP,298153,Contactless
+2022-03,Metro,Day Pass without SAF,5,Adult
+2022-03,Metro,Employee,7699,Other
+2022-03,Metro,Free Travel,979,Other
+2022-03,Metro,School Student,123529,Child/Student
+2022-03,Metro,Senior/Pensioner,80905,Senior
+2022-03,Metro,Sgl Trip Rail Adult,3164,Adult
+2022-03,Metro,Sgl Trip Rail Child/Youth,3428,Child/Student
+2022-04,Metro,Adult,604787,Adult
+2022-04,Metro,Child/Youth,126592,Child/Student
+2022-04,Metro,Concession,124694,Concession
+2022-04,Metro,CTP,316827,Contactless
+2022-04,Metro,Day Pass without SAF,2,Adult
+2022-04,Metro,Employee,7373,Other
+2022-04,Metro,Free Travel,931,Other
+2022-04,Metro,School Student,53990,Child/Student
+2022-04,Metro,Senior/Pensioner,96771,Senior
+2022-04,Metro,Sgl Trip Rail Adult,2836,Adult
+2022-04,Metro,Sgl Trip Rail Child/Youth,3682,Child/Student
+2022-05,Metro,Adult,682645,Adult
+2022-05,Metro,Child/Youth,76054,Child/Student
+2022-05,Metro,Concession,160565,Concession
+2022-05,Metro,CTP,386701,Contactless
+2022-05,Metro,Day Pass without SAF,11,Adult
+2022-05,Metro,Employee,9020,Other
+2022-05,Metro,Free Travel,1291,Other
+2022-05,Metro,School Student,132269,Child/Student
+2022-05,Metro,Senior/Pensioner,106441,Senior
+2022-05,Metro,Sgl Trip Rail Adult,4086,Adult
+2022-05,Metro,Sgl Trip Rail Child/Youth,4230,Child/Student
+2022-06,Metro,Adult,675361,Adult
+2022-06,Metro,Child/Youth,87208,Child/Student
+2022-06,Metro,Concession,113875,Concession
+2022-06,Metro,CTP,382184,Contactless
+2022-06,Metro,Day Pass without SAF,5,Adult
+2022-06,Metro,Employee,9548,Other
+2022-06,Metro,Free Travel,1147,Other
+2022-06,Metro,School Student,127005,Child/Student
+2022-06,Metro,Senior/Pensioner,114975,Senior
+2022-06,Metro,Sgl Trip Rail Adult,4440,Adult
+2022-06,Metro,Sgl Trip Rail Child/Youth,5245,Child/Student
+2022-07,Metro,Adult,602643,Adult
+2022-07,Metro,Child/Youth,113396,Child/Student
+2022-07,Metro,Concession,102727,Concession
+2022-07,Metro,CTP,341982,Contactless
+2022-07,Metro,Day Pass without SAF,8,Adult
+2022-07,Metro,Employee,7928,Other
+2022-07,Metro,Free Travel,990,Other
+2022-07,Metro,School Student,64043,Child/Student
+2022-07,Metro,Senior/Pensioner,94024,Senior
+2022-07,Metro,Sgl Trip Rail Adult,3943,Adult
+2022-07,Metro,Sgl Trip Rail Child/Youth,5458,Child/Student
+2022-08,Metro,Adult,680455,Adult
+2022-08,Metro,Child/Youth,68298,Child/Student
+2022-08,Metro,Concession,186240,Concession
+2022-08,Metro,CTP,399797,Contactless
+2022-08,Metro,Day Pass without SAF,3,Adult
+2022-08,Metro,Employee,8780,Other
+2022-08,Metro,Free Travel,1041,Other
+2022-08,Metro,School Student,148403,Child/Student
+2022-08,Metro,Senior/Pensioner,102663,Senior
+2022-08,Metro,Sgl Trip Rail Adult,3449,Adult
+2022-08,Metro,Sgl Trip Rail Child/Youth,3428,Child/Student
+2022-09,Metro,Adult,660673,Adult
+2022-09,Metro,Child/Youth,88386,Child/Student
+2022-09,Metro,Concession,132959,Concession
+2022-09,Metro,CTP,397176,Contactless
+2022-09,Metro,Day Pass without SAF,4,Adult
+2022-09,Metro,Employee,7222,Other
+2022-09,Metro,Free Travel,922,Other
+2022-09,Metro,School Student,103633,Child/Student
+2022-09,Metro,Senior/Pensioner,106598,Senior
+2022-09,Metro,Sgl Trip Rail Adult,3587,Adult
+2022-09,Metro,Sgl Trip Rail Child/Youth,3904,Child/Student
+2022-10,Metro,Adult,642145,Adult
+2022-10,Metro,Child/Youth,90128,Child/Student
+2022-10,Metro,Concession,144844,Concession
+2022-10,Metro,CTP,408491,Contactless
+2022-10,Metro,Day Pass without SAF,12,Adult
+2022-10,Metro,Employee,8227,Other
+2022-10,Metro,Free Travel,1069,Other
+2022-10,Metro,School Student,104338,Child/Student
+2022-10,Metro,Senior/Pensioner,109339,Senior
+2022-10,Metro,Sgl Trip Rail Adult,3953,Adult
+2022-10,Metro,Sgl Trip Rail Child/Youth,4472,Child/Student
+2022-11,Metro,Adult,604879,Adult
+2022-11,Metro,Child/Youth,74878,Child/Student
+2022-11,Metro,Concession,96744,Concession
+2022-11,Metro,CTP,386998,Contactless
+2022-11,Metro,Day Pass without SAF,11,Adult
+2022-11,Metro,Employee,7755,Other
+2022-11,Metro,Free Travel,930,Other
+2022-11,Metro,School Student,112233,Child/Student
+2022-11,Metro,Senior/Pensioner,104597,Senior
+2022-11,Metro,Sgl Trip Rail Adult,4073,Adult
+2022-11,Metro,Sgl Trip Rail Child/Youth,3742,Child/Student
+2022-12,Metro,Adult,674886,Adult
+2022-12,Metro,Child/Youth,126355,Child/Student
+2022-12,Metro,Concession,90333,Concession
+2022-12,Metro,CTP,467954,Contactless
+2022-12,Metro,Day Pass without SAF,13,Adult
+2022-12,Metro,Employee,9087,Other
+2022-12,Metro,Free Travel,1212,Other
+2022-12,Metro,School Student,65619,Child/Student
+2022-12,Metro,Senior/Pensioner,127601,Senior
+2022-12,Metro,Sgl Trip Rail Adult,6339,Adult
+2022-12,Metro,Sgl Trip Rail Child/Youth,7821,Child/Student
+2023-01,Metro,Adult,616617,Adult
+2023-01,Metro,Child/Youth,150281,Child/Student
+2023-01,Metro,Concession,79385,Concession
+2023-01,Metro,CTP,415504,Contactless
+2023-01,Metro,Day Pass without SAF,10,Adult
+2023-01,Metro,Employee,7705,Other
+2023-01,Metro,Free Travel,1034,Other
+2023-01,Metro,School Student,7161,Child/Student
+2023-01,Metro,Senior/Pensioner,117304,Senior
+2023-01,Metro,Sgl Trip Rail Adult,5058,Adult
+2023-01,Metro,Sgl Trip Rail Child/Youth,7938,Child/Student
+2023-02,Metro,Adult,719458,Adult
+2023-02,Metro,Child/Youth,92516,Child/Student
+2023-02,Metro,Concession,126243,Concession
+2023-02,Metro,CTP,480110,Contactless
+2023-02,Metro,Day Pass without SAF,15,Adult
+2023-02,Metro,Employee,8932,Other
+2023-02,Metro,Free Travel,1186,Other
+2023-02,Metro,School Student,148817,Child/Student
+2023-02,Metro,Senior/Pensioner,119054,Senior
+2023-02,Metro,Sgl Trip Rail Adult,4560,Adult
+2023-02,Metro,Sgl Trip Rail Child/Youth,4013,Child/Student
+2023-03,Metro,Adult,859491,Adult
+2023-03,Metro,Child/Youth,94967,Child/Student
+2023-03,Metro,Concession,236763,Concession
+2023-03,Metro,CTP,593827,Contactless
+2023-03,Metro,Day Pass without SAF,16,Adult
+2023-03,Metro,Employee,10210,Other
+2023-03,Metro,Free Travel,1577,Other
+2023-03,Metro,School Student,173163,Child/Student
+2023-03,Metro,Senior/Pensioner,135604,Senior
+2023-03,Metro,Sgl Trip Rail Adult,4970,Adult
+2023-03,Metro,Sgl Trip Rail Child/Youth,4484,Child/Student
+2023-04,Metro,Adult,692354,Adult
+2023-04,Metro,Child/Youth,132364,Child/Student
+2023-04,Metro,Concession,133672,Concession
+2023-04,Metro,CTP,488164,Contactless
+2023-04,Metro,Day Pass without SAF,12,Adult
+2023-04,Metro,Employee,7441,Other
+2023-04,Metro,Free Travel,1154,Other
+2023-04,Metro,School Student,52326,Child/Student
+2023-04,Metro,Senior/Pensioner,120699,Senior
+2023-04,Metro,Sgl Trip Rail Adult,4655,Adult
+2023-04,Metro,Sgl Trip Rail Child/Youth,6337,Child/Student
+2023-05,Metro,Adult,850043,Adult
+2023-05,Metro,Child/Youth,77264,Child/Student
+2023-05,Metro,Concession,186032,Concession
+2023-05,Metro,CTP,591619,Contactless
+2023-05,Metro,Day Pass Child/Youth w/o SAF,14,Child/Student
+2023-05,Metro,Day Pass without SAF,7,Adult
+2023-05,Metro,Employee,10185,Other
+2023-05,Metro,Free Travel,1470,Other
+2023-05,Metro,School Student,172299,Child/Student
+2023-05,Metro,Senior/Pensioner,135577,Senior
+2023-05,Metro,Sgl Trip Rail Adult,4280,Adult
+2023-05,Metro,Sgl Trip Rail Child/Youth,4203,Child/Student
+2023-06,Metro,Adult,804348,Adult
+2023-06,Metro,Child/Youth,97142,Child/Student
+2023-06,Metro,Concession,127955,Concession
+2023-06,Metro,CTP,561048,Contactless
+2023-06,Metro,Day Pass without SAF,12,Adult
+2023-06,Metro,Employee,10409,Other
+2023-06,Metro,Free Travel,1396,Other
+2023-06,Metro,School Student,151260,Child/Student
+2023-06,Metro,Senior/Pensioner,137428,Senior
+2023-06,Metro,Sgl Trip Rail Adult,5053,Adult
+2023-06,Metro,Sgl Trip Rail Child/Youth,5699,Child/Student
+2023-07,Metro,Adult,825582,Adult
+2023-07,Metro,Child/Youth,149843,Child/Student
+2023-07,Metro,Concession,124525,Concession
+2023-07,Metro,CTP,569571,Contactless
+2023-07,Metro,Day Pass without SAF,5,Adult
+2023-07,Metro,Employee,9371,Other
+2023-07,Metro,Free Travel,1427,Other
+2023-07,Metro,School Student,78880,Child/Student
+2023-07,Metro,Senior/Pensioner,143432,Senior
+2023-07,Metro,Sgl Trip Rail Adult,5401,Adult
+2023-07,Metro,Sgl Trip Rail Child/Youth,7864,Child/Student
+2023-08,Metro,Adult,909233,Adult
+2023-08,Metro,Child/Youth,83827,Child/Student
+2023-08,Metro,Concession,215132,Concession
+2023-08,Metro,CTP,635045,Contactless
+2023-08,Metro,Day Pass without SAF,11,Adult
+2023-08,Metro,Employee,10206,Other
+2023-08,Metro,Free Travel,1528,Other
+2023-08,Metro,School Student,177958,Child/Student
+2023-08,Metro,Senior/Pensioner,146962,Senior
+2023-08,Metro,Sgl Trip Rail Adult,4397,Adult
+2023-08,Metro,Sgl Trip Rail Child/Youth,4478,Child/Student
+2023-09,Metro,Adult,840910,Adult
+2023-09,Metro,Child/Youth,117707,Child/Student
+2023-09,Metro,Concession,158540,Concession
+2023-09,Metro,CTP,604732,Contactless
+2023-09,Metro,Day Pass without SAF,3,Adult
+2023-09,Metro,Employee,9809,Other
+2023-09,Metro,Free Travel,1399,Other
+2023-09,Metro,School Student,126407,Child/Student
+2023-09,Metro,Senior/Pensioner,146648,Senior
+2023-09,Metro,Sgl Trip Rail Adult,4262,Adult
+2023-09,Metro,Sgl Trip Rail Child/Youth,6096,Child/Student
+2023-10,Metro,Adult,852938,Adult
+2023-10,Metro,Child/Youth,110704,Child/Student
+2023-10,Metro,Concession,177429,Concession
+2023-10,Metro,CTP,601032,Contactless
+2023-10,Metro,Day Pass without SAF,10,Adult
+2023-10,Metro,Employee,10057,Other
+2023-10,Metro,Free Travel,1623,Other
+2023-10,Metro,School Student,128319,Child/Student
+2023-10,Metro,Senior/Pensioner,141713,Senior
+2023-10,Metro,Sgl Trip Rail Adult,4173,Adult
+2023-10,Metro,Sgl Trip Rail Child/Youth,5416,Child/Student
+2023-11,Metro,Adult,854398,Adult
+2023-11,Metro,Child/Youth,90685,Child/Student
+2023-11,Metro,Concession,128213,Concession
+2023-11,Metro,CTP,611217,Contactless
+2023-11,Metro,Day Pass without SAF,103,Adult
+2023-11,Metro,Employee,10148,Other
+2023-11,Metro,Free Travel,1674,Other
+2023-11,Metro,School Student,166224,Child/Student
+2023-11,Metro,Senior/Pensioner,147231,Senior
+2023-11,Metro,Sgl Trip Rail Adult,4240,Adult
+2023-11,Metro,Sgl Trip Rail Child/Youth,4173,Child/Student
+2023-12,Metro,Adult,696546,Adult
+2023-12,Metro,Child/Youth,118165,Child/Student
+2023-12,Metro,Concession,86504,Concession
+2023-12,Metro,CTP,495827,Contactless
+2023-12,Metro,Day Pass without SAF,16,Adult
+2023-12,Metro,Employee,8690,Other
+2023-12,Metro,Free Travel,1253,Other
+2023-12,Metro,School Student,67107,Child/Student
+2023-12,Metro,Senior/Pensioner,133112,Senior
+2023-12,Metro,Sgl Trip Rail Adult,5328,Adult
+2023-12,Metro,Sgl Trip Rail Child/Youth,6936,Child/Student
+2024-01,Metro,Adult,709668,Adult
+2024-01,Metro,Child/Youth,154757,Child/Student
+2024-01,Metro,Concession,85017,Concession
+2024-01,Metro,CTP,513632,Contactless
+2024-01,Metro,Day Pass without SAF,21,Adult
+2024-01,Metro,Employee,7591,Other
+2024-01,Metro,Free Travel,1225,Other
+2024-01,Metro,School Student,3283,Child/Student
+2024-01,Metro,Senior/Pensioner,133813,Senior
+2024-01,Metro,Sgl Trip Rail Adult,4333,Adult
+2024-01,Metro,Sgl Trip Rail Child/Youth,7548,Child/Student
+2024-01,Metro,UNKNOWN,7,Other
+2024-02,Metro,Adult,827154,Adult
+2024-02,Metro,Child/Youth,92915,Child/Student
+2024-02,Metro,Concession,154550,Concession
+2024-02,Metro,CTP,601447,Contactless
+2024-02,Metro,Day Pass without SAF,13,Adult
+2024-02,Metro,Employee,7950,Other
+2024-02,Metro,Free Travel,1475,Other
+2024-02,Metro,School Student,169822,Child/Student
+2024-02,Metro,Senior/Pensioner,135537,Senior
+2024-02,Metro,Sgl Trip Rail Adult,4160,Adult
+2024-02,Metro,Sgl Trip Rail Child/Youth,3917,Child/Student
+2024-02,Metro,UNKNOWN,37,Other
+2024-03,Metro,Adult,814420,Adult
+2024-03,Metro,Child/Youth,75289,Child/Student
+2024-03,Metro,Concession,229800,Concession
+2024-03,Metro,CTP,607774,Contactless
+2024-03,Metro,Day Pass without SAF,5,Adult
+2024-03,Metro,Employee,7997,Other
+2024-03,Metro,Free Travel,1436,Other
+2024-03,Metro,School Student,166075,Child/Student
+2024-03,Metro,Senior/Pensioner,134825,Senior
+2024-03,Metro,Sgl Trip Rail Adult,3622,Adult
+2024-03,Metro,Sgl Trip Rail Child/Youth,3234,Child/Student
+2024-03,Metro,UNKNOWN,19,Other
+2024-04,Metro,Adult,791621,Adult
+2024-04,Metro,Child/Youth,119336,Child/Student
+2024-04,Metro,Concession,170193,Concession
+2024-04,Metro,CTP,594539,Contactless
+2024-04,Metro,Day Pass without SAF,8,Adult
+2024-04,Metro,Employee,8122,Other
+2024-04,Metro,Free Travel,1467,Other
+2024-04,Metro,School Student,81285,Child/Student
+2024-04,Metro,Senior/Pensioner,137204,Senior
+2024-04,Metro,Sgl Trip Rail Adult,3807,Adult
+2024-04,Metro,Sgl Trip Rail Child/Youth,6167,Child/Student
+2024-04,Metro,UNKNOWN,19,Other
+2024-05,Metro,Adult,903122,Adult
+2024-05,Metro,Child/Youth,71908,Child/Student
+2024-05,Metro,Concession,210095,Concession
+2024-05,Metro,CTP,683398,Contactless
+2024-05,Metro,Day Pass Child/Youth w/o SAF,30,Child/Student
+2024-05,Metro,Day Pass without SAF,7,Adult
+2024-05,Metro,Employee,10120,Other
+2024-05,Metro,Free Travel,1757,Other
+2024-05,Metro,School Student,197562,Child/Student
+2024-05,Metro,Senior/Pensioner,149711,Senior
+2024-05,Metro,Sgl Trip Rail Adult,3640,Adult
+2024-05,Metro,Sgl Trip Rail Child/Youth,3880,Child/Student
+2024-05,Metro,UNKNOWN,18,Other
+2024-06,Metro,Adult,771470,Adult
+2024-06,Metro,Child/Youth,83790,Child/Student
+2024-06,Metro,Concession,132073,Concession
+2024-06,Metro,CTP,572990,Contactless
+2024-06,Metro,Day Pass without SAF,18,Adult
+2024-06,Metro,Employee,9164,Other
+2024-06,Metro,Free Travel,1664,Other
+2024-06,Metro,School Student,161638,Child/Student
+2024-06,Metro,Senior/Pensioner,141236,Senior
+2024-06,Metro,Sgl Trip Rail Adult,3358,Adult
+2024-06,Metro,Sgl Trip Rail Child/Youth,4427,Child/Student
+2024-06,Metro,UNKNOWN,12,Other
+2024-07,Metro,Adult,901463,Adult
+2024-07,Metro,Child/Youth,142086,Child/Student
+2024-07,Metro,Concession,152740,Concession
+2024-07,Metro,CTP,662892,Contactless
+2024-07,Metro,Day Pass Child/Youth w/o SAF,0,Child/Student
+2024-07,Metro,Day Pass without SAF,24,Adult
+2024-07,Metro,Employee,10149,Other
+2024-07,Metro,Free Travel,1893,Other
+2024-07,Metro,School Student,93030,Child/Student
+2024-07,Metro,Senior/Pensioner,161932,Senior
+2024-07,Metro,Sgl Trip Rail Adult,4326,Adult
+2024-07,Metro,Sgl Trip Rail Child/Youth,7561,Child/Student
+2024-07,Metro,UNKNOWN,9,Other
+2024-08,Metro,Adult,1514415,Adult
+2024-08,Metro,Child/Youth,149909,Child/Student
+2024-08,Metro,Concession,337739,Concession
+2024-08,Metro,CTP,1368611,Contactless
+2024-08,Metro,Day Pass Child/Youth w/o SAF,2,Child/Student
+2024-08,Metro,Day Pass without SAF,32,Adult
+2024-08,Metro,Employee,21640,Other
+2024-08,Metro,Free Travel,4203,Other
+2024-08,Metro,School Student,231151,Child/Student
+2024-08,Metro,Senior/Pensioner,355340,Senior
+2024-08,Metro,Sgl Trip Rail Adult,6489,Adult
+2024-08,Metro,Sgl Trip Rail Child/Youth,8215,Child/Student
+2024-08,Metro,UNKNOWN,14,Other
+2024-09,Metro,Adult,2030403,Adult
+2024-09,Metro,Child/Youth,170480,Child/Student
+2024-09,Metro,Concession,381654,Concession
+2024-09,Metro,CTP,2007227,Contactless
+2024-09,Metro,Day Pass Child/Youth w/o SAF,6,Child/Student
+2024-09,Metro,Day Pass without SAF,60,Adult
+2024-09,Metro,Employee,29372,Other
+2024-09,Metro,Free Travel,5207,Other
+2024-09,Metro,School Student,258776,Child/Student
+2024-09,Metro,Senior/Pensioner,432098,Senior
+2024-09,Metro,Sgl Trip Rail Adult,9275,Adult
+2024-09,Metro,Sgl Trip Rail Child/Youth,10060,Child/Student
+2024-09,Metro,UNKNOWN,4,Other
+2024-10,Metro,Adult,2269269,Adult
+2024-10,Metro,Child/Youth,247324,Child/Student
+2024-10,Metro,Concession,419413,Concession
+2024-10,Metro,CTP,2297415,Contactless
+2024-10,Metro,Day Pass without SAF,74,Adult
+2024-10,Metro,Employee,31269,Other
+2024-10,Metro,Free Travel,5040,Other
+2024-10,Metro,School Student,170906,Child/Student
+2024-10,Metro,Senior/Pensioner,442111,Senior
+2024-10,Metro,Sgl Trip Rail Adult,10752,Adult
+2024-10,Metro,Sgl Trip Rail Child/Youth,13969,Child/Student
+2024-10,Metro,UNKNOWN,7,Other
+2024-11,Metro,Adult,2111843,Adult
+2024-11,Metro,Child/Youth,169916,Child/Student
+2024-11,Metro,Concession,298978,Concession
+2024-11,Metro,CTP,2174210,Contactless
+2024-11,Metro,Day Pass Child/Youth w/o SAF,0,Child/Student
+2024-11,Metro,Day Pass without SAF,33,Adult
+2024-11,Metro,Employee,29375,Other
+2024-11,Metro,Free Travel,5049,Other
+2024-11,Metro,School Student,254257,Child/Student
+2024-11,Metro,Senior/Pensioner,406179,Senior
+2024-11,Metro,Sgl Trip Rail Adult,10782,Adult
+2024-11,Metro,Sgl Trip Rail Child/Youth,9816,Child/Student
+2024-11,Metro,UNKNOWN,8,Other
+2024-12,Metro,Adult,2022626,Adult
+2024-12,Metro,Child/Youth,262402,Child/Student
+2024-12,Metro,Concession,244179,Concession
+2024-12,Metro,CTP,2132477,Contactless
+2024-12,Metro,Day Pass Child/Youth w/o SAF,78,Child/Student
+2024-12,Metro,Day Pass without SAF,69,Adult
+2024-12,Metro,Employee,39374,Other
+2024-12,Metro,Free Travel,4889,Other
+2024-12,Metro,School Student,129951,Child/Student
+2024-12,Metro,Senior/Pensioner,442861,Senior
+2024-12,Metro,Sgl Trip Rail Adult,15325,Adult
+2024-12,Metro,Sgl Trip Rail Child/Youth,19561,Child/Student
+2024-12,Metro,UNKNOWN,27,Other
+2025-01,Metro,Adult,1983876,Adult
+2025-01,Metro,Child/Youth,312251,Child/Student
+2025-01,Metro,Concession,231873,Concession
+2025-01,Metro,CTP,2089650,Contactless
+2025-01,Metro,Day Pass Child/Youth w/o SAF,0,Child/Student
+2025-01,Metro,Day Pass without SAF,38,Adult
+2025-01,Metro,Employee,36203,Other
+2025-01,Metro,Free Travel,5025,Other
+2025-01,Metro,School Student,3243,Child/Student
+2025-01,Metro,Senior/Pensioner,422771,Senior
+2025-01,Metro,Sgl Trip Rail Adult,12779,Adult
+2025-01,Metro,Sgl Trip Rail Child/Youth,19321,Child/Student
+2025-01,Metro,UNKNOWN,3,Other
+2025-02,Metro,Adult,2146118,Adult
+2025-02,Metro,Child/Youth,202541,Child/Student
+2025-02,Metro,Concession,349100,Concession
+2025-02,Metro,CTP,2276464,Contactless
+2025-02,Metro,Day Pass Child/Youth w/o SAF,1,Child/Student
+2025-02,Metro,Day Pass without SAF,44,Adult
+2025-02,Metro,Employee,36371,Other
+2025-02,Metro,Free Travel,5170,Other
+2025-02,Metro,School Student,266582,Child/Student
+2025-02,Metro,Senior/Pensioner,412570,Senior
+2025-02,Metro,Sgl Trip Rail Adult,10603,Adult
+2025-02,Metro,Sgl Trip Rail Child/Youth,9892,Child/Student
+2025-02,Metro,UNKNOWN,6,Other
+2025-03,Metro,Adult,2290011,Adult
+2025-03,Metro,Child/Youth,194647,Child/Student
+2025-03,Metro,Concession,552650,Concession
+2025-03,Metro,CTP,2452600,Contactless
+2025-03,Metro,Day Pass without SAF,58,Adult
+2025-03,Metro,Employee,38131,Other
+2025-03,Metro,Free Travel,5294,Other
+2025-03,Metro,School Student,305625,Child/Student
+2025-03,Metro,Senior/Pensioner,429627,Senior
+2025-03,Metro,Sgl Trip Rail Adult,10874,Adult
+2025-03,Metro,Sgl Trip Rail Child/Youth,11210,Child/Student
+2025-03,Metro,UNKNOWN,6,Other
+2025-04,Metro,Adult,2176538,Adult
+2025-04,Metro,Child/Youth,271922,Child/Student
+2025-04,Metro,Concession,447577,Concession
+2025-04,Metro,CTP,2349744,Contactless
+2025-04,Metro,Day Pass Child/Youth w/o SAF,8,Child/Student
+2025-04,Metro,Day Pass without SAF,51,Adult
+2025-04,Metro,Employee,34438,Other
+2025-04,Metro,Free Travel,5104,Other
+2025-04,Metro,School Student,156574,Child/Student
+2025-04,Metro,Senior/Pensioner,435647,Senior
+2025-04,Metro,Sgl Trip Rail Adult,11054,Adult
+2025-04,Metro,Sgl Trip Rail Child/Youth,15592,Child/Student
+2025-04,Metro,UNKNOWN,2,Other
+2025-05,Metro,Adult,2328312,Adult
+2025-05,Metro,Child/Youth,182351,Child/Student
+2025-05,Metro,Concession,464540,Concession
+2025-05,Metro,CTP,2526395,Contactless
+2025-05,Metro,Day Pass Child/Youth w/o SAF,1,Child/Student
+2025-05,Metro,Day Pass without SAF,59,Adult
+2025-05,Metro,Employee,39705,Other
+2025-05,Metro,Free Travel,5413,Other
+2025-05,Metro,School Student,316914,Child/Student
+2025-05,Metro,Senior/Pensioner,438988,Senior
+2025-05,Metro,Sgl Trip Rail Adult,9825,Adult
+2025-05,Metro,Sgl Trip Rail Child/Youth,11854,Child/Student
+2025-05,Metro,UNKNOWN,0,Other
+2025-06,Metro,Adult,2276887,Adult
+2025-06,Metro,Child/Youth,206625,Child/Student
+2025-06,Metro,Concession,388646,Concession
+2025-06,Metro,CTP,2485381,Contactless
+2025-06,Metro,Day Pass Child/Youth w/o SAF,1,Child/Student
+2025-06,Metro,Day Pass without SAF,39,Adult
+2025-06,Metro,Employee,41684,Other
+2025-06,Metro,Free Travel,5500,Other
+2025-06,Metro,School Student,297686,Child/Student
+2025-06,Metro,Senior/Pensioner,469014,Senior
+2025-06,Metro,Sgl Trip Rail Adult,10012,Adult
+2025-06,Metro,Sgl Trip Rail Child/Youth,13251,Child/Student
+2025-06,Metro,UNKNOWN,2,Other
+2025-07,Metro,Adult,2330434,Adult
+2025-07,Metro,Child/Youth,298231,Child/Student
+2025-07,Metro,Concession,352254,Concession
+2025-07,Metro,CTP,2469037,Contactless
+2025-07,Metro,Day Pass Child/Youth w/o SAF,2,Child/Student
+2025-07,Metro,Day Pass without SAF,59,Adult
+2025-07,Metro,Employee,49036,Other
+2025-07,Metro,Free Travel,6040,Other
+2025-07,Metro,School Student,154797,Child/Student
+2025-07,Metro,Senior/Pensioner,478763,Senior
+2025-07,Metro,Sgl Trip Rail Adult,11897,Adult
+2025-07,Metro,Sgl Trip Rail Child/Youth,18890,Child/Student
+2025-07,Metro,UNKNOWN,0,Other
+2025-08,Metro,Adult,2233741,Adult
+2025-08,Metro,Child/Youth,182998,Child/Student
+2025-08,Metro,Concession,493003,Concession
+2025-08,Metro,CTP,2462605,Contactless
+2025-08,Metro,Day Pass Child/Youth w/o SAF,2,Child/Student
+2025-08,Metro,Day Pass without SAF,54,Adult
+2025-08,Metro,Employee,44463,Other
+2025-08,Metro,Free Travel,5808,Other
+2025-08,Metro,School Student,319032,Child/Student
+2025-08,Metro,Senior/Pensioner,444735,Senior
+2025-08,Metro,Sgl Trip Rail Adult,10783,Adult
+2025-08,Metro,Sgl Trip Rail Child/Youth,11450,Child/Student
+2025-08,Metro,UNKNOWN,0,Other
+2025-09,Metro,Adult,2296600,Adult
+2025-09,Metro,Child/Youth,182816,Child/Student
+2025-09,Metro,Concession,450671,Concession
+2025-09,Metro,CTP,2528151,Contactless
+2025-09,Metro,Day Pass Child/Youth w/o SAF,1,Child/Student
+2025-09,Metro,Day Pass without SAF,68,Adult
+2025-09,Metro,Employee,47817,Other
+2025-09,Metro,Free Travel,5719,Other
+2025-09,Metro,School Student,320891,Child/Student
+2025-09,Metro,Senior/Pensioner,459508,Senior
+2025-09,Metro,Sgl Trip Rail Adult,9873,Adult
+2025-09,Metro,Sgl Trip Rail Child/Youth,11234,Child/Student
+2025-09,Metro,UNKNOWN,0,Other
+2025-10,Metro,Adult,2382375,Adult
+2025-10,Metro,Child/Youth,263159,Child/Student
+2025-10,Metro,Concession,474511,Concession
+2025-10,Metro,CTP,2709797,Contactless
+2025-10,Metro,Day Pass Child/Youth w/o SAF,19,Child/Student
+2025-10,Metro,Day Pass without SAF,92,Adult
+2025-10,Metro,Employee,50164,Other
+2025-10,Metro,Free Travel,6469,Other
+2025-10,Metro,School Student,224158,Child/Student
+2025-10,Metro,Senior/Pensioner,494168,Senior
+2025-10,Metro,Sgl Trip Rail Adult,12710,Adult
+2025-10,Metro,Sgl Trip Rail Child/Youth,16051,Child/Student
+2025-10,Metro,UNKNOWN,3,Other
+2025-11,Metro,Adult,2115731,Adult
+2025-11,Metro,Child/Youth,161004,Child/Student
+2025-11,Metro,Concession,344667,Concession
+2025-11,Metro,CTP,2426942,Contactless
+2025-11,Metro,Day Pass Child/Youth w/o SAF,24,Child/Student
+2025-11,Metro,Day Pass without SAF,93,Adult
+2025-11,Metro,Employee,43581,Other
+2025-11,Metro,Free Travel,5636,Other
+2025-11,Metro,School Student,299528,Child/Student
+2025-11,Metro,Senior/Pensioner,436174,Senior
+2025-11,Metro,Sgl Trip Rail Adult,10121,Adult
+2025-11,Metro,Sgl Trip Rail Child/Youth,9849,Child/Student
+2025-11,Metro,UNKNOWN,9,Other
+2025-12,Metro,Adult,1890809,Adult
+2025-12,Metro,Child/Youth,211531,Child/Student
+2025-12,Metro,Concession,251937,Concession
+2025-12,Metro,CTP,2245923,Contactless
+2025-12,Metro,Day Pass without SAF,70,Adult
+2025-12,Metro,Employee,47784,Other
+2025-12,Metro,Free Travel,5045,Other
+2025-12,Metro,School Student,165088,Child/Student
+2025-12,Metro,Senior/Pensioner,433032,Senior
+2025-12,Metro,Sgl Trip Rail Adult,11807,Adult
+2025-12,Metro,Sgl Trip Rail Child/Youth,15442,Child/Student
+2025-12,Metro,UNKNOWN,4,Other
+2026-01,Metro,Adult,1813157,Adult
+2026-01,Metro,Child/Youth,292025,Child/Student
+2026-01,Metro,Concession,218331,Concession
+2026-01,Metro,CTP,2172549,Contactless
+2026-01,Metro,Day Pass without SAF,46,Adult
+2026-01,Metro,Employee,41251,Other
+2026-01,Metro,Free Travel,4727,Other
+2026-01,Metro,School Student,16427,Child/Student
+2026-01,Metro,Senior/Pensioner,419189,Senior
+2026-01,Metro,Sgl Trip Rail Adult,10846,Adult
+2026-01,Metro,Sgl Trip Rail Child/Youth,17327,Child/Student
+2026-01,Metro,UNKNOWN,5,Other
+2026-02,Metro,Adult,2071345,Adult
+2026-02,Metro,Child/Youth,188194,Child/Student
+2026-02,Metro,Concession,345349,Concession
+2026-02,Metro,CTP,2498548,Contactless
+2026-02,Metro,Day Pass without SAF,48,Adult
+2026-02,Metro,Employee,45856,Other
+2026-02,Metro,Free Travel,5229,Other
+2026-02,Metro,School Student,332228,Child/Student
+2026-02,Metro,Senior/Pensioner,439654,Senior
+2026-02,Metro,Sgl Trip Rail Adult,10550,Adult
+2026-02,Metro,Sgl Trip Rail Child/Youth,9831,Child/Student
+2026-02,Metro,UNKNOWN,0,Other
+2026-03,Metro,Adult,2250972,Adult
+2026-03,Metro,Child/Youth,164789,Child/Student
+2026-03,Metro,Concession,582212,Concession
+2026-03,Metro,CTP,2766936,Contactless
+2026-03,Metro,Day Pass Child/Youth w/o SAF,1,Child/Student
+2026-03,Metro,Day Pass without SAF,47,Adult
+2026-03,Metro,Employee,51862,Other
+2026-03,Metro,Free Travel,5952,Other
+2026-03,Metro,School Student,376941,Child/Student
+2026-03,Metro,Senior/Pensioner,478220,Senior
+2026-03,Metro,Sgl Trip Rail Adult,9476,Adult
+2026-03,Metro,Sgl Trip Rail Child/Youth,10144,Child/Student
+2026-03,Metro,UNKNOWN,0,Other
+2026-04,Metro,Adult,1941893,Adult
+2026-04,Metro,Child/Youth,251028,Child/Student
+2026-04,Metro,Concession,448172,Concession
+2026-04,Metro,CTP,2410019,Contactless
+2026-04,Metro,Day Pass Child/Youth w/o SAF,0,Child/Student
+2026-04,Metro,Day Pass without SAF,50,Adult
+2026-04,Metro,Employee,40421,Other
+2026-04,Metro,Free Travel,5354,Other
+2026-04,Metro,School Student,145344,Child/Student
+2026-04,Metro,Senior/Pensioner,444310,Senior
+2026-04,Metro,Sgl Trip Rail Adult,8437,Adult
+2026-04,Metro,Sgl Trip Rail Child/Youth,14676,Child/Student
+2026-04,Metro,UNKNOWN,0,Other
+2026-05,Metro,Adult,2160024,Adult
+2026-05,Metro,Child/Youth,162653,Child/Student
+2026-05,Metro,Concession,483416,Concession
+2026-05,Metro,CTP,2723634,Contactless
+2026-05,Metro,Day Pass Child/Youth w/o SAF,76,Child/Student
+2026-05,Metro,Day Pass without SAF,63,Adult
+2026-05,Metro,Employee,50315,Other
+2026-05,Metro,Free Travel,5669,Other
+2026-05,Metro,School Student,367476,Child/Student
+2026-05,Metro,Senior/Pensioner,474534,Senior
+2026-05,Metro,Sgl Trip Rail Adult,8916,Adult
+2026-05,Metro,Sgl Trip Rail Child/Youth,11265,Child/Student
+2026-05,Metro,UNKNOWN,0,Other
+2026-06,Metro,Adult,2127413,Adult
+2026-06,Metro,Child/Youth,174708,Child/Student
+2026-06,Metro,Concession,395694,Concession
+2026-06,Metro,CTP,2680620,Contactless
+2026-06,Metro,Day Pass Child/Youth w/o SAF,23,Child/Student
+2026-06,Metro,Day Pass without SAF,62,Adult
+2026-06,Metro,Employee,51353,Other
+2026-06,Metro,Free Travel,5444,Other
+2026-06,Metro,School Student,359868,Child/Student
+2026-06,Metro,Senior/Pensioner,492403,Senior
+2026-06,Metro,Sgl Trip Rail Adult,8505,Adult
+2026-06,Metro,Sgl Trip Rail Child/Youth,11550,Child/Student
+2026-06,Metro,UNKNOWN,0,Other
+2026-07,Metro,Adult,2140730,Adult
+2026-07,Metro,Child/Youth,256270,Child/Student
+2026-07,Metro,Concession,359281,Concession
+2026-07,Metro,CTP,2678194,Contactless
+2026-07,Metro,Day Pass Child/Youth w/o SAF,4,Child/Student
+2026-07,Metro,Day Pass without SAF,68,Adult
+2026-07,Metro,Employee,49238,Other
+2026-07,Metro,Free Travel,5435,Other
+2026-07,Metro,School Student,188976,Child/Student
+2026-07,Metro,Senior/Pensioner,499862,Senior
+2026-07,Metro,Sgl Trip Rail Adult,9116,Adult
+2026-07,Metro,Sgl Trip Rail Child/Youth,15054,Child/Student
+2026-07,Metro,UNKNOWN,2,Other
+2026-08,Metro,Adult,2260432,Adult
+2026-08,Metro,Child/Youth,200292,Child/Student
+2026-08,Metro,Concession,525093,Concession
+2026-08,Metro,CTP,2998502,Contactless
+2026-08,Metro,Day Pass Child/Youth w/o SAF,19,Child/Student
+2026-08,Metro,Day Pass without SAF,49,Adult
+2026-08,Metro,Employee,50740,Other
+2026-08,Metro,Free Travel,5683,Other
+2026-08,Metro,School Student,356663,Child/Student
+2026-08,Metro,Senior/Pensioner,533290,Senior
+2026-08,Metro,Sgl Trip Rail Adult,8568,Adult
+2026-08,Metro,Sgl Trip Rail Child/Youth,10922,Child/Student
+2026-08,Metro,UNKNOWN,0,Other
