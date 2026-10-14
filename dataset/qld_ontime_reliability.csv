@@ -1,4 +1,4 @@
-﻿Year_Month,Mode,On_Time,Reliability
+Year_Month,Mode,On_Time,Reliability
 Dec-23,Train,0.9314,0.992722
 Jan-24,Train,0.9328,0.995508
 Feb-24,Train,0.9173,0.99266
