@@ -19,7 +19,13 @@
       <h1>Public Transport Experiences</h1>
     </div>
   </header>
-
+  <section id="chart_search">
+    <h2>Jump to a Chart</h2>
+    <input type="search" id="search_input"
+            placeholder="Type a chart type or topic (e.g. bump, radar, Sydney, weekend)">
+    <ul id="result_list"></ul>
+    <p id="no_result" hidden>No chart found. Try another word.</p>
+</section>
   <section class="pure-g">
     <div class="pure-u-1 text_div">
       <p class="chart_desc">Every tap of an Opal card tells us who is on board. This chart ranks six rider groups by the number of trips they took each year on Sydney’s buses, ferries and Metro. Follow a line to see a group climb or fall.</p>
@@ -70,5 +76,6 @@
   </footer>
 
   <script src="js/vega_lite_vis.js"></script>
+  <script src="js/dataset_search.js"></script>
 </body>
 </html>
