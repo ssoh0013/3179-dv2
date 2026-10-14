@@ -1,0 +1,89 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": {"expr": "upper('Weekday vs Weekend in Melbourne')"},
+    "subtitle": "Average trips per day by mode, latest 12 months of data (normal weekdays vs weekends)",
+    "anchor": "middle",
+    "frame": "bounds"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/mel_average_patronage.csv",
+    "format": {"parse": {"Year": "number", "Month": "number", "Pax_daily": "number"}}
+  },
+  "transform": [
+    {"calculate": "datum.Year * 12 + datum.Month", "as": "month_index"},
+    {"joinaggregate": [{"op": "max", "field": "month_index", "as": "latest_month"}]},
+    {"filter": "datum.month_index > datum.latest_month - 12"},
+    {"filter": {"field": "Day_type", "oneOf": ["Normal Weekday", "Weekend"]}},
+    {
+      "aggregate": [{"op": "mean", "field": "Pax_daily", "as": "Avg_daily"}],
+      "groupby": ["Mode", "Day_type"]
+    },
+    {"pivot": "Day_type", "value": "Avg_daily", "groupby": ["Mode"]},
+    {"calculate": "datum['Normal Weekday']", "as": "Weekday"},
+    {"calculate": "datum.Weekend / datum.Weekday", "as": "Weekend_ratio"},
+    {
+      "calculate": "{'MetroTrain': 'Metro train', 'Tram': 'Tram', 'MetroBus': 'Metro bus', 'RegionalTrain': 'Regional train', 'RegionalBus': 'Regional bus'}[datum.Mode]",
+      "as": "Mode_label"
+    },
+    {"calculate": "format(datum.Weekday, '.3~s')", "as": "Weekday_label"},
+    {"calculate": "format(datum.Weekend, '.3~s') + '  (' + format(datum.Weekend_ratio, '.0%') + ' of weekday)'", "as": "Weekend_label"}
+  ],
+  "spacing": 0,
+  "hconcat": [
+    {
+      "width": 230,
+      "height": 220,
+      "title": {"text": "Normal weekday", "fontSize": 13},
+      "encoding": {
+        "y": {"field": "Mode_label", "type": "nominal", "axis": null, "sort": {"field": "Weekday", "order": "descending"}},
+        "x": {
+          "field": "Weekday",
+          "type": "quantitative",
+          "sort": "descending",
+          "scale": {"domain": [0, 650000]},
+          "axis": {"format": "~s", "title": null, "grid": false}
+        }
+      },
+      "layer": [
+        {"mark": {"type": "bar", "color": "#e0c39d", "cornerRadius": 2}},
+        {
+          "mark": {"type": "text", "align": "right", "dx": -4, "fontSize": 11, "color": "#333333"},
+          "encoding": {"text": {"field": "Weekday_label"}}
+        }
+      ]
+    },
+    {
+      "width": 110,
+      "height": 220,
+      "view": {"stroke": null},
+      "mark": {"type": "text", "fontSize": 12, "fontWeight": "bold"},
+      "encoding": {
+        "y": {"field": "Mode_label", "type": "nominal", "axis": null, "sort": {"field": "Weekday", "order": "descending"}},
+        "text": {"field": "Mode_label"}
+      }
+    },
+    {
+      "width": 230,
+      "height": 220,
+      "title": {"text": "Weekend", "fontSize": 13},
+      "encoding": {
+        "y": {"field": "Mode_label", "type": "nominal", "axis": null, "sort": {"field": "Weekday", "order": "descending"}},
+        "x": {
+          "field": "Weekend",
+          "type": "quantitative",
+          "scale": {"domain": [0, 650000]},
+          "axis": {"format": "~s", "title": null, "grid": false}
+        }
+      },
+      "layer": [
+        {"mark": {"type": "bar", "color": "#d2e1ff", "cornerRadius": 2}},
+        {
+          "mark": {"type": "text", "align": "left", "dx": 4, "fontSize": 11, "color": "#333333"},
+          "encoding": {"text": {"field": "Weekend_label"}}
+        }
+      ]
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

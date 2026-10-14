@@ -1,0 +1,196 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": {"expr": "upper('On Time in Queensland, 2025–26')"},
+    "subtitle": [
+      "Share of services running on time, Jul 2025 – Jun 2026 (full arc = 100%)",
+      "Train: peak hours only · Bus: all day · Tram: all day"
+    ]
+  },
+  "width": 360,
+  "height": 360,
+  "data": {
+    "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/qld_ontime_reliability.csv",
+    "format": {
+      "parse": {
+        "Year_Month": "date:'%b-%y'",
+        "On_Time": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.Year_Month >= datetime(2025, 6, 1) && datum.Year_Month <= datetime(2026, 5, 1)"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "mean",
+          "field": "On_Time",
+          "as": "Avg_on_time"
+        }
+      ],
+      "groupby": [
+        "Mode"
+      ]
+    },
+    {
+      "calculate": "indexof(['Bus', 'Train', 'Tram'], datum.Mode)",
+      "as": "ring"
+    },
+    {
+      "calculate": "70 + datum.ring * 38",
+      "as": "r_inner"
+    },
+    {
+      "calculate": "datum.r_inner + 28",
+      "as": "r_outer"
+    },
+    {
+      "calculate": "0",
+      "as": "angle_start"
+    },
+    {
+      "calculate": "1.5 * PI",
+      "as": "angle_full"
+    },
+    {
+      "calculate": "datum.Avg_on_time * 1.5 * PI",
+      "as": "angle_end"
+    },
+    {
+      "calculate": "datum.Mode + '  ' + format(datum.Avg_on_time, '.0%')",
+      "as": "label"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "arc",
+        "color": "#eeeeee"
+      },
+      "encoding": {
+        "theta": {
+          "field": "angle_start",
+          "type": "quantitative",
+          "scale": null
+        },
+        "theta2": {
+          "field": "angle_full"
+        },
+        "radius": {
+          "field": "r_inner",
+          "type": "quantitative",
+          "scale": null
+        },
+        "radius2": {
+          "field": "r_outer"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "arc",
+        "cornerRadius": 4
+      },
+      "encoding": {
+        "theta": {
+          "field": "angle_start",
+          "type": "quantitative",
+          "scale": null
+        },
+        "theta2": {
+          "field": "angle_end"
+        },
+        "radius": {
+          "field": "r_inner",
+          "type": "quantitative",
+          "scale": null
+        },
+        "radius2": {
+          "field": "r_outer"
+        },
+        "color": {
+          "field": "Mode",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Train",
+              "Bus",
+              "Tram"
+            ],
+            "range": [
+              "#b5b478",
+              "#d2e1ff",
+              "#563726"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "Mode"
+          },
+          {
+            "field": "Avg_on_time",
+            "title": "On time (average)",
+            "format": ".1%"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -6,
+        "fontSize": 12,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "theta": {
+          "field": "angle_start",
+          "type": "quantitative",
+          "scale": null
+        },
+        "radius": {
+          "field": "r_mid",
+          "type": "quantitative",
+          "scale": null
+        },
+        "text": {
+          "field": "label"
+        },
+        "color": {
+          "field": "Mode",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Train",
+              "Bus",
+              "Tram"
+            ],
+            "range": [
+              "#4C78A8",
+              "#F58518",
+              "#E45756"
+            ]
+          },
+          "legend": null
+        }
+      },
+      "transform": [
+        {
+          "calculate": "(datum.r_inner + datum.r_outer) / 2",
+          "as": "r_mid"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

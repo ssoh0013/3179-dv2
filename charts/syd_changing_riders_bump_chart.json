@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {"text": {"expr": "upper('Sydney's Changing Riders, 2017-2015')"}, "anchor": "middle", "frame": "bounds"},
+    "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/syd_bymode.csv",
+        "format": {"parse": {"Trip": "number", "Year_Month": "string"}}
+    },
+    "transform": [
+        {"calculate": "toNumber(substring(datum.Year_Month, 0, 4))", "as": "Year"},
+        {"filter": "datum.Year >= 2017 && datum.Year <= 2025"}, 
+        {"aggregate": [{"op": "sum", "field": "Trip", "as": "Total_trips"}],"groupby": ["Year", "Card_group"]},
+        {"window": [{"op": "rank", "as": "Rank"}], "sort": [{"field": "Total_trips", "order": "descending"}], "groupby": ["Year"]}
+    ],
+    "mark": {"type": "line", "point": true, "strokeWidth": 3},
+    "encoding": {
+        "x": {"field": "Year", "type": "ordinal", "title": null},
+        "y": {"field": "Rank", "type": "ordinal", "axis": {"title": "Rank"}},
+        "color": {"field": "Card_group", "type": "nominal", "title": "Rider Group",
+            "scale": {"domain": ["Adult", "Concession", "Child/Student", "Senior", "Other", "Contactless"], "range": ["#b5b478", "#fff6bf", "#d2e1ff", "#563726", "#8b1717", "#e0c39d"]}},
+        "tooltip": [
+            {"field": "Year"},
+            {"field": "Card_group", "title": "Card Group"},
+            {"field": "Total_trips", "format": ",", "title": "Trips"}
+        ]
+    }
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": {"expr": "upper('Who Rides What in Sydney')"},
+    "subtitle": "Each square = 1% of trips on that mode, latest 12 months of data",
+    "anchor": "middle",
+    "frame": "bounds"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/syd_bymode.csv",
+    "format": {"parse": {"Year_Month": "string", "Trip": "number"}}
+  },
+  "transform": [
+    {"calculate": "toNumber(substring(datum.Year_Month, 0, 4)) * 12 + toNumber(substring(datum.Year_Month, 5, 7))", "as": "month_index"},
+    {"joinaggregate": [{"op": "max", "field": "month_index", "as": "latest_month"}]},
+    {"filter": "datum.month_index > datum.latest_month - 12"},
+    {
+      "aggregate": [{"op": "sum", "field": "Trip", "as": "Trips"}],
+      "groupby": ["Mode", "Card_group"]
+    },
+    {
+      "joinaggregate": [{"op": "sum", "field": "Trips", "as": "Mode_total"}],
+      "groupby": ["Mode"]
+    },
+    {"calculate": "datum.Trips / datum.Mode_total * 100", "as": "Percent"},
+    {
+      "calculate": "indexof(['Adult', 'Contactless', 'Concession', 'Senior', 'Child/Student', 'Other'], datum.Card_group)",
+      "as": "group_order"
+    },
+    {
+      "window": [{"op": "sum", "field": "Percent", "as": "Cumulative"}],
+      "sort": [{"field": "group_order"}],
+      "groupby": ["Mode"],
+      "frame": [null, 0]
+    },
+    {"calculate": "round(datum.Cumulative - datum.Percent)", "as": "square_start"},
+    {"calculate": "round(datum.Cumulative)", "as": "square_end"},
+    {"calculate": "sequence(datum.square_start, datum.square_end)", "as": "square_id"},
+    {"flatten": ["square_id"]},
+    {"calculate": "datum.square_id % 10", "as": "col"},
+    {"calculate": "floor(datum.square_id / 10)", "as": "row"}
+  ],
+  "facet": {
+    "column": {
+      "field": "Mode",
+      "type": "nominal",
+      "sort": ["Bus", "Metro", "Ferry"],
+      "title": null,
+      "header": {"labelFontSize": 14, "labelFontWeight": "bold"}
+    }
+  },
+  "spec": {
+    "width": 170,
+    "height": 170,
+    "mark": {"type": "square", "size": 190, "opacity": 1},
+    "encoding": {
+      "x": {"field": "col", "type": "ordinal", "axis": null},
+      "y": {"field": "row", "type": "ordinal", "axis": null, "sort": "descending"},
+      "color": {
+        "field": "Card_group",
+        "type": "nominal",
+        "title": "Rider group",
+        "scale": {
+          "domain": ["Adult", "Concession", "Child/Student", "Senior", "Other", "Contactless"],
+          "range": ["#b5b478", "#fff6bf", "#d2e1ff", "#563726", "#8b1717", "#e0c39d"]
+        },
+        "legend": {"orient": "bottom", "columns": 6}
+      },
+      "tooltip": [
+        {"field": "Mode"},
+        {"field": "Card_group", "title": "Rider group"},
+        {"field": "Percent", "title": "Share of trips (%)", "format": ".1f"}
+      ]
+    }
+  },
+  "config": {"view": {"stroke": null}}
+}

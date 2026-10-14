@@ -1,0 +1,134 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": {"expr": "upper('Rating the ride in Queensland')"},
+    "subtitle": "Average rider satisfaction by mode, Queensland, Jan–Jun 2026 (rings from 3 to 5 out of 5)"
+  },
+  "width": 420,
+  "height": 420,
+  "encoding": {
+    "x": {"field": "x", "type": "quantitative", "scale": {"domain": [-1.4, 1.4]}, "axis": null},
+    "y": {"field": "y", "type": "quantitative", "scale": {"domain": [-1.4, 1.4]}, "axis": null}
+  },
+  "layer": [
+    {
+      "data": {"sequence": {"start": 0, "stop": 9, "as": "k"}},
+      "transform": [
+        {"calculate": "[3.5, 4, 4.5, 5]", "as": "level"},
+        {"flatten": ["level"]},
+        {"calculate": "(datum.level - 3) / 2", "as": "r"},
+        {"calculate": "datum.r * sin(datum.k * 2 * PI / 8)", "as": "x"},
+        {"calculate": "datum.r * cos(datum.k * 2 * PI / 8)", "as": "y"}
+      ],
+      "mark": {"type": "line", "color": "#dddddd", "strokeWidth": 1},
+      "encoding": {
+        "detail": {"field": "level"},
+        "order": {"field": "k"}
+      }
+    },
+    {
+      "data": {"sequence": {"start": 0, "stop": 8, "as": "k"}},
+      "transform": [
+        {"calculate": "0", "as": "x"},
+        {"calculate": "0", "as": "y"},
+        {"calculate": "sin(datum.k * 2 * PI / 8)", "as": "x_end"},
+        {"calculate": "cos(datum.k * 2 * PI / 8)", "as": "y_end"}
+      ],
+      "mark": {"type": "rule", "color": "#dddddd", "strokeWidth": 1},
+      "encoding": {
+        "x2": {"field": "x_end"},
+        "y2": {"field": "y_end"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"level": 3.5}, {"level": 4}, {"level": 4.5}, {"level": 5}
+        ]
+      },
+      "transform": [
+        {"calculate": "0.03", "as": "x"},
+        {"calculate": "(datum.level - 3) / 2", "as": "y"}
+      ],
+      "mark": {"type": "text", "align": "left", "baseline": "bottom", "fontSize": 9, "color": "#999999"},
+      "encoding": {
+        "text": {"field": "level"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"k": 0, "label": "Frequency"},
+          {"k": 1, "label": "Easy transfers"},
+          {"k": 2, "label": "Punctuality"},
+          {"k": 3, "label": "Journey time"},
+          {"k": 4, "label": "Seating"},
+          {"k": 5, "label": "Ride comfort"},
+          {"k": 6, "label": "Feeling safe"},
+          {"k": 7, "label": "Cost"}
+        ]
+      },
+      "transform": [
+        {"calculate": "1.18 * sin(datum.k * 2 * PI / 8)", "as": "x"},
+        {"calculate": "1.18 * cos(datum.k * 2 * PI / 8)", "as": "y"}
+      ],
+      "mark": {"type": "text", "fontSize": 11, "fontWeight": "bold", "color": "#555555"},
+      "encoding": {
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/qld_satisfaction.csv"
+      },
+      "transform": [
+        {
+          "filter": {
+            "field": "Item",
+            "oneOf": [
+              "Frequency of services",
+              "Ease of transferring",
+              "Punctuality",
+              "Journey time",
+              "Availability of seating",
+              "Comfort of the ride",
+              "Feeling safe on board",
+              "Cost of the trip"
+            ]
+          }
+        },
+        {"fold": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"], "as": ["Month", "Score"]},
+        {"calculate": "toNumber(datum.Score)", "as": "Score"},
+        {
+          "aggregate": [{"op": "mean", "field": "Score", "as": "Avg_score"}],
+          "groupby": ["Mode", "Item"]
+        },
+        {
+          "calculate": "indexof(['Frequency of services', 'Ease of transferring', 'Punctuality', 'Journey time', 'Availability of seating', 'Comfort of the ride', 'Feeling safe on board', 'Cost of the trip'], datum.Item)",
+          "as": "k"
+        },
+        {"calculate": "(datum.Avg_score - 3) / 2", "as": "r"},
+        {"calculate": "datum.k == 0 ? [0, 8] : [datum.k]", "as": "draw_order"},
+        {"flatten": ["draw_order"]},
+        {"calculate": "datum.r * sin(datum.k * 2 * PI / 8)", "as": "x"},
+        {"calculate": "datum.r * cos(datum.k * 2 * PI / 8)", "as": "y"}
+      ],
+      "mark": {"type": "line", "point": true, "strokeWidth": 2.5, "opacity": 0.85},
+      "encoding": {
+        "color": {
+          "field": "Mode",
+          "type": "nominal",
+          "scale": {"domain": ["Train", "Bus", "Tram", "Ferry"], "range": ["#b5b478", "#d2e1ff", "#563726", "#e0c39d"]},
+          "legend": {"title": null, "orient": "top"}
+        },
+        "order": {"field": "draw_order"},
+        "tooltip": [
+          {"field": "Mode"},
+          {"field": "Item", "title": "Aspect"},
+          {"field": "Avg_score", "title": "Average score (out of 5)", "format": ".2f"}
+        ]
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}
