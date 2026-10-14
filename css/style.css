@@ -40,3 +40,59 @@ p {
   padding-left: 12px;
   border-left: 4px solid #b5b478;
 }
+
+#chart_search {
+  margin-top: 40px;
+}
+
+#chart_search h2 {
+  text-align: center;
+}
+
+#search_input {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 16px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 2px solid #b5b478;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+#result_list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.result_item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.95rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.result_item:hover {
+  background: #fff6bf;
+}
+
+.result_item span {
+  color: #666666;
+}
+
+#no_result {
+  text-align: center;
+  color: #888888;
+}
