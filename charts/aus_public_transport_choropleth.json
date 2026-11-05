@@ -1,0 +1,167 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+      "text": {"expr": "upper('Which States Take Public Transport to Work?')"},
+      "subtitle": "Share of workers who travelled to work by public transport only, Census (choose a year below)",
+      "anchor": "middle",
+      "frame": "bounds"
+  },
+  "width": 500,
+  "height": 420,
+  "params": [
+      {
+        "name": "census_year",
+        "value": 2016,
+        "bind": {
+          "input": "select",
+          "options": [2011, 2016, 2021], 
+          "name": "Select financial year: "
+        }
+      }
+  ],
+  "projection": {"type": "mercator"},
+  "layer": [
+      {
+          "data": {
+              "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/aus_travel_to_work.csv",
+              "format": {
+                "parse": {
+                  "Year": "number", 
+                  "Public_transport": "number", 
+                  "Total_listed": "number", 
+                  "PT_share": "number"
+                }
+              }
+          },
+          "transform": [
+              {"filter": "datum.Year == census_year"},
+              {
+                  "lookup": "State",
+                  "from": {
+                      "data": {
+                      "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/aus_states.json",
+                      "format": {
+                        "type": "topojson", 
+                        "feature": "aus_states"
+                      }
+                      },
+                      "key": "properties.STE_NAME21"
+                  },
+                  "as": "geo"
+              }
+          ],
+          "mark": {
+            "type": "geoshape", 
+            "stroke": "white", 
+            "strokeWidth": 1
+          },
+          "encoding": {
+              "shape": {
+                "field": "geo", 
+                "type": "geojson"
+              },
+              "color": {
+                  "field": "PT_share",
+                  "type": "quantitative",
+                  "title": "Public transport share",
+                  "scale": {
+                    "domain": [0, 0.14], 
+                    "range": ["#DDE5FF", "#A9BDFF", "#6D8CFF", "#4565E0", "#23389E"]
+                  },
+                  "legend": {
+                    "format": ".0%", 
+                    "orient": "bottom-left", 
+                    "direction": "horizontal", 
+                    "gradientLength": 160, 
+                    "titleLimit": 250
+                  }
+              },
+              "tooltip": [
+                  {"field": "State"},
+                  {"field": "Year", "title": "Census year"},
+                  {"field": "PT_share", "title": "Public transport share", "format": ".1%"},
+                  {"field": "Public_transport", "title": "Workers by public transport", "format": ","}
+              ]
+          }
+      },
+      {
+          "data": {
+              "values": [
+                  {
+                    "Label": "Western Australia", 
+                    "Longitude": 122.0, "Latitude": -25.5
+                  },
+                  {
+                    "Label": "Northern Territory", 
+                    "Longitude": 133.4, 
+                    "Latitude": -19.5
+                  },
+                  {
+                    "Label": "South Australia", 
+                    "Longitude": 135.6, 
+                    "Latitude": -30.0
+                  },
+                  {
+                    "Label": "Queensland", 
+                    "Longitude": 144.6, 
+                    "Latitude": -22.5
+                  },
+                  {
+                    "Label": "New South Wales", 
+                    "Longitude": 146.8, 
+                    "Latitude": -32.0
+                  },
+                  {
+                    "Label": "Victoria", 
+                    "Longitude": 144.0, 
+                    "Latitude": -37.1
+                  },
+                  {
+                    "Label": "Tasmania", 
+                    "Longitude": 146.6, 
+                    "Latitude": -42.1
+                  },
+                  {
+                    "Label": "ACT", 
+                    "Longitude": 150.9, 
+                    "Latitude": -35.9
+                  }
+              ]
+          },
+          "encoding": {
+              "longitude": {
+                "field": "Longitude", 
+                "type": "quantitative"
+              },
+              "latitude": {
+                "field": "Latitude", 
+                "type": "quantitative"
+              },
+              "text": {
+                "field": "Label"
+              }
+          },
+          "layer": [
+              {
+                "mark": {
+                  "type": "text", 
+                  "fontStyle": "italic", 
+                  "fontSize": 11.5, 
+                  "stroke": "white", 
+                  "strokeWidth": 3, 
+                  "strokeJoin": "round"
+                }
+              },
+              {
+                "mark": {
+                  "type": "text", 
+                  "fontStyle": "italic", 
+                  "fontSize": 11.5, 
+                  "color": "#000000"
+                }
+              }
+          ]
+      }
+  ],
+  "config": {"view": {"stroke": null}}
+}

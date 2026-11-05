@@ -1,0 +1,348 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": {
+      "expr": "upper('The Recovery Race')"
+    },
+    "subtitle": "Capital cities ranked by public transport trips as a share of 2018-19 (pre-COVID)",
+    "anchor": "middle",
+    "frame": "group"
+  },
+  "description": "Bump chart",
+  "width": 520,
+  "height": 340,
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "Year": "2024-25",
+            "Rank": 1,
+            "City": "Perth"
+          },
+          {
+            "Year": "2020-21",
+            "Rank": 1,
+            "City": "Hobart"
+          },
+          {
+            "Year": "2023-24",
+            "Rank": 7,
+            "City": "Hobart"
+          },
+          {
+            "Year": "2020-21",
+            "Rank": 8,
+            "City": "Melbourne"
+          },
+          {
+            "Year": "2022-23",
+            "Rank": 8,
+            "City": "Melbourne"
+          },
+          {
+            "Year": "2023-24",
+            "Rank": 8,
+            "City": "Melbourne"
+          },
+          {
+            "Year": "2024-25",
+            "Rank": 8,
+            "City": "Melbourne"
+          }
+        ]
+      },
+      "mark": {
+        "type": "point",
+        "shape": "circle",
+        "size": 380,
+        "filled": false,
+        "strokeWidth": 2,
+        "strokeDash": [
+          3,
+          2
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "title": "Financial year",
+          "axis": {
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "field": "Rank",
+          "type": "ordinal",
+          "title": "Rank (1 = closest to pre-COVID)",
+          "scale": {
+            "padding": 1
+          }
+        },
+        "color": {
+          "field": "City",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/aus_capital_patronage.csv",
+        "format": {
+          "parse": {
+            "Year": "string",
+            "Year_end": "number",
+            "Total": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.Year_end >= 2019"
+        },
+        {
+          "calculate": "datum.Year == '2018-19' ? datum.Total : null",
+          "as": "Only_base"
+        },
+        {
+          "joinaggregate": [
+            {
+              "op": "max",
+              "field": "Only_base",
+              "as": "Total_base"
+            }
+          ],
+          "groupby": [
+            "City"
+          ]
+        },
+        {
+          "calculate": "datum.Total / datum.Total_base",
+          "as": "Recovery"
+        },
+        {
+          "filter": "datum.Year_end >= 2020"
+        },
+        {
+          "window": [
+            {
+              "op": "row_number",
+              "as": "Rank"
+            }
+          ],
+          "sort": [
+            {
+              "field": "Recovery",
+              "order": "descending"
+            }
+          ],
+          "groupby": [
+            "Year"
+          ]
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "point": {
+          "filled": true,
+          "size": 70
+        },
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "title": "Financial year",
+          "axis": {
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "field": "Rank",
+          "type": "ordinal",
+          "title": "Rank (1 = closest to pre-COVID)",
+          "scale": {
+            "padding": 1
+          }
+        },
+        "color": {
+          "field": "City",
+          "type": "nominal",
+          "title": "Capital city",
+          "sort": [
+            "Perth",
+            "Brisbane",
+            "Canberra",
+            "Sydney",
+            "Adelaide",
+            "Hobart",
+            "Darwin",
+            "Melbourne"
+          ],
+          "scale": {
+            "domain": [
+              "Perth",
+              "Brisbane",
+              "Canberra",
+              "Sydney",
+              "Adelaide",
+              "Hobart",
+              "Darwin",
+              "Melbourne"
+            ],
+            "range": [
+              "#e9b0c8",
+              "#6e1e3a",
+              "#d76a4c",
+              "#fadd8b",
+              "#a4bde0",
+              "#274f8b",
+              "#25533f",
+              "#c9d763"
+            ]
+          },
+          "legend": {"symbolType": "square"}
+        },
+        "order": {
+          "field": "Year_end",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "City"
+          },
+          {
+            "field": "Year",
+            "title": "Financial year"
+          },
+          {
+            "field": "Rank"
+          },
+          {
+            "field": "Recovery",
+            "title": "Trips vs 2018-19",
+            "format": ".0%"
+          },
+          {
+            "field": "Total",
+            "title": "Trips (million)",
+            "format": ",.1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Year": "2024-25",
+            "Rank": 1,
+            "note": "Perth: 105%, the only capital above pre-COVID",
+            "City": "Perth"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "fontStyle": "italic",
+        "align": "right",
+        "dy": -16,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "Rank",
+          "type": "ordinal"
+        },
+        "text": {
+          "field": "note"
+        },
+        "color": {
+          "field": "City",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Year": "2022-23",
+            "Rank": 8,
+            "note": "Melbourne: last in 5 of 6 years (35% in 2020-21)",
+            "City": "Melbourne"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "fontStyle": "italic",
+        "align": "center",
+        "dy": 18,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "Rank",
+          "type": "ordinal"
+        },
+        "text": {
+          "field": "note"
+        },
+        "color": {
+          "field": "City",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Year": "2020-21",
+            "Rank": 1,
+            "note": "Hobart: 1st here → 7th later",
+            "City": "Hobart"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "fontStyle": "italic",
+        "align": "center",
+        "dy": -16,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "Rank",
+          "type": "ordinal"
+        },
+        "text": {
+          "field": "note"
+        },
+        "color": {
+          "field": "City",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

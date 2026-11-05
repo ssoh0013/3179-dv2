@@ -1,0 +1,512 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Tap and Go in Sydney",
+    "subtitle": "Monthly trips by payment type (Bus \u00b7 Ferry \u00b7 Metro), stacked around the centre \u00b7 each panel has its own scale",
+    "anchor": "middle",
+    "frame": "bounds"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/syd_bymode.csv",
+    "format": {
+      "parse": {
+        "Trip": "number",
+        "Year_Month": "date:'%Y-%m'"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "datum.Card_type == 'CTP' ? 'Contactless (tap)' : 'Opal & other tickets'",
+      "as": "Payment"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "Trip",
+          "as": "Trips"
+        }
+      ],
+      "groupby": [
+        "Year_Month",
+        "Mode",
+        "Payment"
+      ]
+    },
+    {
+      "calculate": "datum.Payment == 'Contactless (tap)' ? 0 : 1",
+      "as": "Payment_order"
+    }
+  ],
+  "facet": {
+    "row": {
+      "field": "Mode",
+      "type": "nominal",
+      "sort": [
+        "Bus",
+        "Ferry",
+        "Metro"
+      ],
+      "header": {
+        "title": null,
+        "labelAngle": 0,
+        "labelAlign": "left",
+        "labelFontSize": 13,
+        "labelFontWeight": "bold"
+      }
+    }
+  },
+  "spacing": 15,
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  },
+  "spec": {
+    "width": 600,
+    "height": 150,
+    "layer": [
+      {
+        "mark": {
+          "type": "area",
+          "interpolate": "monotone",
+          "opacity": 1,
+          "strokeWidth": 0
+        },
+        "encoding": {
+          "x": {
+            "field": "Year_Month",
+            "type": "temporal",
+            "title": null,
+            "axis": {
+              "domain": false,
+              "format": "%Y",
+              "tickSize": 0,
+              "grid": false
+            }
+          },
+          "y": {
+            "field": "Trips",
+            "type": "quantitative",
+            "axis": null,
+            "stack": "center",
+            "scale": {
+              "zero": false
+            }
+          },
+          "color": {
+            "field": "Payment",
+            "type": "nominal",
+            "title": null,
+            "scale": {
+              "domain": [
+                "Contactless (tap)",
+                "Opal & other tickets"
+              ],
+              "range": [
+                "#FFD3E0",
+                "#a8bdfa"
+              ]
+            },
+            "legend": {
+              "orient": "top",
+              "direction": "horizontal",
+              "symbolType": "square",
+              "labelLimit": 0,
+              "symbolStrokeWidth": 1.5
+            }
+          },
+          "stroke": {
+            "field": "Payment",
+            "type": "nominal",
+            "title": null,
+            "scale": {
+              "domain": ["Contactless (tap)", "Opal & other tickets"],
+              "range": ["#E8A3B8", "#5670C0"]
+            }
+          },
+          "order": {
+            "field": "Payment_order",
+            "type": "quantitative"
+          },
+          "tooltip": [
+            {
+              "field": "Year_Month",
+              "type": "temporal",
+              "timeUnit": "yearmonth",
+              "title": "Month"
+            },
+            {
+              "field": "Mode",
+              "type": "nominal"
+            },
+            {
+              "field": "Payment",
+              "type": "nominal"
+            },
+            {
+              "field": "Trips",
+              "type": "quantitative",
+              "format": ","
+            }
+          ]
+        }
+      },
+      {
+        "transform": [
+          {
+            "calculate": "year(datum.Year_Month) * 12 + month(datum.Year_Month)",
+            "as": "m_index"
+          },
+          {
+            "joinaggregate": [
+              {
+                "op": "max",
+                "field": "m_index",
+                "as": "latest_m"
+              }
+            ],
+            "groupby": [
+              "Mode"
+            ]
+          },
+          {
+            "filter": "datum.m_index > datum.latest_m - 12"
+          },
+          {
+            "aggregate": [
+              {
+                "op": "sum",
+                "field": "Trips",
+                "as": "T"
+              }
+            ],
+            "groupby": [
+              "Mode",
+              "Payment"
+            ]
+          },
+          {
+            "joinaggregate": [
+              {
+                "op": "sum",
+                "field": "T",
+                "as": "Total"
+              }
+            ],
+            "groupby": [
+              "Mode"
+            ]
+          },
+          {
+            "filter": "datum.Payment == 'Contactless (tap)'"
+          },
+          {
+            "calculate": "['Last 12 months:', format(datum.T / datum.Total, '.0%') + ' tap']",
+            "as": "lab"
+          }
+        ],
+        "mark": {
+          "type": "text",
+          "fontSize": 12,
+          "color": "#000000",
+          "align": "left",
+          "fontStyle": "italic",
+          "baseline": "middle",
+          "dy": 0,
+          "dx": 8,
+          "lineHeight": 15
+        },
+        "encoding": {
+          "x": {
+            "datum": {
+              "year": 2026,
+              "month": 8,
+              "date": 1
+            },
+            "type": "temporal"
+          },
+          "y": {
+            "value": 75
+          },
+          "text": {
+            "field": "lab"
+          }
+        }
+      },
+      {
+        "transform": [
+          {
+            "filter": "datum.Payment == 'Contactless (tap)' && datum.Trips > 0"
+          },
+          {
+            "aggregate": [
+              {
+                "op": "min",
+                "field": "Year_Month",
+                "as": "First"
+              }
+            ],
+            "groupby": [
+              "Mode"
+            ]
+          }
+        ],
+        "mark": {
+          "type": "rule",
+          "stroke": "#555555",
+          "strokeWidth": 1,
+          "strokeDash": [
+            4,
+            3
+          ],
+          "opacity": 0.8
+        },
+        "encoding": {
+          "x": {
+            "field": "First",
+            "type": "temporal"
+          }
+        }
+      },
+      {
+        "transform": [
+          {
+            "aggregate": [
+              {
+                "op": "count",
+                "as": "n"
+              }
+            ]
+          }
+        ],
+        "mark": {
+          "type": "rule",
+          "stroke": "#C0392B",
+          "strokeWidth": 1.2,
+          "strokeDash": [
+            4,
+            3
+          ]
+        },
+        "encoding": {
+          "x": {
+            "datum": {
+              "year": 2020,
+              "month": 3,
+              "date": 1
+            },
+            "type": "temporal"
+          }
+        }
+      },
+      {
+        "transform": [
+          {
+            "filter": "datum.Mode == 'Metro'"
+          },
+          {
+            "aggregate": [
+              {
+                "op": "count",
+                "as": "n"
+              }
+            ]
+          }
+        ],
+        "mark": {
+          "type": "rule",
+          "stroke": "#2F4A9E",
+          "strokeWidth": 1.2,
+          "strokeDash": [
+            4,
+            3
+          ]
+        },
+        "encoding": {
+          "x": {
+            "datum": {
+              "year": 2024,
+              "month": 8,
+              "date": 1
+            },
+            "type": "temporal"
+          }
+        }
+      },
+      {
+        "transform": [
+          {
+            "filter": "datum.Payment == 'Contactless (tap)' && datum.Trips > 0"
+          },
+          {
+            "aggregate": [
+              {
+                "op": "min",
+                "field": "Year_Month",
+                "as": "First"
+              }
+            ],
+            "groupby": [
+              "Mode"
+            ]
+          },
+          {
+            "calculate": "'▲ Tap starts ' + timeFormat(datum.First, '%b %Y')",
+            "as": "lab"
+          }
+        ],
+        "mark": {
+          "type": "text",
+          "fontSize": 10,
+          "color": "#444444",
+          "align": "left",
+          "baseline": "bottom",
+          "fontStyle": "italic",
+          "fontWeight": "bold",
+          "dx": -4
+        },
+        "encoding": {
+          "x": {
+            "field": "First",
+            "type": "temporal"
+          },
+          "y": {
+            "value": 150
+          },
+          "text": {
+            "field": "lab"
+          }
+        }
+      },
+      {
+        "transform": [
+          {
+            "filter": "datum.Mode == 'Bus'"
+          },
+          {
+            "aggregate": [
+              {
+                "op": "count",
+                "as": "n"
+              }
+            ]
+          }
+        ],
+        "mark": {
+          "type": "text",
+          "fontSize": 10,
+          "color": "#C0392B",
+          "align": "left",
+          "baseline": "top",
+          "fontStyle": "italic",
+          "fontWeight": "bold",
+          "dx": 4
+        },
+        "encoding": {
+          "x": {
+            "datum": {
+              "year": 2020,
+              "month": 3,
+              "date": 1
+            },
+            "type": "temporal"
+          },
+          "y": {
+            "value": 2
+          },
+          "text": {
+            "value": "▼ COVID-19, 2020"
+          }
+        }
+      },
+      {
+        "transform": [
+          {
+            "filter": "datum.Mode == 'Metro'"
+          },
+          {
+            "aggregate": [
+              {
+                "op": "count",
+                "as": "n"
+              }
+            ]
+          }
+        ],
+        "mark": {
+          "type": "text",
+          "fontSize": 10,
+          "color": "#2F4A9E",
+          "align": "right",
+          "baseline": "top",
+          "fontStyle": "italic",
+          "fontWeight": "bold",
+          "dx": -4
+        },
+        "encoding": {
+          "x": {
+            "datum": {
+              "year": 2024,
+              "month": 8,
+              "date": 1
+            },
+            "type": "temporal"
+          },
+          "y": {
+            "value": 2
+          },
+          "text": {
+            "value": "New Metro line opens (Aug 2024) ▼"
+          }
+        }
+      },
+      {
+        "transform": [
+          {
+            "filter": "datum.Mode == 'Metro'"
+          },
+          {
+            "aggregate": [
+              {
+                "op": "count",
+                "as": "n"
+              }
+            ]
+          }
+        ],
+        "mark": {
+          "type": "text",
+          "fontSize": 10,
+          "color": "#444444",
+          "align": "left",
+          "baseline": "middle",
+          "fontStyle": "italic",
+          "lineHeight": 13.5
+        },
+        "encoding": {
+          "x": {
+            "datum": {
+              "year": 2017,
+              "month": 5,
+              "date": 1
+            },
+            "type": "temporal"
+          },
+          "y": {
+            "value": 60
+          },
+          "text": {
+            "value": [
+              "No Metro data",
+              "before May 2019",
+              "(Sydney Metro",
+              "opened then)"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

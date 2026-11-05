@@ -1,0 +1,386 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": {
+      "expr": "upper('Between the Capitals')"
+    },
+    "subtitle": "Trips between capital-city pairs by rail and coach, thousand passenger movements (choose a year below)",
+    "anchor": "middle",
+    "frame": "bounds"
+  },
+  "width": 500,
+  "height": 440,
+  "params": [
+    {
+      "name": "travel_year",
+      "value": "2023-24",
+      "bind": {
+        "input": "select",
+        "options": ["2018-19", "2020-21", "2023-24"],
+        "name": "Select financial year: "
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator",
+    "center": [145.5, -32.5],
+    "scale": 1500
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/aus_states.json",
+        "format": {
+          "type": "topojson",
+          "feature": "aus_states"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#F9F5F1",
+        "stroke": "white",
+        "strokeWidth": 1.5,
+        "clip": true
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/aus_intercity_travel.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.Mode == 'Rail, Coach' && datum.Year == travel_year"
+        },
+        {
+          "fold": [
+            "Syd_Mel",
+            "Syd_Cbr",
+            "Syd_Bne",
+            "Mel_Adl",
+            "Mel_Bne",
+            "Syd_Adl"
+          ],
+          "as": [
+            "Pair",
+            "Trips"
+          ]
+        },
+        {
+          "calculate": "toNumber(datum.Trips)",
+          "as": "Trips"
+        },
+        {
+          "calculate": "split(datum.Pair, '_')[0]",
+          "as": "From"
+        },
+        {
+          "calculate": "split(datum.Pair, '_')[1]",
+          "as": "To"
+        },
+        {
+          "calculate": "replace(datum.Pair, '_', ' \u2013 ')",
+          "as": "Route"
+        },
+        {
+          "lookup": "From",
+          "from": {
+            "data": {
+              "values": [
+                {
+                  "Code": "Syd",
+                  "City": "Sydney",
+                  "lat": -33.8688,
+                  "lon": 151.2093
+                },
+                {
+                  "Code": "Mel",
+                  "City": "Melbourne",
+                  "lat": -37.8136,
+                  "lon": 144.9631
+                },
+                {
+                  "Code": "Cbr",
+                  "City": "Canberra",
+                  "lat": -35.2809,
+                  "lon": 149.13
+                },
+                {
+                  "Code": "Bne",
+                  "City": "Brisbane",
+                  "lat": -27.4698,
+                  "lon": 153.0251
+                },
+                {
+                  "Code": "Adl",
+                  "City": "Adelaide",
+                  "lat": -34.9285,
+                  "lon": 138.6007
+                }
+              ]
+            },
+            "key": "Code",
+            "fields": [
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        {
+          "lookup": "To",
+          "from": {
+            "data": {
+              "values": [
+                {
+                  "Code": "Syd",
+                  "City": "Sydney",
+                  "lat": -33.8688,
+                  "lon": 151.2093
+                },
+                {
+                  "Code": "Mel",
+                  "City": "Melbourne",
+                  "lat": -37.8136,
+                  "lon": 144.9631
+                },
+                {
+                  "Code": "Cbr",
+                  "City": "Canberra",
+                  "lat": -35.2809,
+                  "lon": 149.13
+                },
+                {
+                  "Code": "Bne",
+                  "City": "Brisbane",
+                  "lat": -27.4698,
+                  "lon": 153.0251
+                },
+                {
+                  "Code": "Adl",
+                  "City": "Adelaide",
+                  "lat": -34.9285,
+                  "lon": 138.6007
+                }
+              ]
+            },
+            "key": "Code",
+            "fields": [
+              "lat",
+              "lon"
+            ]
+          },
+          "as": [
+            "lat2",
+            "lon2"
+          ]
+        },
+        {
+          "calculate": "(datum.lon + datum.lon2) / 2 + (datum.lat2 - datum.lat) * 0.25",
+          "as": "c_lon"
+        },
+        {
+          "calculate": "(datum.lat + datum.lat2) / 2 - (datum.lon2 - datum.lon) * 0.25",
+          "as": "c_lat"
+        },
+        {
+          "calculate": "sequence(0, 1.001, 0.05)",
+          "as": "t"
+        },
+        {
+          "flatten": [
+            "t"
+          ]
+        },
+        {
+          "calculate": "pow(1 - datum.t, 2) * datum.lon + 2 * (1 - datum.t) * datum.t * datum.c_lon + pow(datum.t, 2) * datum.lon2",
+          "as": "x"
+        },
+        {
+          "calculate": "pow(1 - datum.t, 2) * datum.lat + 2 * (1 - datum.t) * datum.t * datum.c_lat + pow(datum.t, 2) * datum.lat2",
+          "as": "y"
+        }
+      ],
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "strokeCap": "round",
+            "opacity": 0.8,
+            "interpolate": "basis"
+          },
+          "encoding": {
+            "latitude": {
+              "field": "y",
+              "type": "quantitative"
+            },
+            "longitude": {
+              "field": "x",
+              "type": "quantitative"
+            },
+            "strokeWidth": {
+              "field": "Trips",
+              "type": "quantitative",
+              "title": "Trip count (thousand)",
+              "scale": {
+                "domain": [0,900],
+                "range": [4, 18]
+              },
+              "legend": null
+            },
+            "color": {
+                "field": "Trips",
+                "type": "quantitative",
+                "title": "Trip volume (thousand)",
+                "scale": {
+                    "type": "threshold",
+                    "domain": [200, 500],
+                    "range": ["#A9BDFF", "#6D8CFF", "#23389E"]
+                },
+                "legend": {"orient": "top-left", "format": ",", "labelExpr": "isValid(datum.label) && datum.label != '' ? datum.label + 'K' : ''"}
+            },
+            "tooltip": [
+              {
+                "field": "Route"
+              },
+              {
+                "field": "Year",
+                "title": "Financial year"
+              },
+              {
+                "field": "Trips",
+                "title": "Rail and coach trips (thousand)",
+                "format": ","
+              }
+            ],
+            "detail": {
+              "field": "Pair",
+              "type": "nominal"
+            },
+            "order": {
+              "field": "t",
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "transform": [
+            {"filter": "abs(datum.t - (datum.Pair == 'Mel_Bne' ? 0.7 : 0.5)) < 0.01"},
+            {"calculate": "format(datum.Trips, ',.0f') + 'K'", "as": "Trips_label"}
+          ],
+          "encoding": {
+            "latitude": {
+              "field": "y",
+              "type": "quantitative"
+            },
+            "longitude": {
+              "field": "x",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "Trips_label"
+            }
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "fontSize": 11,
+                "fontStyle": "italic",
+                "color": "#000000"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "City": "Sydney",
+            "lat": -33.8688,
+            "lon": 151.2093,
+            "dx": 8,
+            "align": "left"
+          },
+          {
+            "City": "Melbourne",
+            "lat": -37.8136,
+            "lon": 144.9631
+          },
+          {
+            "City": "Canberra",
+            "lat": -35.2809,
+            "lon": 149.13
+          },
+          {
+            "City": "Brisbane",
+            "lat": -27.4698,
+            "lon": 153.0251
+          },
+          {
+            "City": "Adelaide",
+            "lat": -34.9285,
+            "lon": 138.6007
+          }
+        ]
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "circle",
+            "size": 70,
+            "color": "white",
+            "stroke": "#333333",
+            "strokeWidth": 1.5,
+            "opacity": 1
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "dy": -13,
+            "fontSize": 12,
+            "fontStyle": "italic",
+            "stroke": "white",
+            "strokeWidth": 3,
+            "strokeJoin": "round"
+          },
+          "encoding": {
+            "text": {
+              "field": "City"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "dy": -13,
+            "fontSize": 12,
+            "fontStyle": "italic",
+            "color": "#222222"
+          },
+          "encoding": {
+            "text": {
+              "field": "City"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

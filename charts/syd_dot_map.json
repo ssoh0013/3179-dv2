@@ -1,0 +1,404 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "How COVID Emptied the Stations",
+    "subtitle": "Typical weekday trips (entries + exits) at each train station, as a % of 2019",
+    "anchor": "middle",
+    "frame": "group"
+  },
+  "width": 500,
+  "height": 560,
+  "params": [
+    {
+      "name": "period",
+      "value": "2020-05",
+      "bind": {
+        "input": "select",
+        "options": ["2020-02", "2020-05", "2020-09", "2022", "2023"],
+        "labels": ["Feb 2020", "May 2020", "Sep 2020", "2022", "2023"],
+        "name": "Select period: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/nsw_lga.json",
+        "format": {"type": "topojson", "feature": "nsw_lga"}
+      },
+      "projection": {"type": "mercator", "center": [151.0, -33.75], "scale": 16000},
+      "mark": {
+        "type": "geoshape",
+        "fill": "#F9F5F1",
+        "stroke": "white",
+        "strokeWidth": 1.5,
+        "clip": true
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/nsw_station_entries_exits.csv",
+        "format": {
+          "parse": {"Year": "string", "Entries_Total": "number", "Exits_Total": "number"}
+        }
+      },
+      "transform": [
+        {"calculate": "datum.Entries_Total + datum.Exits_Total", "as": "Trips"},
+        {"filter": "isValid(datum.Trips) && datum.Trips > 0"},
+        {"calculate": "datum.Year == '2019' ? datum.Trips : null", "as": "Only_2019"},
+        {
+          "joinaggregate": [{"op": "max", "field": "Only_2019", "as": "Trips_2019"}],
+          "groupby": ["Station"]
+        },
+        {"filter": "isValid(datum.Trips_2019)"},
+        {"calculate": "datum.Trips / datum.Trips_2019", "as": "Recovery"},
+        {"filter": "datum.Year == period"},
+        {
+          "lookup": "Station",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/nsw_station_location.csv",
+              "format": {"parse": {"Latitude": "number", "Longitude": "number"}}
+            },
+            "key": "Station",
+            "fields": ["Latitude", "Longitude"]
+          }
+        },
+        {"calculate": "toNumber(datum.Latitude)", "as": "Latitude"},
+        {"calculate": "toNumber(datum.Longitude)", "as": "Longitude"},
+        {"filter": "isValid(datum.Latitude)"}
+      ],
+      "projection": {"type": "mercator", "center": [151.0, -33.75], "scale": 16000},
+      "mark": {
+        "type": "circle",
+        "size": 45,
+        "opacity": 0.9,
+        "stroke": "#777777",
+        "strokeWidth": 0.5,
+        "clip": true
+      },
+      "encoding": {
+        "longitude": {"field": "Longitude", "type": "quantitative"},
+        "latitude": {"field": "Latitude", "type": "quantitative"},
+        "color": {
+          "field": "Recovery",
+          "type": "quantitative",
+          "title": "% of 2019 (darker = emptier)",
+          "scale": {
+            "type": "threshold",
+            "domain": [0.25, 0.5, 0.75, 1.0],
+            "range": ["#23389E", "#4565E0", "#6D8CFF", "#A9BDFF", "#DDE5FF"]
+          },
+          "legend": {
+            "format": ".0%",
+            "orient": "right",
+            "titleLimit": 250
+          }
+        },
+        "tooltip": [
+          {"field": "Station"},
+          {"field": "Year", "title": "Period"},
+          {"field": "Trips", "title": "Weekday trips", "format": ","},
+          {"field": "Trips_2019", "title": "Weekday trips (2019)", "format": ","},
+          {"field": "Recovery", "title": "Share of 2019", "format": ".0%"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"Place": "Parramatta", "Longitude": 151.0035, "Latitude": -33.815},
+          {"Place": "Penrith", "Longitude": 150.6944, "Latitude": -33.751},
+          {"Place": "Katoomba", "Longitude": 150.3119, "Latitude": -33.712},
+          {"Place": "Hornsby", "Longitude": 151.0993, "Latitude": -33.7036},
+          {"Place": "Campbelltown", "Longitude": 150.8144, "Latitude": -34.065},
+          {"Place": "Gosford", "Longitude": 151.3417, "Latitude": -33.4234},
+          {"Place": "Wollongong", "Longitude": 150.8931, "Latitude": -34.4278},
+          {"Place": "Sydney CBD", "Longitude": 151.2070, "Latitude": -33.8688}
+        ]
+      },
+      "projection": {"type": "mercator", "center": [151.0, -33.75], "scale": 16000},
+      "encoding": {
+        "longitude": {"field": "Longitude", "type": "quantitative"},
+        "latitude": {"field": "Latitude", "type": "quantitative"},
+        "text": {"field": "Place"}
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "dy": -12,
+            "fontSize": 10,
+            "fontStyle": "italic",
+            "stroke": "white",
+            "strokeWidth": 3,
+            "strokeJoin": "round",
+            "clip": true
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "dy": -12,
+            "fontSize": 10,
+            "fontStyle": "italic",
+            "color": "#666666",
+            "clip": true
+          }
+        }
+      ]
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/nsw_station_location.csv",
+        "format": {"parse": {"Latitude": "number", "Longitude": "number"}}
+      },
+      "transform": [
+        {"filter": {"field": "Station", "oneOf": ["Domestic Station"]}},
+        {"calculate": "'Airport'", "as": "Label"}
+      ],
+      "projection": {"type": "mercator", "center": [151.0, -33.75], "scale": 16000},
+      "encoding": {
+        "longitude": {"field": "Longitude", "type": "quantitative"},
+        "latitude": {"field": "Latitude", "type": "quantitative"}
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "circle",
+            "size": 260,
+            "fill": null,
+            "stroke": "#1FCDDB",
+            "strokeWidth": 2.5,
+            "clip": true
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "dy": 16,
+            "fontSize": 10,
+            "fontWeight": "bold",
+            "stroke": "white",
+            "strokeWidth": 3,
+            "strokeJoin": "round",
+            "clip": true
+          },
+          "encoding": {"text": {"field": "Label"}}
+        },
+        {
+          "mark": {
+            "type": "text",
+            "dy": 16,
+            "fontSize": 11,
+            "fontWeight": "bold",
+            "color": "#1FCDDB",
+            "clip": true
+          },
+          "encoding": {"text": {"field": "Label"}}
+        }
+      ]
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/nsw_station_entries_exits.csv",
+        "format": {
+          "parse": {"Year": "string", "Entries_Total": "number", "Exits_Total": "number"}
+        }
+      },
+      "transform": [
+        {"calculate": "datum.Entries_Total + datum.Exits_Total", "as": "Trips"},
+        {"filter": "isValid(datum.Trips) && datum.Trips > 0"},
+        {"calculate": "datum.Year == '2019' ? datum.Trips : null", "as": "Only_2019"},
+        {
+          "joinaggregate": [{"op": "max", "field": "Only_2019", "as": "Trips_2019"}],
+          "groupby": ["Station"]
+        },
+        {"filter": "isValid(datum.Trips_2019) && datum.Trips_2019 >= 1000"},
+        {"calculate": "datum.Trips / datum.Trips_2019", "as": "Recovery"},
+        {"filter": "datum.Year == period"},
+        {
+          "window": [{"op": "row_number", "as": "rk"}],
+          "sort": [{"field": "Recovery", "order": "descending"}]
+        },
+        {"filter": "datum.rk == 1"},
+        {
+          "lookup": "Station",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/nsw_station_location.csv",
+              "format": {"parse": {"Latitude": "number", "Longitude": "number"}}
+            },
+            "key": "Station",
+            "fields": ["Latitude", "Longitude"]
+          }
+        },
+        {"calculate": "toNumber(datum.Latitude)", "as": "Latitude"},
+        {"calculate": "toNumber(datum.Longitude)", "as": "Longitude"},
+        {"filter": "isValid(datum.Latitude)"},
+        {"calculate": "replace(datum.Station, ' Station', '')", "as": "Label"}
+      ],
+      "projection": {"type": "mercator", "center": [151.0, -33.75], "scale": 16000},
+      "encoding": {
+        "longitude": {"field": "Longitude", "type": "quantitative"},
+        "latitude": {"field": "Latitude", "type": "quantitative"}
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "circle",
+            "size": 260,
+            "fill": null,
+            "stroke": "#B8405E",
+            "strokeWidth": 2.5,
+            "clip": true
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "dy": 16,
+            "fontSize": 10,
+            "fontWeight": "bold",
+            "stroke": "white",
+            "strokeWidth": 3,
+            "strokeJoin": "round",
+            "clip": true
+          },
+          "encoding": {"text": {"field": "Label"}}
+        },
+        {
+          "mark": {
+            "type": "text",
+            "dy": 16,
+            "fontSize": 11,
+            "fontWeight": "bold",
+            "color": "#B8405E",
+            "clip": true
+          },
+          "encoding": {"text": {"field": "Label"}}
+        }
+      ]
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/nsw_station_entries_exits.csv",
+        "format": {
+          "parse": {"Year": "string", "Entries_Total": "number", "Exits_Total": "number"}
+        }
+      },
+      "transform": [
+        {"calculate": "datum.Entries_Total + datum.Exits_Total", "as": "Trips"},
+        {"filter": "isValid(datum.Trips) && datum.Trips > 0"},
+        {"calculate": "datum.Year == '2019' ? datum.Trips : null", "as": "Only_2019"},
+        {
+          "joinaggregate": [{"op": "max", "field": "Only_2019", "as": "Trips_2019"}],
+          "groupby": ["Station"]
+        },
+        {"filter": "isValid(datum.Trips_2019)"},
+        {"calculate": "datum.Trips / datum.Trips_2019", "as": "Recovery"},
+        {"filter": "datum.Year == period"},
+        {"aggregate": [{"op": "median", "field": "Recovery", "as": "Med"}]},
+        {
+          "calculate": "'Typical station: ' + format(datum.Med, '.0%') + ' of 2019'",
+          "as": "lab"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "color": "#23389E"
+      },
+      "encoding": {
+        "x": {"value": 8},
+        "y": {"value": 8},
+        "text": {"field": "lab"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/nsw_station_entries_exits.csv",
+        "format": {
+          "parse": {"Year": "string", "Entries_Total": "number", "Exits_Total": "number"}
+        }
+      },
+      "transform": [
+        {"calculate": "datum.Entries_Total + datum.Exits_Total", "as": "Trips"},
+        {"filter": "isValid(datum.Trips) && datum.Trips > 0"},
+        {"calculate": "datum.Year == '2019' ? datum.Trips : null", "as": "Only_2019"},
+        {
+          "joinaggregate": [{"op": "max", "field": "Only_2019", "as": "Trips_2019"}],
+          "groupby": ["Station"]
+        },
+        {"filter": "isValid(datum.Trips_2019)"},
+        {"calculate": "datum.Trips / datum.Trips_2019", "as": "Recovery"},
+        {"filter": "datum.Year == period"},
+        {"filter": {"field": "Station", "oneOf": ["Domestic Station", "International Station"]}},
+        {"pivot": "Station", "value": "Recovery", "groupby": ["Year"]},
+        {
+          "calculate": "'Airport stations: ' + format(datum['Domestic Station'], '.0%') + ' and ' + format(datum['International Station'], '.0%') + ' of 2019'",
+          "as": "lab"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "fontSize": 11.5,
+        "fontStyle": "italic",
+        "color": "#1FCDDB"
+      },
+      "encoding": {
+        "x": {"value": 8},
+        "y": {"value": 30},
+        "text": {"field": "lab"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/nsw_station_entries_exits.csv",
+        "format": {
+          "parse": {"Year": "string", "Entries_Total": "number", "Exits_Total": "number"}
+        }
+      },
+      "transform": [
+        {"calculate": "datum.Entries_Total + datum.Exits_Total", "as": "Trips"},
+        {"filter": "isValid(datum.Trips) && datum.Trips > 0"},
+        {"calculate": "datum.Year == '2019' ? datum.Trips : null", "as": "Only_2019"},
+        {
+          "joinaggregate": [{"op": "max", "field": "Only_2019", "as": "Trips_2019"}],
+          "groupby": ["Station"]
+        },
+        {"filter": "isValid(datum.Trips_2019) && datum.Trips_2019 >= 1000"},
+        {"calculate": "datum.Trips / datum.Trips_2019", "as": "Recovery"},
+        {"filter": "datum.Year == period"},
+        {
+          "window": [{"op": "row_number", "as": "rk"}],
+          "sort": [{"field": "Recovery", "order": "descending"}]
+        },
+        {"filter": "datum.rk == 1"},
+        {
+          "calculate": "'Most recovered: ' + replace(datum.Station, ' Station', '') + ' (' + format(datum.Recovery, '.0%') + ' of 2019)'",
+          "as": "lab"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "fontSize": 11.5,
+        "fontStyle": "italic",
+        "color": "#B8405E"
+      },
+      "encoding": {
+        "x": {"value": 8},
+        "y": {"value": 48},
+        "text": {"field": "lab"}
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

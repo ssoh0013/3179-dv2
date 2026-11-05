@@ -1,7 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": {"expr": "upper('On Time in Queensland, 2025–26')"},
+    "text": {
+      "expr": "upper('On Time in Queensland, 2025–26')"
+    },
     "subtitle": [
       "Share of services running on time, Jul 2025 – Jun 2026 (full arc = 100%)",
       "Train: peak hours only · Bus: all day · Tram: all day"
@@ -59,8 +61,12 @@
       "as": "angle_end"
     },
     {
-      "calculate": "datum.Mode + '  ' + format(datum.Avg_on_time, '.0%')",
+      "calculate": "datum.Mode + (datum.Mode == 'Train' ? ' (peak)' : '') + '  ' + format(datum.Avg_on_time, '.0%')",
       "as": "label"
+    },
+    {
+      "calculate": "'1 in ' + round(1 / (1 - datum.Avg_on_time)) + ' ' + (datum.Mode == 'Bus' ? 'buses' : lower(datum.Mode) + 's') + ' late'",
+      "as": "late_label"
     }
   ],
   "layer": [
@@ -91,7 +97,8 @@
     {
       "mark": {
         "type": "arc",
-        "cornerRadius": 4
+        "cornerRadius": 4,
+        "strokeWidth": 1.5
       },
       "encoding": {
         "theta": {
@@ -120,9 +127,9 @@
               "Tram"
             ],
             "range": [
-              "#b5b478",
-              "#d2e1ff",
-              "#563726"
+              "#A9BDFA",
+              "#FCD2D5",
+              "#B6DFFB"
             ]
           },
           "legend": null
@@ -136,8 +143,98 @@
             "title": "On time (average)",
             "format": ".1%"
           }
-        ]
+        ],
+        "stroke": {
+          "field": "Mode",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Train",
+              "Bus",
+              "Tram"
+            ],
+            "range": [
+              "#7A92DD",
+              "#E8A3A9",
+              "#7FBDE8"
+            ]
+          },
+          "legend": null
+        }
       }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "pct": 0.9
+          },
+          {
+            "pct": 0.95
+          },
+          {
+            "pct": 1.0
+          }
+        ]
+      },
+      "transform": [
+        {
+          "calculate": "datum.pct * 1.5 * PI",
+          "as": "a"
+        },
+        {
+          "calculate": "datum.a + 0.006",
+          "as": "a2"
+        },
+        {
+          "calculate": "format(datum.pct, '.0%')",
+          "as": "tick_label"
+        }
+      ],
+      "layer": [
+        {
+          "mark": {
+            "type": "arc",
+            "color": "#aaaaaa"
+          },
+          "encoding": {
+            "theta": {
+              "field": "a",
+              "type": "quantitative",
+              "scale": null
+            },
+            "theta2": {
+              "field": "a2"
+            },
+            "radius": {
+              "value": 66
+            },
+            "radius2": {
+              "value": 178
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "fontSize": 10,
+            "color": "#666666"
+          },
+          "encoding": {
+            "theta": {
+              "field": "a",
+              "type": "quantitative",
+              "scale": null
+            },
+            "radius": {
+              "value": 190
+            },
+            "text": {
+              "field": "tick_label"
+            }
+          }
+        }
+      ]
     },
     {
       "mark": {
@@ -146,7 +243,8 @@
         "baseline": "middle",
         "dx": -6,
         "fontSize": 12,
-        "fontWeight": "bold"
+        "fontWeight": "bold",
+        "color": "#333333"
       },
       "encoding": {
         "theta": {
@@ -161,29 +259,109 @@
         },
         "text": {
           "field": "label"
-        },
-        "color": {
-          "field": "Mode",
-          "type": "nominal",
-          "scale": {
-            "domain": [
-              "Train",
-              "Bus",
-              "Tram"
-            ],
-            "range": [
-              "#4C78A8",
-              "#F58518",
-              "#E45756"
-            ]
-          },
-          "legend": null
         }
       },
       "transform": [
         {
           "calculate": "(datum.r_inner + datum.r_outer) / 2",
           "as": "r_mid"
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "calculate": "datum.Mode == 'Bus' ? PI : 0",
+          "as": "c_theta"
+        },
+        {
+          "calculate": "datum.Mode == 'Train' ? 0 : 16",
+          "as": "c_radius"
+        }
+      ],
+      "layer": [
+        {
+          "transform": [
+            {
+              "calculate": "180 - datum.c_radius * cos(datum.c_theta)",
+              "as": "py"
+            }
+          ],
+          "mark": {
+            "type": "point",
+            "shape": "M-1,-0.16H1V0.16H-1Z",
+            "size": 9000,
+            "filled": true,
+            "opacity": 1,
+            "strokeWidth": 1.5
+          },
+          "encoding": {
+            "x": {
+              "value": 180
+            },
+            "y": {
+              "field": "py",
+              "type": "quantitative",
+              "scale": null
+            },
+            "fill": {
+              "field": "Mode",
+              "type": "nominal",
+              "scale": {
+                "domain": [
+                  "Train",
+                  "Bus",
+                  "Tram"
+                ],
+                "range": [
+                  "#A9BDFA",
+                  "#FCD2D5",
+                  "#B6DFFB"
+                ]
+              },
+              "legend": null
+            },
+            "stroke": {
+              "field": "Mode",
+              "type": "nominal",
+              "scale": {
+                "domain": [
+                  "Train",
+                  "Bus",
+                  "Tram"
+                ],
+                "range": [
+                  "#7A92DD",
+                  "#E8A3A9",
+                  "#7FBDE8"
+                ]
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "fontSize": 11,
+            "fontStyle": "italic",
+            "color": "#555555"
+          },
+          "encoding": {
+            "theta": {
+              "field": "c_theta",
+              "type": "quantitative",
+              "scale": null
+            },
+            "radius": {
+              "field": "c_radius",
+              "type": "quantitative",
+              "scale": null
+            },
+            "text": {
+              "field": "late_label"
+            }
+          }
         }
       ]
     }

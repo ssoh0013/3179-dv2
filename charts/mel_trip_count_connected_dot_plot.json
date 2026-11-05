@@ -1,0 +1,107 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": {"expr": "upper('The Long Way Back')"},
+    "subtitle": "Average daily trips by mode in Melbourne, 2019 vs 2025 (% = 2025 compared to 2019 level)",
+    "anchor": "middle",
+    "frame": "group"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/mel_average_patronage.csv",
+    "format": {"parse": {"Year": "number", "Month": "number", "Pax_daily": "number"}}
+  },
+  "transform": [
+    {"filter": {"field": "Year", "oneOf": [2019, 2025]}},
+    {
+      "aggregate": [{"op": "mean", "field": "Pax_daily", "as": "Avg_daily"}],
+      "groupby": ["Mode", "Year"]
+    },
+    {"calculate": "datum.Year == 2019 ? datum.Avg_daily : null", "as": "Only_2019"},
+    {"calculate": "datum.Year == 2025 ? datum.Avg_daily : null", "as": "Only_2025"},
+    {
+      "joinaggregate": [
+        {"op": "max", "field": "Only_2019", "as": "Avg_2019"},
+        {"op": "max", "field": "Only_2025", "as": "Avg_2025"}
+      ],
+      "groupby": ["Mode"]
+    },
+    {"calculate": "datum.Avg_2025 / datum.Avg_2019", "as": "Recovery"},
+    {"calculate": "max(datum.Avg_2019, datum.Avg_2025)", "as": "Label_x"},
+    {
+      "calculate": "{'MetroTrain': 'Metro train', 'Tram': 'Tram', 'MetroBus': 'Metro bus', 'RegionalTrain': 'Regional train', 'RegionalBus': 'Regional bus'}[datum.Mode]",
+      "as": "Mode_label"
+    }
+  ],
+  "width": 500,
+  "height": 220,
+  "encoding": {
+    "x": {
+      "field": "Avg_daily",
+      "type": "quantitative",
+      "title": "Average daily trips (log scale)",
+      "scale": {"type": "log", "domain": [20000, 1000000]},
+      "axis": {"format": "~s", "values": [20000, 50000, 100000, 200000, 500000, 1000000]}
+    },
+    "y": {
+      "field": "Mode_label",
+      "type": "nominal",
+      "title": null,
+      "sort": {"field": "Recovery", "order": "ascending"},
+      "axis": {"offset": 5, "ticks": false, "minExtent": 90, "domain": false, "labelFontSize": 12, "labelFontWeight": "bold"}
+    }
+  },
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "detail": {"field": "Mode_label", "type": "nominal"},
+        "color": {"value": "#c9c9c9"}
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "color": {
+          "field": "Year",
+          "type": "ordinal",
+          "scale": {"domain": [2019, 2025], "range": ["#FFD3E0", "#a8bdfa"]},
+          "title": null,
+          "legend": {
+            "orient": "top",
+            "direction": "horizontal",
+            "symbolType": "square",
+            "labelLimit": 0,
+            "symbolStrokeWidth": 1.5
+          }
+        },
+        "stroke": {
+          "field": "Year",
+          "type": "ordinal",
+          "scale": {"domain": [2019, 2025], "range": ["#E8A1B6", "#7A92DD"]},
+          "title": null
+        },
+        "size": {"value": 140},
+        "opacity": {"value": 1},
+        "tooltip": [
+          {"field": "Mode_label", "title": "Mode"},
+          {"field": "Year"},
+          {"field": "Avg_daily", "title": "Average daily trips", "format": ",.0f"},
+          {"field": "Recovery", "title": "2025 vs 2019", "format": ".0%"}
+        ]
+      }
+    },
+    {
+      "transform": [{"filter": "datum.Year == 2025"}],
+      "mark": {"type": "text", "align": "left", "dx": 10, "fontSize": 12, "fontWeight": "bold", "color": "#333333"},
+      "encoding": {
+        "x": {"field": "Label_x", "type": "quantitative"},
+        "text": {"field": "Recovery", "format": ".0%"}
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

@@ -1,0 +1,520 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Where Sydney Goes in the Morning",
+    "subtitle": "Morning peak, typical weekday 2023 \u00b7 circle size = difference between people arriving and leaving at each station"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "geoshape",
+        "fill": "#F9F5F1",
+        "stroke": "#fff",
+        "strokeWidth": 1.5,
+        "clip": true
+      },
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/nsw_lga.json",
+        "format": {
+          "type": "topojson",
+          "feature": "nsw_lga"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Area": "Blacktown",
+            "Longitude": 150.8637,
+            "Latitude": -33.7407
+          },
+          {
+            "Area": "Penrith",
+            "Longitude": 150.7379,
+            "Latitude": -33.7654
+          },
+          {
+            "Area": "Liverpool",
+            "Longitude": 150.8251,
+            "Latitude": -33.936
+          },
+          {
+            "Area": "Fairfield",
+            "Longitude": 150.8964,
+            "Latitude": -33.8657
+          },
+          {
+            "Area": "Campbelltown",
+            "Longitude": 150.8458,
+            "Latitude": -34.0834
+          },
+          {
+            "Area": "Canterbury-Bankstown",
+            "Longitude": 151.0373,
+            "Latitude": -33.9237
+          },
+          {
+            "Area": "Sutherland",
+            "Longitude": 150.99,
+            "Latitude": -34.02
+          },
+          {
+            "Area": "Northern Beaches",
+            "Longitude": 151.2493,
+            "Latitude": -33.6903
+          },
+          {
+            "Area": "Ku-ring-gai",
+            "Longitude": 151.1511,
+            "Latitude": -33.7342
+          },
+          {
+            "Area": "Ryde",
+            "Longitude": 151.1109,
+            "Latitude": -33.7992
+          },
+          {
+            "Area": "Bayside",
+            "Longitude": 151.1666,
+            "Latitude": -33.9497
+          },
+          {
+            "Area": "Randwick",
+            "Longitude": 151.2405,
+            "Latitude": -33.9436
+          },
+          {
+            "Area": "Cumberland",
+            "Longitude": 150.9867,
+            "Latitude": -33.8419
+          }
+        ]
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "Area"
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "fontSize": 11.5,
+            "fontStyle": "italic",
+            "color": "#666666",
+            "clip": true
+          }
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "strokeWidth": 1,
+        "clip": true
+      },
+      "data": {
+        "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/nsw_station_entries_exits.csv",
+        "format": {
+          "parse": {
+            "Year": "string",
+            "Entries_AM": "number",
+            "Exits_AM": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.Year == '2023'"
+        },
+        {
+          "filter": "isValid(datum.Entries_AM) && isValid(datum.Exits_AM)"
+        },
+        {
+          "calculate": "datum.Exits_AM - datum.Entries_AM",
+          "as": "Net"
+        },
+        {
+          "calculate": "abs(datum.Net)",
+          "as": "Net_size"
+        },
+        {
+          "calculate": "datum.Net > 0 ? 'More people arrive' : 'More people leave'",
+          "as": "Direction"
+        },
+        {
+          "lookup": "Station",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/ssoh0013/3179-dv2/refs/heads/main/dataset/nsw_station_location.csv"
+            },
+            "key": "Station",
+            "fields": [
+              "Latitude",
+              "Longitude"
+            ]
+          }
+        },
+        {
+          "calculate": "toNumber(datum.Latitude)",
+          "as": "Latitude"
+        },
+        {
+          "calculate": "toNumber(datum.Longitude)",
+          "as": "Longitude"
+        },
+        {
+          "filter": "isValid(datum.Latitude)"
+        }
+      ],
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "on": "pointerover",
+            "nearest": true,
+            "fields": [
+              "Station"
+            ]
+          }
+        }
+      ],
+      "encoding": {
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "Net_size",
+          "type": "quantitative",
+          "title": "Arrivals minus departures",
+          "scale": {
+            "rangeMax": 2500
+          },
+          "legend": {
+            "values": [
+              1000,
+              10000,
+              30000
+            ],
+            "format": ",.0f",
+            "symbolFillColor": "#F9F5F1",
+            "symbolStrokeColor": "#eadccd",
+            "titleLimit": 250
+          }
+        },
+        "color": {
+          "field": "Direction",
+          "type": "nominal",
+          "title": null,
+          "scale": {
+            "domain": [
+              "More people arrive",
+              "More people leave"
+            ],
+            "range": [
+              "#7A92DD",
+              "#FFD3E0"
+            ]
+          },
+          "legend": {
+            "orient": "none",
+            "legendX": 618,
+            "legendY": 128
+          }
+        },
+        "opacity": {
+          "condition": {
+            "param": "hover",
+            "empty": true,
+            "value": 0.65
+          },
+          "value": 0.35
+        },
+        "order": {
+          "field": "Net_size",
+          "sort": "descending"
+        },
+        "tooltip": [
+          {
+            "field": "Station"
+          },
+          {
+            "field": "Exits_AM",
+            "title": "Arriving (exits, AM)",
+            "format": ","
+          },
+          {
+            "field": "Entries_AM",
+            "title": "Leaving (entries, AM)",
+            "format": ","
+          },
+          {
+            "field": "Net",
+            "title": "Arriving \u2212 leaving",
+            "format": "+,"
+          }
+        ],
+        "stroke": {
+          "condition": [
+            {
+              "test": "indexof(['Wynyard Station', 'Town Hall Station', 'Central Station', 'North Sydney Station', 'Parramatta Station'], datum.Station) >= 0",
+              "value": "#2F4A9E"
+            },
+            {
+              "test": "indexof(['Hurstville Station', 'Epping Station', 'Strathfield Station'], datum.Station) >= 0",
+              "value": "#B8436B"
+            }
+          ],
+          "field": "Direction",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "More people arrive",
+              "More people leave"
+            ],
+            "range": [
+              "#5670C0",
+              "#E8A3B8"
+            ]
+          },
+          "title": null
+        },
+        "strokeWidth": {
+          "condition": {
+            "test": "indexof(['Wynyard Station', 'Town Hall Station', 'Central Station', 'North Sydney Station', 'Parramatta Station'], datum.Station) >= 0 || indexof(['Hurstville Station', 'Epping Station', 'Strathfield Station'], datum.Station) >= 0",
+            "value": 2.5
+          },
+          "value": 1
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Label": "Wynyard \u00b7 Town Hall \u00b7 Central",
+            "Longitude": 151.24,
+            "Latitude": -33.875
+          },
+          {
+            "Label": "North Sydney",
+            "Longitude": 151.215,
+            "Latitude": -33.835
+          }
+        ]
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "Label"
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "fontSize": 11.5,
+            "fontWeight": "bold",
+            "color": "#2F4A9E"
+          }
+        }
+      ]
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Label": "Parramatta",
+            "Longitude": 151.005,
+            "Latitude": -33.8
+          }
+        ]
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "Label"
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "fontSize": 11.5,
+            "fontWeight": "bold",
+            "color": "#2F4A9E"
+          }
+        }
+      ]
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Label": "Hurstville",
+            "Longitude": 151.102,
+            "Latitude": -33.982
+          },
+          {
+            "Label": "Epping",
+            "Longitude": 151.082,
+            "Latitude": -33.758
+          },
+          {
+            "Label": "Strathfield",
+            "Longitude": 151.094,
+            "Latitude": -33.858
+          }
+        ]
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "Label"
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "fontSize": 11.5,
+            "fontWeight": "bold",
+            "color": "#B8436B"
+          }
+        }
+      ]
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Longitude": 151.215,
+            "Latitude": -33.772,
+            "note": [
+              "Only 28 of 186 stations",
+              "gain people in the morning.",
+              "Wynyard, Town Hall and Central",
+              "take 58% of all arrivals."
+            ]
+          }
+        ]
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "note"
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "fontSize": 11,
+            "fontStyle": "italic",
+            "color": "#2F4A9E",
+            "lineHeight": 14,
+            "baseline": "bottom",
+            "dy": -6
+          }
+        }
+      ]
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Longitude": 151.44,
+            "Latitude": -34.075,
+            "note": [
+              "Hurstville, Epping and Strathfield lose the most:",
+              "about 4,100\u20134,700 more people leave than arrive."
+            ]
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "fontSize": 11,
+        "fontStyle": "italic",
+        "color": "#B8436B",
+        "lineHeight": 14
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "note"
+        }
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator",
+    "center": [
+      151.08,
+      -33.86
+    ],
+    "scale": 45000
+  },
+  "width": 600,
+  "height": 520,
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}
