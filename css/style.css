@@ -58,8 +58,6 @@ p {
   text-decoration: none;
 }
 
-
-/* ========== HERO ========== */
 .hero-wrap {
   background-color: #f7f6f2;
   padding: 40px 30px 30px !important;
@@ -122,7 +120,7 @@ p {
   font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #666666;
+  color: #636466;
 }
 
 .stat_num {
@@ -186,11 +184,9 @@ section {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.7;
-  color: #444444;
+  color: #636466;
 }
 
-
-/* ========== PAIRED COLUMNS ========== */
 .pure-g .pair_col {
   display: flex;
   flex-direction: column;
@@ -218,7 +214,7 @@ section {
   font-weight: 400;
   font-style: italic;
   line-height: 1.6;
-  color: #444444;
+  color: #636466;
 }
 
 .chart_takeaway {
@@ -287,7 +283,7 @@ section {
 footer p {
   font-size: 0.85rem;
   font-weight: 400;
-  color: #555555;
+  color: #636466;
 }
 
 #result_list {
@@ -318,18 +314,12 @@ footer p {
 }
 
 .result_item span {
-  color: #666666;
+  color: #636466;
 }
 
 #no_result {
   text-align: center;
-  color: #888888;
-}
-
-@media (min-width: 64em) {
-  .pair_col .chart_head {
-    min-height: 15rem;
-  }
+  color: #9b9b9b;
 }
 
 .tips_box {
@@ -358,7 +348,7 @@ footer p {
 .tips_list li {
   font-size: 0.92rem;
   line-height: 1.6;
-  color: #444444;
+  color: #636466;
   margin-bottom: 4px;
 }
 
@@ -384,18 +374,6 @@ footer p {
   font-weight: 600;
 }
 
-@media (min-width: 64em) {
-  .pair_col .chart_head {
-    min-height: 7.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .stat_cards { grid-template-columns: repeat(2, 1fr); }
-  .hero_title { font-size: 40px; }
-  .section_headline { font-size: 2rem; }
-}
-
 .site_footer {
   margin-top: 80px;
   padding: 40px 24px;
@@ -418,7 +396,7 @@ footer p {
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #C2553A;
+  color: #8b6a91;
 }
 
 .footer_list {
@@ -432,7 +410,7 @@ footer p {
   font-size: 0.85rem;
   font-weight: 400;
   line-height: 1.6;
-  color: #555555;
+  color: #636466;
 }
 
 .footer_top {
@@ -446,6 +424,57 @@ footer p {
 
 .footer_top:hover {
   text-decoration: underline;
+}
+
+.chart_source {
+  margin: 12px 0 0;
+  padding-top: 10px;
+  border-top: 1px solid #dcd8d0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #777777;
+}
+
+.chart_source a {
+  color: #555555;
+  text-decoration: underline;
+}
+
+.chart_source a:hover {
+  color: #000000;
+}
+
+.photo_credit {
+  margin: -18px 0 20px;
+  text-align: right;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #9b9b9b;
+}
+
+.photo_credit a {
+  color: #9b9b9b;
+  text-decoration: underline;
+}
+
+/* MEDIA */
+@media (min-width: 64em) {
+  .pair_col .chart_head {
+    min-height: 15rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .pair_col .chart_head {
+    min-height: 7.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .stat_cards { grid-template-columns: repeat(2, 1fr); }
+  .hero_title { font-size: 40px; }
+  .section_headline { font-size: 2rem; }
 }
 
 @media (max-width: 768px) {
